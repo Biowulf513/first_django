@@ -7,12 +7,22 @@ class Plane(models.Model):
     def __str__(self):
         return self.model_name
 
+    def __str__(self):
+        return str(self.model_name) + ' | ' + str(self.reg_number)
+
 class PlaneRep(models.Model):
-    type_plane = models.CharField(max_length=20,)
+    fly_choices = (
+        ('P', 'Post'),
+        ('C', 'Charter fly'),
+        ('PT', 'Passenger fly'),
+        ('VIP', 'VIP fly'),
+        )
+
+    type_plane = models.CharField(max_length=20, choices=fly_choices, default='C')
     plane = models.ForeignKey(Plane)
     seats_col = models.DecimalField(max_digits=3,decimal_places=0,)
-    old = models.DecimalField(max_digits=2,decimal_places=0,)
-    fly_sum = models.DecimalField(max_digits=5,decimal_places=0,)
+    old = models.IntegerField()
+    fly_sum = models.IntegerField()
     last_fix = models.DateField()
     funcioning = models.BooleanField(default=True,)
 
