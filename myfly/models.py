@@ -5,9 +5,6 @@ class Plane(models.Model):
     reg_number = models.CharField(max_length=7,)
 
     def __str__(self):
-        return self.model_name
-
-    def __str__(self):
         return str(self.model_name) + ' | ' + str(self.reg_number)
 
 class PlaneRep(models.Model):
