@@ -1,9 +1,9 @@
 from django.contrib import admin
 
-from .models import Plane
+from .models import PlaneModel
 
-admin.site.register(Plane)
+admin.site.register(PlaneModel)
 
-from .models import PlaneRep
+from .models import PlaneStock
 
-admin.site.register(PlaneRep)
+admin.site.register(PlaneStock)
