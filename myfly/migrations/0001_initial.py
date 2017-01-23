@@ -11,24 +11,32 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='Plane',
+            name='PlaneModel',
             fields=[
-                ('id', models.AutoField(auto_created=True, serialize=False, primary_key=True, verbose_name='ID')),
-                ('model_name', models.CharField(max_length=20)),
-                ('reg_number', models.CharField(max_length=7)),
+                ('id', models.AutoField(primary_key=True, auto_created=True, verbose_name='ID', serialize=False)),
+                ('model', models.CharField(verbose_name='Модель', max_length=20)),
+                ('style', models.PositiveSmallIntegerField(verbose_name='Тип', choices=[(1, 'Пассажирский'), (2, 'Чартерный'), (3, 'Почтовый'), (4, 'Военный')])),
+                ('seat', models.PositiveSmallIntegerField(verbose_name='Кол-во мест', blank=True, null=True)),
+                ('manufacture', models.DateField(verbose_name='Дата выпуска')),
             ],
+            options={
+                'verbose_name': 'Модель самолёта',
+                'verbose_name_plural': 'Модели самолётов',
+            },
         ),
         migrations.CreateModel(
-            name='Plane_rep',
+            name='PlaneStock',
             fields=[
-                ('id', models.AutoField(auto_created=True, serialize=False, primary_key=True, verbose_name='ID')),
-                ('type_plane', models.CharField(max_length=20)),
-                ('seats_col', models.DecimalField(decimal_places=0, max_digits=3)),
-                ('old', models.DecimalField(decimal_places=0, max_digits=2)),
-                ('fly_sum', models.DecimalField(decimal_places=0, max_digits=5)),
-                ('last_fix', models.DateField()),
-                ('funcioning', models.BooleanField(default=True)),
-                ('pid', models.ForeignKey(to='myfly.Plane')),
+                ('id', models.AutoField(primary_key=True, auto_created=True, verbose_name='ID', serialize=False)),
+                ('purchase', models.DateField(verbose_name='Дата покупки')),
+                ('reg_numb', models.CharField(verbose_name='Рег. номер', max_length=6)),
+                ('last_refit', models.DateField(verbose_name='Последний осмотр', blank=True, null=True)),
+                ('fly_col', models.PositiveSmallIntegerField(verbose_name='Кол-во полётов', blank=True, null=True)),
+                ('planModel', models.ForeignKey(to='myfly.PlaneModel')),
             ],
+            options={
+                'verbose_name': 'Самолёт в ангаре',
+                'verbose_name_plural': 'Самолёты в ангаре',
+            },
         ),
     ]

@@ -19,11 +19,10 @@ class PlaneModel(models.Model):
         "Тип", choices=choices_style)
     seat = models.PositiveSmallIntegerField(
         "Кол-во мест", null=True, blank=True)
-    reg_numb = models.CharField("Рег. номер", max_length=6)
     manufacture = models.DateField("Дата выпуска")
 
     def __str__(self):
-        return ((self.model) + ' | ' + (self.reg_numb))
+        return (self.model)
 
 
 class PlaneStock(models.Model):
@@ -32,12 +31,14 @@ class PlaneStock(models.Model):
         verbose_name = ("Самолёт в ангаре")
         verbose_name_plural = ("Самолёты в ангаре")
 
-    planModel = models.ForeignKey(PlaneModel, on_delete=models.CASCADE)
+    planModel = models.ForeignKey(
+        PlaneModel, verbose_name="Модель самолёта", on_delete=models.CASCADE)
     purchase = models.DateField("Дата покупки")
+    reg_numb = models.CharField("Рег. номер", max_length=6)
     last_refit = models.DateField(
         "Последний осмотр", null=True, blank=True)
     fly_col = models.PositiveSmallIntegerField(
         "Кол-во полётов", null=True, blank=True)
 
     def __str__(self):
-        return ((self.planModel.model) + ' | ' + (self.planModel.reg_numb))
+        return ((self.planModel.model) + ' | ' + (self.reg_numb))
