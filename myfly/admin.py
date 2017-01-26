@@ -1,11 +1,12 @@
 from django.contrib import admin
-from .models import PlaneModel, PlaneStock
+
+from .models import PlaneType, Plane
 
 
-def plan_display_name(obj):
-    return ("%s | %s летавший %s раз" % (obj.planModel, obj.reg_numb,
+def plane_display_name(obj):
+    return ("%s | %s летавший %s раз" % (obj.planeType, obj.reg_numb,
                                          obj.fly_col,))
-plan_display_name.short_description = 'Наиминование'
+plane_display_name.short_description = 'Наиминование'
 
 
 def plan_bought(obj):
@@ -13,16 +14,13 @@ def plan_bought(obj):
 plan_bought.short_description = 'Дата преобретения'
 
 
-class StockAdmin(admin.ModelAdmin):
+class PlaneAdmin(admin.ModelAdmin):
     date_hierarchy = ('purchase')
-    list_display = (plan_display_name, plan_bought)
+    list_display = (plane_display_name, plan_bought,)
 
 
+class PlaneTypeAdmin(admin.ModelAdmin):
+    list_display = ('model_name', 'style', 'seat', 'manufacture',)
 
-
-class ModelAdmin(admin.ModelAdmin):
-    list_display = ('model', 'style', 'seat', 'manufacture',)
-
-
-admin.site.register(PlaneModel, ModelAdmin,)
-admin.site.register(PlaneStock, StockAdmin,)
+admin.site.register(PlaneType, PlaneTypeAdmin,)
+admin.site.register(Plane, PlaneAdmin,)
