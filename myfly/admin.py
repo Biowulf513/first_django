@@ -4,7 +4,7 @@ from .models import PlaneType, Plane
 
 
 def plane_display_name(obj):
-    return ("%s | %s летавший %s раз" % (obj.planeType, obj.reg_numb,
+    return ("%s | %s летавший %s раз" % (obj.plane_type, obj.reg_numb,
                                          obj.fly_col,))
 plane_display_name.short_description = 'Наиминование'
 
@@ -20,7 +20,7 @@ class PlaneAdmin(admin.ModelAdmin):
 
 
 class PlaneTypeAdmin(admin.ModelAdmin):
-    list_display = ('model_name', 'style', 'seat', 'manufacture',)
+    list_display = ('name', 'style', 'seat', 'manufacture',)
 
 admin.site.register(PlaneType, PlaneTypeAdmin,)
 admin.site.register(Plane, PlaneAdmin,)
