@@ -13,15 +13,16 @@ def plan_bought(obj):
 plan_bought.short_description = 'Дата преобретения'
 
 
-class AuthorAdmin(admin.ModelAdmin):
+class StockAdmin(admin.ModelAdmin):
     date_hierarchy = ('purchase')
     list_display = (plan_display_name, plan_bought)
 
-admin.site.register(PlaneStock, AuthorAdmin,)
 
 
-class AuthorAdmin(admin.ModelAdmin):
+
+class ModelAdmin(admin.ModelAdmin):
     list_display = ('model', 'style', 'seat', 'manufacture',)
 
 
-admin.site.register(PlaneModel, AuthorAdmin)
+admin.site.register(PlaneModel, ModelAdmin,)
+admin.site.register(PlaneStock, StockAdmin,)
