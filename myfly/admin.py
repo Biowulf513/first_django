@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import PlaneType, Plane
+from .models import PlaneType, Plane, Route, Airport, City, Country
 
 
 def plane_display_name(obj):
@@ -22,5 +22,13 @@ class PlaneAdmin(admin.ModelAdmin):
 class PlaneTypeAdmin(admin.ModelAdmin):
     list_display = ('name', 'style', 'seat', 'manufacture',)
 
+
+
+
+
+admin.site.register(Route)
 admin.site.register(PlaneType, PlaneTypeAdmin,)
 admin.site.register(Plane, PlaneAdmin,)
+admin.site.register(Airport)
+admin.site.register(City)
+admin.site.register(Country)
