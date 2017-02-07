@@ -1,0 +1,52 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>test</title>
+		<link rel="stylesheet" href="{% static 'css/myfly.css' %}">
+	</head>
+
+	<body>
+		<header>
+			<div class="header-bg">
+				 <!-- <img src="{% static 'css/images/banner2.png' %}"> -->
+			</div>
+		</header>
+		
+		<div class="content-bg">
+			<div class="content-whire">
+<!-- 				<aside>
+				</aside> -->
+						
+				{% if routes %}
+					<table cellspasing="2">
+						    <tr>
+						    	<th>Название</th>
+						    	<th>Номер</th>
+						    	<th>Самолёт</th>
+						    	<th>Время вылета</th>
+						    	<th>Вылет из</th>
+						    	<th>Прилёт в</th>
+						    </tr>
+					{% for route in routes %}
+						<tr>
+						    <td class="td-1"><a href=" ">{{ route.name }}</a></td>
+					    	<td class="td-1"><a>{{ route.number }}</a></td>
+					    	<td class="td-1"><a>{{ route.plane }}</a></td>
+					    	<td class="td-1"><a>{{ route.time }}</a></td>
+					    	<td class="td-1"><a>{{ route.airport_out }}</a></td>
+					    	<td class="td-1"><a>{{ route.airport_in }}</a></td>
+					    </tr>
+					{% endfor %}
+					</table>
+				{% else %}
+				    <p>No polls are available.</p>
+				{% endif %}
+			</div>
+		</div>
+	</body>
+</html>
+
+<!-- /polls/{{ question.id }}/ -->

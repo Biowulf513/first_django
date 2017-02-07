@@ -1,0 +1,730 @@
+[
+{
+ "pk": 1,
+ "model": "myfly.planetype",
+ "fields": {
+  "manufacture": "2016-08-01",
+  "name": "Boeing 777",
+  "seat": 300,
+  "style": 2
+ }
+},
+{
+ "pk": 2,
+ "model": "myfly.planetype",
+ "fields": {
+  "manufacture": "2016-11-01",
+  "name": "Airbus A300",
+  "seat": 250,
+  "style": 1
+ }
+},
+{
+ "pk": 3,
+ "model": "myfly.planetype",
+ "fields": {
+  "manufacture": "2016-04-03",
+  "name": "\u041a\u0443\u043a\u0443\u0440\u0443\u0437\u043d\u0438\u043a",
+  "seat": 5,
+  "style": 2
+ }
+},
+{
+ "pk": 4,
+ "model": "myfly.planetype",
+ "fields": {
+  "manufacture": "2017-01-01",
+  "name": "myFlyer",
+  "seat": 500,
+  "style": 3
+ }
+},
+{
+ "pk": 5,
+ "model": "myfly.planetype",
+ "fields": {
+  "manufacture": "2016-11-14",
+  "name": "BigFly 500",
+  "seat": 500,
+  "style": 1
+ }
+},
+{
+ "pk": 6,
+ "model": "myfly.planetype",
+ "fields": {
+  "manufacture": "2016-11-14",
+  "name": "Бомбардировщик X2000",
+  "seat": 500,
+  "style": 4
+ }
+},
+{
+ "pk": 1,
+ "model": "myfly.plane",
+ "fields": {
+  "last_refit": "2017-01-01",
+  "purchase": "2016-11-02",
+  "reg_numb": "225sdf",
+  "fly_col": 250,
+  "plane_type": 4
+ }
+},
+{
+ "pk": 2,
+ "model": "myfly.plane",
+ "fields": {
+  "last_refit": "2017-01-31",
+  "purchase": "2016-11-15",
+  "reg_numb": "655465",
+  "fly_col": 658,
+  "plane_type": 3
+ }
+},
+{
+ "pk": 3,
+ "model": "myfly.plane",
+ "fields": {
+  "last_refit": "2017-01-31",
+  "purchase": "2017-01-31",
+  "reg_numb": "457208",
+  "fly_col": 2,
+  "plane_type": 2
+ }
+},
+{
+ "pk": 4,
+ "model": "myfly.plane",
+ "fields": {
+  "last_refit": "2017-01-16",
+  "purchase": "2016-12-05",
+  "reg_numb": "452127",
+  "fly_col": 577,
+  "plane_type": 3
+ }
+},
+{
+ "pk": 5,
+ "model": "myfly.plane",
+ "fields": {
+  "last_refit": "2017-01-16",
+  "purchase": "2016-11-08",
+  "reg_numb": "464120",
+  "fly_col": 520,
+  "plane_type": 1
+ }
+},
+{
+ "pk": 6,
+ "model": "myfly.plane",
+ "fields": {
+  "last_refit": "2016-12-04",
+  "purchase": "2016-12-11",
+  "reg_numb": "763142",
+  "fly_col": 453,
+  "plane_type": 2
+ }
+},
+{
+ "pk": 7,
+ "model": "myfly.plane",
+ "fields": {
+  "last_refit": null,
+  "purchase": "2016-01-16",
+  "reg_numb": "127567",
+  "fly_col": null,
+  "plane_type": 5
+ }
+},
+{
+ "pk": 8,
+ "model": "myfly.plane",
+ "fields": {
+  "last_refit": "2016-12-11",
+  "purchase": "2016-12-19",
+  "reg_numb": "378527",
+  "fly_col": 25,
+  "plane_type": 3
+ }
+},
+{
+ "pk": 9,
+ "model": "myfly.plane",
+ "fields": {
+  "last_refit": null,
+  "purchase": "1992-10-25",
+  "reg_numb": "1997",
+  "fly_col": null,
+  "plane_type": 4
+ }
+},
+{
+ "pk": 10,
+ "model": "myfly.plane",
+ "fields": {
+  "last_refit": null,
+  "purchase": "1993-10-10",
+  "reg_numb": "101245",
+  "fly_col": 2557,
+  "plane_type": 5
+ }
+},
+{
+ "pk": 1,
+ "model": "myfly.route",
+ "fields": {
+  "time": "2017-01-31T12:46:01Z",
+  "name": "\u041f\u0435\u0440\u0432\u0435\u043d\u0446\u043e\u0432\u043e - \u0412\u0442\u043e\u0440\u0446\u043e\u0432\u043e",
+  "number": "1p2v",
+  "plane": 1,
+  "airport_in": 4,
+  "airport_out": 3
+ }
+},
+{
+ "pk": 2,
+ "model": "myfly.route",
+ "fields": {
+  "time": "2017-02-09T15:26:07Z",
+  "name": "\u0422\u0440\u0435-\u0427\u0435",
+  "number": "TreChe",
+  "plane": 2,
+  "airport_in": 6,
+  "airport_out": 5
+ }
+},
+{
+ "pk": 3,
+ "model": "myfly.route",
+ "fields": {
+  "time": "2017-02-08T15:27:07Z",
+  "name": "\u041f\u044f-\u0428\u0435",
+  "number": "5/6",
+  "plane": 3,
+  "airport_in": 8,
+  "airport_out": 7
+ }
+},
+{
+ "pk": 4,
+ "model": "myfly.route",
+ "fields": {
+  "time": "2017-02-28T15:28:40Z",
+  "name": "8/9",
+  "number": "8sem9v",
+  "plane": 1,
+  "airport_in": 10,
+  "airport_out": 9
+ }
+},
+{
+ "pk": 5,
+ "model": "myfly.route",
+ "fields": {
+  "time": "2017-03-18T15:30:00Z",
+  "name": "\u043f\u0435\u0440-\u0434\u0435\u0432",
+  "number": "5.9",
+  "plane": 2,
+  "airport_in": 10,
+  "airport_out": 3
+ }
+},
+{
+ "pk": 6,
+ "model": "myfly.route",
+ "fields": {
+  "time": "2017-03-18T15:30:29Z",
+  "name": "\u0434\u0432\u0430-\u0441\u0435\u043c\u044c",
+  "number": "2.7",
+  "plane": 1,
+  "airport_in": 11,
+  "airport_out": 4
+ }
+},
+{
+ "pk": 7,
+ "model": "myfly.route",
+ "fields": {
+  "time": "2017-02-01T01:00:00Z",
+  "name": "\u044f\u0447\u0441\u0430\u0444\u044b\u0432\u0430",
+  "number": "123123",
+  "plane": 6,
+  "airport_in": 8,
+  "airport_out": 3
+ }
+},
+{
+ "pk": 8,
+ "model": "myfly.route",
+ "fields": {
+  "time": "2017-03-01T06:14:30Z",
+  "name": "\u0435\u043a\u043f\u0440\u043f3",
+  "number": "36\u0435\u043f45",
+  "plane": 3,
+  "airport_in": 6,
+  "airport_out": 9
+ }
+},
+{
+ "pk": 9,
+ "model": "myfly.route",
+ "fields": {
+  "time": "2018-02-01T06:14:44Z",
+  "name": "\u044b\u0439\u043f\u043d5\u0435",
+  "number": "23452\u0430",
+  "plane": 7,
+  "airport_in": 10,
+  "airport_out": 3
+ }
+},
+{
+ "pk": 10,
+ "model": "myfly.route",
+ "fields": {
+  "time": "2017-02-03T06:14:57Z",
+  "name": "3245",
+  "number": "2\u043a\u0430\u0446",
+  "plane": 10,
+  "airport_in": 10,
+  "airport_out": 8
+ }
+},
+{
+ "pk": 3,
+ "model": "myfly.airport",
+ "fields": {
+  "name": "\u041f\u0435\u0440\u0432\u0435\u043d\u0446\u043e\u0432\u043e",
+  "international": false,
+  "city": 2,
+  "code": "per"
+ }
+},
+{
+ "pk": 4,
+ "model": "myfly.airport",
+ "fields": {
+  "name": "\u0412\u0442\u043e\u0440\u0446\u043e\u0432\u043e",
+  "international": false,
+  "city": 3,
+  "code": "Vtor"
+ }
+},
+{
+ "pk": 5,
+ "model": "myfly.airport",
+ "fields": {
+  "name": "\u0422\u0440\u0435\u0442\u0435\u043d\u0446\u043e\u0432\u043e",
+  "international": true,
+  "city": 3,
+  "code": "TR"
+ }
+},
+{
+ "pk": 6,
+ "model": "myfly.airport",
+ "fields": {
+  "name": "\u0427\u0435\u0442\u0432\u0435\u0442\u0435\u043d\u0446\u043e\u0432\u043e",
+  "international": false,
+  "city": 3,
+  "code": "Che"
+ }
+},
+{
+ "pk": 7,
+ "model": "myfly.airport",
+ "fields": {
+  "name": "\u041f\u044f\u0442\u0435\u043d\u0446\u043e\u0432\u043e",
+  "international": true,
+  "city": 4,
+  "code": "5uat"
+ }
+},
+{
+ "pk": 8,
+ "model": "myfly.airport",
+ "fields": {
+  "name": "\u0428\u0435\u0441\u0442\u0435\u043d\u0446\u043e\u0432\u043e",
+  "international": true,
+  "city": 5,
+  "code": "6ten"
+ }
+},
+{
+ "pk": 9,
+ "model": "myfly.airport",
+ "fields": {
+  "name": "\u0412\u043e\u0441\u044c\u043c\u0435\u043d\u0446\u043e\u0432\u043e",
+  "international": true,
+  "city": 7,
+  "code": "8men"
+ }
+},
+{
+ "pk": 10,
+ "model": "myfly.airport",
+ "fields": {
+  "name": "\u0414\u0435\u0432\u044f\u0442\u0435\u043d\u0446\u043e\u0432\u043e",
+  "international": true,
+  "city": 12,
+  "code": "9ten"
+ }
+},
+{
+ "pk": 11,
+ "model": "myfly.airport",
+ "fields": {
+  "name": "\u0421\u0435\u043c\u044c\u0446\u043e\u0432\u043e",
+  "international": true,
+  "city": 31,
+  "code": "7cev"
+ }
+},
+{
+ "pk": 2,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u041c\u0410\u0441\u043a\u0432\u0430",
+  "country": 2
+ }
+},
+{
+ "pk": 3,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u0415\u041a\u0411",
+  "country": 2
+ }
+},
+{
+ "pk": 4,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u041f\u0438\u0442\u0435\u0440",
+  "country": 2
+ }
+},
+{
+ "pk": 5,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u0428\u0430\u043e\u043b\u0438\u043d\u044c",
+  "country": 3
+ }
+},
+{
+ "pk": 6,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u041a\u0438\u0442_\u0433\u043e\u0440_1",
+  "country": 3
+ }
+},
+{
+ "pk": 7,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u041a\u0438\u0442_\u0433\u043e\u0440_2",
+  "country": 3
+ }
+},
+{
+ "pk": 8,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u041a\u0438\u0442_\u0433\u043e\u0440_3",
+  "country": 3
+ }
+},
+{
+ "pk": 9,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u0428\u0432\u0435\u0446_\u0433\u043e\u0440_1",
+  "country": 4
+ }
+},
+{
+ "pk": 10,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u0428\u0432\u0435\u0446_\u0433\u043e\u0440_2",
+  "country": 4
+ }
+},
+{
+ "pk": 11,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u0428\u0432\u0435\u0446_\u0433\u043e\u0440_2",
+  "country": 4
+ }
+},
+{
+ "pk": 12,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u0425\u0430\u0448\u0438\u043c\u0438\u043d",
+  "country": 5
+ }
+},
+{
+ "pk": 13,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u041d\u044f\u0447\u0430\u043d\u0433",
+  "country": 5
+ }
+},
+{
+ "pk": 14,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u0412\u044c\u0435\u0442\u043d\u0430\u043c_\u0433\u043e\u0440_1",
+  "country": 5
+ }
+},
+{
+ "pk": 15,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u0412\u044c\u0435\u0442\u043d\u0430\u043c_\u0433\u043e\u0440_2",
+  "country": 5
+ }
+},
+{
+ "pk": 16,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u041c\u0430\u043b\u0430\u0437\u0438\u044f_\u0433\u043e\u0440_1",
+  "country": 6
+ }
+},
+{
+ "pk": 17,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u041c\u0430\u043b\u0430\u0437\u0438\u044f_\u0433\u043e\u0440_2",
+  "country": 6
+ }
+},
+{
+ "pk": 18,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u041c\u0430\u043b\u0430\u0437\u0438\u044f_\u0433\u043e\u0440_3",
+  "country": 6
+ }
+},
+{
+ "pk": 19,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u0422\u0430\u0439_\u0433\u043e\u0440_1",
+  "country": 7
+ }
+},
+{
+ "pk": 20,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u0422\u0430\u0439_\u0433\u043e\u0440_2",
+  "country": 7
+ }
+},
+{
+ "pk": 21,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u0422\u0430\u0439_\u0433\u043e\u0440_3",
+  "country": 7
+ }
+},
+{
+ "pk": 22,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u041a\u0438\u043f\u0440\u043e\u0433\u043e\u0440\u043e\u0434",
+  "country": 8
+ }
+},
+{
+ "pk": 23,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u0422\u0443\u043d\u0438\u0441_\u0433\u043e\u0440_1",
+  "country": 9
+ }
+},
+{
+ "pk": 24,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u0422\u0443\u043d\u0438\u0441_\u0433\u043e\u0440_2",
+  "country": 9
+ }
+},
+{
+ "pk": 25,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u0422\u0443\u043d\u0438\u0441_\u0433\u043e\u0440_3",
+  "country": 9
+ }
+},
+{
+ "pk": 26,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u0418\u043d\u0434\u0438\u044f_\u0433\u043e\u0440_1",
+  "country": 10
+ }
+},
+{
+ "pk": 27,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u0418\u043d\u0434\u0438\u044f_\u0433\u043e\u0440_2",
+  "country": 10
+ }
+},
+{
+ "pk": 28,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u0427\u0435\u0445\u0438\u044f_\u0433\u043e\u0440_2",
+  "country": 11
+ }
+},
+{
+ "pk": 29,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u0427\u0435\u0445\u0438\u044f_\u0433\u043e\u0440_3",
+  "country": 11
+ }
+},
+{
+ "pk": 30,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u0427\u0435\u0445\u0438\u044f_\u0433\u043e\u0440_4",
+  "country": 11
+ }
+},
+{
+ "pk": 31,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u0411\u043e\u0441\u0442\u043e\u043d",
+  "country": 12
+ }
+},
+{
+ "pk": 32,
+ "model": "myfly.city",
+ "fields": {
+  "name": "NY",
+  "country": 12
+ }
+},
+{
+ "pk": 33,
+ "model": "myfly.city",
+ "fields": {
+  "name": "LA",
+  "country": 12
+ }
+},
+{
+ "pk": 34,
+ "model": "myfly.city",
+ "fields": {
+  "name": "\u041a\u0430\u043d\u0430\u0434\u0430_\u0433\u043e\u0440_1",
+  "country": 13
+ }
+},
+{
+ "pk": 2,
+ "model": "myfly.country",
+ "fields": {
+  "name": "\u0420\u043e\u0441\u0441\u0438\u044f"
+ }
+},
+{
+ "pk": 3,
+ "model": "myfly.country",
+ "fields": {
+  "name": "\u041a\u0438\u0442\u0430\u0439"
+ }
+},
+{
+ "pk": 4,
+ "model": "myfly.country",
+ "fields": {
+  "name": "\u0428\u0432\u0435\u0446\u0438\u044f"
+ }
+},
+{
+ "pk": 5,
+ "model": "myfly.country",
+ "fields": {
+  "name": "\u0412\u044c\u0435\u0442\u043d\u0430\u043c"
+ }
+},
+{
+ "pk": 6,
+ "model": "myfly.country",
+ "fields": {
+  "name": "\u041c\u0430\u043b\u0430\u0437\u0438\u044f"
+ }
+},
+{
+ "pk": 7,
+ "model": "myfly.country",
+ "fields": {
+  "name": "\u0422\u0430\u0439\u043b\u0430\u043d\u0434"
+ }
+},
+{
+ "pk": 8,
+ "model": "myfly.country",
+ "fields": {
+  "name": "\u041a\u0438\u043f\u0440"
+ }
+},
+{
+ "pk": 9,
+ "model": "myfly.country",
+ "fields": {
+  "name": "\u0422\u0443\u043d\u0438\u0441"
+ }
+},
+{
+ "pk": 10,
+ "model": "myfly.country",
+ "fields": {
+  "name": "\u0418\u043d\u0434\u0438\u044f"
+ }
+},
+{
+ "pk": 11,
+ "model": "myfly.country",
+ "fields": {
+  "name": "\u0427\u0435\u0445\u0438\u044f"
+ }
+},
+{
+ "pk": 12,
+ "model": "myfly.country",
+ "fields": {
+  "name": "\u0421\u0428\u0410"
+ }
+},
+{
+ "pk": 13,
+ "model": "myfly.country",
+ "fields": {
+  "name": "\u041a\u0430\u043d\u0430\u0434\u0430"
+ }
+}
+]

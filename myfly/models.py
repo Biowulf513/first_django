@@ -21,7 +21,7 @@ class PlaneType(models.Model):
         'Кол-во мест', null=True, blank=True)
     manufacture = models.DateField('Дата выпуска')
 
-    def __unicode__(self):
+    def __str__(self):
         return (self.name)
 
 
@@ -40,7 +40,7 @@ class Plane(models.Model):
     fly_col = models.PositiveSmallIntegerField('Кол-во полётов', null=True,
                                                blank=True)
 
-    def __unicode__(self):
+    def __str__(self):
         return ((self.plane_type.name) + ' | ' + (self.reg_numb))
 
 
@@ -63,7 +63,7 @@ class Route(models.Model):
                                    verbose_name='Место назначения',)
     # time_in_fly
 
-    def __unicode__(self):
+    def __str__(self):
         return (self.name)
 
 
@@ -80,7 +80,7 @@ class Airport(models.Model):
     international = models.BooleanField('Интернационален', default=False,)
     # col_runways
 
-    def __unicode__(self):
+    def __str__(self):
         return (self.name)
 
 
@@ -94,7 +94,7 @@ class City(models.Model):
     country = models.ForeignKey('Country', on_delete=models.CASCADE,
                                 verbose_name='Страна',)
 
-    def __unicode__(self):
+    def __str__(self):
         return (self.name)
 
 
@@ -106,5 +106,5 @@ class Country(models.Model):
 
     name = models.CharField('Название', max_length=20)
 
-    def __unicode__(self):
-        return (self.name)
+    def __str__(self):
+        return self.name
