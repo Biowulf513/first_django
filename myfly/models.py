@@ -61,7 +61,6 @@ class Route(models.Model):
     airport_in = models.ForeignKey('Airport', on_delete=models.CASCADE,
                                    related_name='incoming_roures',
                                    verbose_name='Место назначения',)
-    # time_in_fly
 
     def __str__(self):
         return (self.name)
@@ -78,7 +77,6 @@ class Airport(models.Model):
     city = models.ForeignKey('City', on_delete=models.CASCADE,
                              verbose_name='Город',)
     international = models.BooleanField('Интернационален', default=False,)
-    # col_runways
 
     def __str__(self):
         return (self.name)
