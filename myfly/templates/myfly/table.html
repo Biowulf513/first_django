@@ -12,12 +12,12 @@
 			    </tr>
 		{% for route in routes %}
 			<tr>
-			    <td class="td-1"><a href=" ">{{ route.name }}</a></td>
-		    	<td class="td-1"><a>{{ route.number }}</a></td>
-		    	<td class="td-1"><a>{{ route.plane }}</a></td>
-		    	<td class="td-1"><a>{{ route.time|date:'d M - G:i' }}</a></td>
-		    	<td class="td-1"><a>{{ route.airport_out }}</a></td>
-		    	<td class="td-1"><a>{{ route.airport_in }}</a></td>
+			    <td class="td-1"><a href="#">{{ route.name }}</a></td>
+		    	<td class="td-1">{{ route.number }}</td>
+		    	<td class="td-1">{{ route.plane }}</td>
+		    	<td class="td-1">{{ route.time|date:'d M - G:i' }}</td>
+		    	<td class="td-1">{{ route.airport_out }}</td>
+		    	<td class="td-1">{{ route.airport_in }}</td>
 		    </tr>
 		{% endfor %}
 		</table>
