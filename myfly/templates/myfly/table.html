@@ -15,7 +15,7 @@
 			    <td class="td-1"><a href=" ">{{ route.name }}</a></td>
 		    	<td class="td-1"><a>{{ route.number }}</a></td>
 		    	<td class="td-1"><a>{{ route.plane }}</a></td>
-		    	<td class="td-1"><a>{{ route.time }}</a></td>
+		    	<td class="td-1"><a>{{ route.time|date:'d M - G:i' }}</a></td>
 		    	<td class="td-1"><a>{{ route.airport_out }}</a></td>
 		    	<td class="td-1"><a>{{ route.airport_in }}</a></td>
 		    </tr>
