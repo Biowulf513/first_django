@@ -29,9 +29,17 @@ table {
 th {
 	text-align: center;
 }
-.td-1 {
-    background: #eae2e2; /* Цвет фона ячеек */
-    padding: 5px; /* Поля вокруг текста */
+
+tr.cycle-tr1 {
+	background: #fff8dc;
+}
+
+tr.cycle-tr2 {
+	background: #fff555;
+}
+
+.td-num {
+    text-align: center;
    }
 
 .td-2 {

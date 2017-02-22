@@ -11,13 +11,13 @@
 			    	<th>Прилёт в</th>
 			    </tr>
 		{% for route in routes %}
-			<tr>
-			    <td class="td-1"><a href="#">{{ route.name }}</a></td>
-		    	<td class="td-1">{{ route.number }}</td>
-		    	<td class="td-1">{{ route.plane }}</td>
-		    	<td class="td-1">{{ route.time|date:'d M - G:i' }}</td>
-		    	<td class="td-1">{{ route.airport_out }}</td>
-		    	<td class="td-1">{{ route.airport_in }}</td>
+			<tr class={% cycle 'cycle-tr1' 'cycle-tr2' %}>
+			    <td><a href="#">{{ route.name }}</a></td>
+		    	<td>{{ route.number }}</td>
+		    	<td>{{ route.plane }}</td>
+		    	<td>{{ route.time|date:'d M - G:i' }}</td>
+		    	<td>{{ route.airport_out }}</td>
+		    	<td>{{ route.airport_in }}</td>
 		    </tr>
 		{% endfor %}
 		</table>
