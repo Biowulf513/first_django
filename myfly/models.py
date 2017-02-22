@@ -73,13 +73,15 @@ class Airport(models.Model):
         verbose_name_plural = ('аэропорты')
 
     name = models.CharField('Название', max_length=20,)
-    code = models.CharField('Международный код', max_length=4,)
+    code = models.CharField('Международный код', max_length=4,
+                            null=True, blank=True)
     city = models.ForeignKey('City', on_delete=models.CASCADE,
                              verbose_name='Город',)
-    international = models.BooleanField('Интернационален', default=False,)
+    international = models.BooleanField('Интернационален', default=True,)
 
     def __str__(self):
-        return (self.name)
+        return (str(self.name) + ' ✈ '+ str(self.city) + ' | '+ 
+        		str(self.city.country))
 
 
 class City(models.Model):
