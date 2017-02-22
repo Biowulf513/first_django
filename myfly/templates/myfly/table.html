@@ -11,8 +11,8 @@
 			    	<th>Прилёт в</th>
 			    </tr>
 		{% for route in routes %}
-			<tr class={% cycle 'cycle-tr1' 'cycle-tr2' %}>
-			    <td><a href="#">{{ route.name }}</a></td>
+			<tr id="info" class={% cycle 'cycle-tr1' 'cycle-tr2' %}>
+				<td><a href="#">{{ route.name }}</a></td>
 		    	<td>{{ route.number }}</td>
 		    	<td>{{ route.plane }}</td>
 		    	<td>{{ route.time|date:'d M - G:i' }}</td>
