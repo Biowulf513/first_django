@@ -31,15 +31,20 @@ th {
 	text-align: center;
 }
 
-tr.cycle-tr1 {
+.cycle-tr1 {
 	background: #fff8dc;
 }
 
-tr.cycle-tr2 {
+.cycle-tr1:hover{
+	background: #339933;
+}
+
+
+.cycle-tr2 {
 	background: #fff555;
 }
 
-tr#info:hover{
+.cycle-tr2:hover{
 	background: #339933;
 }
 

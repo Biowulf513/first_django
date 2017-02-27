@@ -11,7 +11,7 @@
 			    	<th>Прилёт в</th>
 			    </tr>
 		{% for route in routes %}
-			<tr id="info" class={% cycle 'cycle-tr1' 'cycle-tr2' %}>
+			<tr class= {% cycle 'cycle-tr1' 'cycle-tr2' %} tr-hover>
 				<td><a href="#">{{ route.name }}</a></td>
 		    	<td>{{ route.number }}</td>
 		    	<td>{{ route.plane }}</td>
