@@ -11,15 +11,7 @@
 			    	<th>Прилёт в</th>
 			    </tr>
 		{% for route in routes %}
-<<<<<<< HEAD
-<<<<<<< HEAD
 			<tr class= 'tr-hover {% cycle 'cycle-tr1' 'cycle-tr2' %}' >
-=======
-			<tr class= {% cycle 'cycle-tr1' 'cycle-tr2' %} tr-hover>
->>>>>>> 52d0980e01d5c407d988a8aec4bccae61aad6f7c
-=======
-			<tr id="info" class={% cycle 'cycle-tr1' 'cycle-tr2' %}>
->>>>>>> parent of 52d0980... fix добавь псевдо класс css :hover
 				<td><a href="#">{{ route.name }}</a></td>
 		    	<td>{{ route.number }}</td>
 		    	<td>{{ route.plane }}</td>
