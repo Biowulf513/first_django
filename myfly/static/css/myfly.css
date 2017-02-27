@@ -31,10 +31,11 @@ th {
 	text-align: center;
 }
 
-.cycle-tr1 {
+tr.cycle-tr1 {
 	background: #fff8dc;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 .cycle-tr1:hover{
@@ -52,6 +53,13 @@ th {
 =======
 .cycle-tr2:hover{
 >>>>>>> 52d0980e01d5c407d988a8aec4bccae61aad6f7c
+=======
+tr.cycle-tr2 {
+	background: #fff555;
+}
+
+tr#info:hover{
+>>>>>>> parent of 52d0980... fix добавь псевдо класс css :hover
 	background: #339933;
 }
 
