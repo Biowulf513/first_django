@@ -35,11 +35,23 @@ th {
 	background: #fff8dc;
 }
 
+<<<<<<< HEAD
+=======
+.cycle-tr1:hover{
+	background: #339933;
+}
+
+
+>>>>>>> 52d0980e01d5c407d988a8aec4bccae61aad6f7c
 .cycle-tr2 {
 	background: #fff555;
 }
 
+<<<<<<< HEAD
 .tr-hover:hover{
+=======
+.cycle-tr2:hover{
+>>>>>>> 52d0980e01d5c407d988a8aec4bccae61aad6f7c
 	background: #339933;
 }
 

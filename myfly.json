@@ -1,1 +1,493 @@
-[{"model": "contenttypes.contenttype", "pk": 1, "fields": {"model": "logentry", "app_label": "admin"}}, {"model": "contenttypes.contenttype", "pk": 2, "fields": {"model": "permission", "app_label": "auth"}}, {"model": "contenttypes.contenttype", "pk": 3, "fields": {"model": "group", "app_label": "auth"}}, {"model": "contenttypes.contenttype", "pk": 4, "fields": {"model": "user", "app_label": "auth"}}, {"model": "contenttypes.contenttype", "pk": 5, "fields": {"model": "contenttype", "app_label": "contenttypes"}}, {"model": "contenttypes.contenttype", "pk": 6, "fields": {"model": "session", "app_label": "sessions"}}, {"model": "contenttypes.contenttype", "pk": 7, "fields": {"model": "post", "app_label": "blog"}}, {"model": "contenttypes.contenttype", "pk": 13, "fields": {"model": "planetype", "app_label": "myfly"}}, {"model": "contenttypes.contenttype", "pk": 14, "fields": {"model": "plane", "app_label": "myfly"}}, {"model": "contenttypes.contenttype", "pk": 15, "fields": {"model": "route", "app_label": "myfly"}}, {"model": "contenttypes.contenttype", "pk": 16, "fields": {"model": "airport", "app_label": "myfly"}}, {"model": "contenttypes.contenttype", "pk": 17, "fields": {"model": "city", "app_label": "myfly"}}, {"model": "contenttypes.contenttype", "pk": 18, "fields": {"model": "country", "app_label": "myfly"}}, {"model": "sessions.session", "pk": "2fm8ib50maq5f83oedug4138gljc99g0", "fields": {"expire_date": "2017-02-13T15:55:51.335Z", "session_data": "NGE5NjM3NmUwNGQyZGJhM2RlNDgxMWYyNzYxOTExMTZhNTY3NjQzYTp7Il9hdXRoX3VzZXJfaGFzaCI6IjFiN2EzNTRmZWExMmMxNTZhNjExYTM5ZGFmYzM2Y2QxZDk2NzdiODAiLCJfYXV0aF91c2VyX2lkIjoiMSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIn0="}}, {"model": "sessions.session", "pk": "c1e3deptyw3kst8qp1kilnliqr7yqgtw", "fields": {"expire_date": "2017-02-01T12:30:51.958Z", "session_data": "NWRlMGY4NGJkMzRhOGZiYjc4NDdhNWQ2ZWNkNmEwMTQ5N2E4MGQyZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxYjdhMzU0ZmVhMTJjMTU2YTYxMWEzOWRhZmMzNmNkMWQ5Njc3YjgwIn0="}}, {"model": "sessions.session", "pk": "ht2uzjwmq52xbdz7i0yv9iuufq4r0q4j", "fields": {"expire_date": "2017-01-26T11:15:59.681Z", "session_data": "NGE5NjM3NmUwNGQyZGJhM2RlNDgxMWYyNzYxOTExMTZhNTY3NjQzYTp7Il9hdXRoX3VzZXJfaGFzaCI6IjFiN2EzNTRmZWExMmMxNTZhNjExYTM5ZGFmYzM2Y2QxZDk2NzdiODAiLCJfYXV0aF91c2VyX2lkIjoiMSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIn0="}}, {"model": "sessions.session", "pk": "nhw7usfjh70w4o6fsrswf4x2ywy4fhed", "fields": {"expire_date": "2017-03-08T14:18:07.045Z", "session_data": "Mzk2MWMxOTkyYWE2NzZmMDgyMGQxMWVlYTQ4ZDY0N2Q1ZTBmNTg4YTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjEiLCJfYXV0aF91c2VyX2hhc2giOiIxYjdhMzU0ZmVhMTJjMTU2YTYxMWEzOWRhZmMzNmNkMWQ5Njc3YjgwIn0="}}, {"model": "sessions.session", "pk": "quiu4zoi9j8iqz92p6g311pfxr09w4g2", "fields": {"expire_date": "2017-02-27T11:59:43.743Z", "session_data": "Mzk2MWMxOTkyYWE2NzZmMDgyMGQxMWVlYTQ4ZDY0N2Q1ZTBmNTg4YTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjEiLCJfYXV0aF91c2VyX2hhc2giOiIxYjdhMzU0ZmVhMTJjMTU2YTYxMWEzOWRhZmMzNmNkMWQ5Njc3YjgwIn0="}}, {"model": "sessions.session", "pk": "ux481hm3do5hu579hc59aawpipy9yip8", "fields": {"expire_date": "2017-02-16T10:53:08.615Z", "session_data": "NWRlMGY4NGJkMzRhOGZiYjc4NDdhNWQ2ZWNkNmEwMTQ5N2E4MGQyZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxYjdhMzU0ZmVhMTJjMTU2YTYxMWEzOWRhZmMzNmNkMWQ5Njc3YjgwIn0="}}, {"model": "myfly.planetype", "pk": 1, "fields": {"manufacture": "2016-08-01", "style": 2, "name": "Boeing 777", "seat": 300}}, {"model": "myfly.planetype", "pk": 2, "fields": {"manufacture": "2016-11-01", "style": 1, "name": "Airbus A300", "seat": 250}}, {"model": "myfly.planetype", "pk": 3, "fields": {"manufacture": "2016-04-03", "style": 2, "name": "\u041a\u0443\u043a\u0443\u0440\u0443\u0437\u043d\u0438\u043a", "seat": 5}}, {"model": "myfly.planetype", "pk": 4, "fields": {"manufacture": "2017-01-01", "style": 3, "name": "myFlyer", "seat": 500}}, {"model": "myfly.planetype", "pk": 5, "fields": {"manufacture": "2016-11-14", "style": 1, "name": "BigFly 500", "seat": 500}}, {"model": "myfly.planetype", "pk": 6, "fields": {"manufacture": "2016-11-14", "style": 4, "name": "\u0411\u043e\u043c\u0431\u0430\u0440\u0434\u0438\u0440\u043e\u0432\u0449\u0438\u043a X2000", "seat": 500}}, {"model": "myfly.plane", "pk": 1, "fields": {"last_refit": "2017-01-01", "reg_numb": "225sdf", "fly_col": 250, "purchase": "2016-11-02", "plane_type": 4}}, {"model": "myfly.plane", "pk": 2, "fields": {"last_refit": "2017-01-31", "reg_numb": "655465", "fly_col": 658, "purchase": "2016-11-15", "plane_type": 3}}, {"model": "myfly.plane", "pk": 3, "fields": {"last_refit": "2017-01-31", "reg_numb": "457208", "fly_col": 2, "purchase": "2017-01-31", "plane_type": 2}}, {"model": "myfly.plane", "pk": 4, "fields": {"last_refit": "2017-01-16", "reg_numb": "452127", "fly_col": 577, "purchase": "2016-12-05", "plane_type": 3}}, {"model": "myfly.plane", "pk": 5, "fields": {"last_refit": "2017-01-16", "reg_numb": "464120", "fly_col": 520, "purchase": "2016-11-08", "plane_type": 1}}, {"model": "myfly.plane", "pk": 6, "fields": {"last_refit": "2016-12-04", "reg_numb": "763142", "fly_col": 453, "purchase": "2016-12-11", "plane_type": 2}}, {"model": "myfly.plane", "pk": 7, "fields": {"last_refit": null, "reg_numb": "127567", "fly_col": null, "purchase": "2016-01-16", "plane_type": 5}}, {"model": "myfly.plane", "pk": 8, "fields": {"last_refit": "2016-12-11", "reg_numb": "378527", "fly_col": 25, "purchase": "2016-12-19", "plane_type": 3}}, {"model": "myfly.plane", "pk": 9, "fields": {"last_refit": null, "reg_numb": "1997", "fly_col": null, "purchase": "1992-10-25", "plane_type": 4}}, {"model": "myfly.plane", "pk": 10, "fields": {"last_refit": null, "reg_numb": "101245", "fly_col": 2557, "purchase": "1993-10-10", "plane_type": 5}}, {"model": "myfly.route", "pk": 11, "fields": {"airport_out": 12, "airport_in": 22, "name": "1", "time": "2017-02-25T15:12:17Z", "plane": 1, "number": "1"}}, {"model": "myfly.route", "pk": 12, "fields": {"airport_out": 13, "airport_in": 25, "name": "2", "time": "2017-02-28T15:12:31Z", "plane": 2, "number": "2"}}, {"model": "myfly.route", "pk": 13, "fields": {"airport_out": 24, "airport_in": 12, "name": "3", "time": "2017-02-23T15:12:45Z", "plane": 3, "number": "3"}}, {"model": "myfly.airport", "pk": 12, "fields": {"international": true, "code": "", "name": "\u0428\u0435\u0440\u0435\u043c\u0435\u0442\u044c\u0435\u0432\u043e", "city": 35}}, {"model": "myfly.airport", "pk": 13, "fields": {"international": true, "code": "", "name": "\u0414\u043e\u043c\u043e\u0434\u0435\u0434\u043e\u0432\u043e", "city": 35}}, {"model": "myfly.airport", "pk": 14, "fields": {"international": true, "code": "", "name": "\u0412\u043d\u0443\u043a\u043e\u0432\u043e", "city": 35}}, {"model": "myfly.airport", "pk": 15, "fields": {"international": true, "code": "", "name": "\u041f\u0443\u043b\u043a\u043e\u0432\u043e", "city": 36}}, {"model": "myfly.airport", "pk": 16, "fields": {"international": true, "code": "", "name": "\u0412\u0430\u0441\u044c\u043a\u043e\u0432\u043e", "city": 37}}, {"model": "myfly.airport", "pk": 17, "fields": {"international": true, "code": "", "name": "\u0422\u0430\u043b\u0430\u0433\u0438", "city": 37}}, {"model": "myfly.airport", "pk": 18, "fields": {"international": true, "code": "", "name": "\u041a\u043e\u043b\u044c\u0446\u043e\u0432\u043e", "city": 38}}, {"model": "myfly.airport", "pk": 19, "fields": {"international": false, "code": "", "name": "\u0423\u043a\u0442\u0443\u0441", "city": 38}}, {"model": "myfly.airport", "pk": 20, "fields": {"international": true, "code": "", "name": "\u0410\u0431\u0443-\u0414\u0430\u0431\u0438", "city": 39}}, {"model": "myfly.airport", "pk": 21, "fields": {"international": true, "code": "", "name": "\u0410\u043b\u044c-\u0411\u0430\u0442\u0438\u043d", "city": 39}}, {"model": "myfly.airport", "pk": 22, "fields": {"international": true, "code": "", "name": "\u042f\u0441-\u0410\u043b\u0435\u043d\u0434", "city": 39}}, {"model": "myfly.airport", "pk": 23, "fields": {"international": true, "code": "", "name": "\u0410\u043b\u044c-\u0414\u0445\u0430\u0444\u0440", "city": 39}}, {"model": "myfly.airport", "pk": 24, "fields": {"international": true, "code": "", "name": "\u0414\u0443\u0431\u0430\u0439", "city": 40}}, {"model": "myfly.airport", "pk": 25, "fields": {"international": true, "code": "", "name": "\u0414\u0443\u0431\u0430\u0439-\u041a\u0440\u0438\u043a", "city": 40}}, {"model": "myfly.airport", "pk": 26, "fields": {"international": true, "code": "", "name": "\u0410\u043b\u044c-\u041c\u0430\u043a\u0442\u0443\u043c", "city": 40}}, {"model": "myfly.airport", "pk": 27, "fields": {"international": true, "code": "", "name": "\u0414\u0436\u0435\u0431\u0435\u043b\u044c-\u0410\u043b\u0438", "city": 40}}, {"model": "myfly.airport", "pk": 28, "fields": {"international": true, "code": "", "name": "\u0425\u0430\u0440\u0442\u0441\u0444\u0438\u043b\u0434-\u0414\u0436\u0435\u043a\u0441\u043e\u043d", "city": 41}}, {"model": "myfly.airport", "pk": 29, "fields": {"international": true, "code": "", "name": "\u0414\u0435\u041a\u0430\u043b\u0431-\u041f\u0438\u0447\u0442\u0440\u0438", "city": 41}}, {"model": "myfly.airport", "pk": 30, "fields": {"international": true, "code": "", "name": "\u0424\u0443\u043b\u0442\u043e\u043d \u041a\u0430\u0443\u043d\u0442\u0438", "city": 41}}, {"model": "myfly.airport", "pk": 31, "fields": {"international": false, "code": "", "name": "\u041b\u043e\u0433\u0430\u043d", "city": 42}}, {"model": "myfly.city", "pk": 35, "fields": {"country": 14, "name": "\u041c\u043e\u0441\u043a\u0432\u0430"}}, {"model": "myfly.city", "pk": 36, "fields": {"country": 14, "name": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433"}}, {"model": "myfly.city", "pk": 37, "fields": {"country": 14, "name": "\u0410\u0440\u0445\u0430\u043d\u0433\u0435\u043b\u044c\u0441\u043a"}}, {"model": "myfly.city", "pk": 38, "fields": {"country": 14, "name": "\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433"}}, {"model": "myfly.city", "pk": 39, "fields": {"country": 15, "name": "\u0410\u0431\u0443-\u0414\u0430\u0431\u0438"}}, {"model": "myfly.city", "pk": 40, "fields": {"country": 15, "name": "\u0414\u0443\u0431\u0430\u0439"}}, {"model": "myfly.city", "pk": 41, "fields": {"country": 16, "name": "\u0410\u0442\u043b\u0430\u043d\u0442\u0430"}}, {"model": "myfly.city", "pk": 42, "fields": {"country": 16, "name": "\u0411\u043e\u0441\u0442\u043e\u043d"}}, {"model": "myfly.country", "pk": 14, "fields": {"name": "\u0420\u043e\u0441\u0441\u0438\u044f"}}, {"model": "myfly.country", "pk": 15, "fields": {"name": "\u041e\u0410\u042d"}}, {"model": "myfly.country", "pk": 16, "fields": {"name": "\u0421\u0428\u0410"}}, {"model": "auth.permission", "pk": 1, "fields": {"content_type": 1, "codename": "add_logentry", "name": "Can add log entry"}}, {"model": "auth.permission", "pk": 2, "fields": {"content_type": 1, "codename": "change_logentry", "name": "Can change log entry"}}, {"model": "auth.permission", "pk": 3, "fields": {"content_type": 1, "codename": "delete_logentry", "name": "Can delete log entry"}}, {"model": "auth.permission", "pk": 4, "fields": {"content_type": 2, "codename": "add_permission", "name": "Can add permission"}}, {"model": "auth.permission", "pk": 5, "fields": {"content_type": 2, "codename": "change_permission", "name": "Can change permission"}}, {"model": "auth.permission", "pk": 6, "fields": {"content_type": 2, "codename": "delete_permission", "name": "Can delete permission"}}, {"model": "auth.permission", "pk": 7, "fields": {"content_type": 3, "codename": "add_group", "name": "Can add group"}}, {"model": "auth.permission", "pk": 8, "fields": {"content_type": 3, "codename": "change_group", "name": "Can change group"}}, {"model": "auth.permission", "pk": 9, "fields": {"content_type": 3, "codename": "delete_group", "name": "Can delete group"}}, {"model": "auth.permission", "pk": 10, "fields": {"content_type": 4, "codename": "add_user", "name": "Can add user"}}, {"model": "auth.permission", "pk": 11, "fields": {"content_type": 4, "codename": "change_user", "name": "Can change user"}}, {"model": "auth.permission", "pk": 12, "fields": {"content_type": 4, "codename": "delete_user", "name": "Can delete user"}}, {"model": "auth.permission", "pk": 13, "fields": {"content_type": 5, "codename": "add_contenttype", "name": "Can add content type"}}, {"model": "auth.permission", "pk": 14, "fields": {"content_type": 5, "codename": "change_contenttype", "name": "Can change content type"}}, {"model": "auth.permission", "pk": 15, "fields": {"content_type": 5, "codename": "delete_contenttype", "name": "Can delete content type"}}, {"model": "auth.permission", "pk": 16, "fields": {"content_type": 6, "codename": "add_session", "name": "Can add session"}}, {"model": "auth.permission", "pk": 17, "fields": {"content_type": 6, "codename": "change_session", "name": "Can change session"}}, {"model": "auth.permission", "pk": 18, "fields": {"content_type": 6, "codename": "delete_session", "name": "Can delete session"}}, {"model": "auth.permission", "pk": 19, "fields": {"content_type": 7, "codename": "add_post", "name": "Can add post"}}, {"model": "auth.permission", "pk": 20, "fields": {"content_type": 7, "codename": "change_post", "name": "Can change post"}}, {"model": "auth.permission", "pk": 21, "fields": {"content_type": 7, "codename": "delete_post", "name": "Can delete post"}}, {"model": "auth.permission", "pk": 37, "fields": {"content_type": 13, "codename": "add_planetype", "name": "Can add \u041c\u043e\u0434\u0435\u043b\u044c \u0441\u0430\u043c\u043e\u043b\u0451\u0442\u0430"}}, {"model": "auth.permission", "pk": 38, "fields": {"content_type": 13, "codename": "change_planetype", "name": "Can change \u041c\u043e\u0434\u0435\u043b\u044c \u0441\u0430\u043c\u043e\u043b\u0451\u0442\u0430"}}, {"model": "auth.permission", "pk": 39, "fields": {"content_type": 13, "codename": "delete_planetype", "name": "Can delete \u041c\u043e\u0434\u0435\u043b\u044c \u0441\u0430\u043c\u043e\u043b\u0451\u0442\u0430"}}, {"model": "auth.permission", "pk": 40, "fields": {"content_type": 14, "codename": "add_plane", "name": "Can add \u0421\u0430\u043c\u043e\u043b\u0451\u0442 \u0432 \u0430\u043d\u0433\u0430\u0440\u0435"}}, {"model": "auth.permission", "pk": 41, "fields": {"content_type": 14, "codename": "change_plane", "name": "Can change \u0421\u0430\u043c\u043e\u043b\u0451\u0442 \u0432 \u0430\u043d\u0433\u0430\u0440\u0435"}}, {"model": "auth.permission", "pk": 42, "fields": {"content_type": 14, "codename": "delete_plane", "name": "Can delete \u0421\u0430\u043c\u043e\u043b\u0451\u0442 \u0432 \u0430\u043d\u0433\u0430\u0440\u0435"}}, {"model": "auth.permission", "pk": 43, "fields": {"content_type": 15, "codename": "add_route", "name": "Can add \u041c\u0430\u0440\u0448\u0440\u0443\u0442"}}, {"model": "auth.permission", "pk": 44, "fields": {"content_type": 15, "codename": "change_route", "name": "Can change \u041c\u0430\u0440\u0448\u0440\u0443\u0442"}}, {"model": "auth.permission", "pk": 45, "fields": {"content_type": 15, "codename": "delete_route", "name": "Can delete \u041c\u0430\u0440\u0448\u0440\u0443\u0442"}}, {"model": "auth.permission", "pk": 46, "fields": {"content_type": 16, "codename": "add_airport", "name": "Can add airport"}}, {"model": "auth.permission", "pk": 47, "fields": {"content_type": 16, "codename": "change_airport", "name": "Can change airport"}}, {"model": "auth.permission", "pk": 48, "fields": {"content_type": 16, "codename": "delete_airport", "name": "Can delete airport"}}, {"model": "auth.permission", "pk": 49, "fields": {"content_type": 17, "codename": "add_city", "name": "Can add \u0433\u043e\u0440\u043e\u0434"}}, {"model": "auth.permission", "pk": 50, "fields": {"content_type": 17, "codename": "change_city", "name": "Can change \u0433\u043e\u0440\u043e\u0434"}}, {"model": "auth.permission", "pk": 51, "fields": {"content_type": 17, "codename": "delete_city", "name": "Can delete \u0433\u043e\u0440\u043e\u0434"}}, {"model": "auth.permission", "pk": 52, "fields": {"content_type": 18, "codename": "add_country", "name": "Can add \u0441\u0442\u0440\u0444\u043d\u0430"}}, {"model": "auth.permission", "pk": 53, "fields": {"content_type": 18, "codename": "change_country", "name": "Can change \u0441\u0442\u0440\u0444\u043d\u0430"}}, {"model": "auth.permission", "pk": 54, "fields": {"content_type": 18, "codename": "delete_country", "name": "Can delete \u0441\u0442\u0440\u0444\u043d\u0430"}}, {"model": "auth.user", "pk": 1, "fields": {"groups": [], "user_permissions": [], "email": "xb@rabota66.ru", "is_superuser": true, "is_active": true, "date_joined": "2017-01-12T11:15:30.816Z", "is_staff": true, "first_name": "", "last_name": "", "password": "pbkdf2_sha256$20000$Rt9pCNNAEat4$StneFmZixr5JSzL0djcub4Mqp9fzjhLEitdo52HkfAQ=", "username": "xb", "last_login": "2017-02-22T14:18:07.031Z"}}, {"model": "admin.logentry", "pk": 1, "fields": {"object_id": "1", "action_time": "2017-01-12T11:16:39.062Z", "change_message": "", "user": 1, "content_type": 7, "action_flag": 1, "object_repr": "1"}}, {"model": "admin.logentry", "pk": 2, "fields": {"object_id": "2", "action_time": "2017-01-12T11:16:52.795Z", "change_message": "", "user": 1, "content_type": 7, "action_flag": 1, "object_repr": "2"}}, {"model": "admin.logentry", "pk": 3, "fields": {"object_id": "3", "action_time": "2017-01-12T11:17:18.667Z", "change_message": "", "user": 1, "content_type": 7, "action_flag": 1, "object_repr": "3"}}, {"model": "admin.logentry", "pk": 4, "fields": {"object_id": "4", "action_time": "2017-01-16T14:04:40.840Z", "change_message": "Changed published_date.", "user": 1, "content_type": 7, "action_flag": 2, "object_repr": "Shell test"}}, {"model": "admin.logentry", "pk": 5, "fields": {"object_id": "2", "action_time": "2017-01-16T14:04:46.078Z", "change_message": "No fields changed.", "user": 1, "content_type": 7, "action_flag": 2, "object_repr": "2"}}, {"model": "admin.logentry", "pk": 6, "fields": {"object_id": "3", "action_time": "2017-01-16T14:04:49.261Z", "change_message": "Changed published_date.", "user": 1, "content_type": 7, "action_flag": 2, "object_repr": "3"}}, {"model": "admin.logentry", "pk": 7, "fields": {"object_id": "1", "action_time": "2017-01-16T14:04:52.179Z", "change_message": "No fields changed.", "user": 1, "content_type": 7, "action_flag": 2, "object_repr": "1"}}, {"model": "admin.logentry", "pk": 8, "fields": {"object_id": "5", "action_time": "2017-01-16T14:05:04.710Z", "change_message": "Changed published_date.", "user": 1, "content_type": 7, "action_flag": 2, "object_repr": "Shell test 2"}}, {"model": "admin.logentry", "pk": 9, "fields": {"object_id": "1", "action_time": "2017-01-16T14:06:50.180Z", "change_message": "Changed text.", "user": 1, "content_type": 7, "action_flag": 2, "object_repr": "1"}}, {"model": "admin.logentry", "pk": 10, "fields": {"object_id": "5", "action_time": "2017-01-16T14:08:11.105Z", "change_message": "Changed text.", "user": 1, "content_type": 7, "action_flag": 2, "object_repr": "Shell test 2"}}, {"model": "admin.logentry", "pk": 11, "fields": {"object_id": "6", "action_time": "2017-01-18T07:35:21.488Z", "change_message": "", "user": 1, "content_type": 7, "action_flag": 3, "object_repr": "new"}}, {"model": "admin.logentry", "pk": 63, "fields": {"object_id": "1", "action_time": "2017-01-26T09:38:23.071Z", "change_message": "", "user": 1, "content_type": 13, "action_flag": 1, "object_repr": "Boeing 777"}}, {"model": "admin.logentry", "pk": 64, "fields": {"object_id": "2", "action_time": "2017-01-26T09:38:38.831Z", "change_message": "", "user": 1, "content_type": 13, "action_flag": 1, "object_repr": "Airbus A300"}}, {"model": "admin.logentry", "pk": 65, "fields": {"object_id": "1", "action_time": "2017-01-26T09:39:35.440Z", "change_message": "", "user": 1, "content_type": 14, "action_flag": 1, "object_repr": "Boeing 777 | 225sdf"}}, {"model": "admin.logentry", "pk": 66, "fields": {"object_id": "1", "action_time": "2017-01-30T15:57:06.007Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "Airport object"}}, {"model": "admin.logentry", "pk": 67, "fields": {"object_id": "1", "action_time": "2017-01-30T16:00:06.934Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433"}}, {"model": "admin.logentry", "pk": 68, "fields": {"object_id": "1", "action_time": "2017-01-30T16:01:20.900Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 3, "object_repr": "\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433"}}, {"model": "admin.logentry", "pk": 69, "fields": {"object_id": "2", "action_time": "2017-01-30T16:01:34.987Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u041a\u043e\u043b\u044c\u0446\u043e\u0432\u043e"}}, {"model": "admin.logentry", "pk": 70, "fields": {"object_id": "1", "action_time": "2017-01-30T16:03:27.663Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 1, "object_repr": "\u0420\u043e\u0441\u0441\u0438\u044f"}}, {"model": "admin.logentry", "pk": 71, "fields": {"object_id": "1", "action_time": "2017-01-31T05:26:34.326Z", "change_message": "", "user": 1, "content_type": 15, "action_flag": 1, "object_repr": "1"}}, {"model": "admin.logentry", "pk": 72, "fields": {"object_id": "1", "action_time": "2017-01-31T05:26:48.311Z", "change_message": "", "user": 1, "content_type": 15, "action_flag": 3, "object_repr": "1"}}, {"model": "admin.logentry", "pk": 73, "fields": {"object_id": "2", "action_time": "2017-01-31T06:10:13.040Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 3, "object_repr": "Airport object"}}, {"model": "admin.logentry", "pk": 74, "fields": {"object_id": "1", "action_time": "2017-01-31T06:10:20.566Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "City object"}}, {"model": "admin.logentry", "pk": 75, "fields": {"object_id": "1", "action_time": "2017-01-31T06:10:40.936Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 3, "object_repr": "Country object"}}, {"model": "admin.logentry", "pk": 76, "fields": {"object_id": "2", "action_time": "2017-01-31T08:10:44.496Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 1, "object_repr": "Country object"}}, {"model": "admin.logentry", "pk": 77, "fields": {"object_id": "3", "action_time": "2017-01-31T08:10:55.177Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 1, "object_repr": "Country object"}}, {"model": "admin.logentry", "pk": 78, "fields": {"object_id": "4", "action_time": "2017-01-31T08:11:04.016Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 1, "object_repr": "Country object"}}, {"model": "admin.logentry", "pk": 79, "fields": {"object_id": "5", "action_time": "2017-01-31T08:11:10.869Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 1, "object_repr": "Country object"}}, {"model": "admin.logentry", "pk": 80, "fields": {"object_id": "6", "action_time": "2017-01-31T08:11:15.833Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 1, "object_repr": "Country object"}}, {"model": "admin.logentry", "pk": 81, "fields": {"object_id": "7", "action_time": "2017-01-31T08:11:21.364Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 1, "object_repr": "Country object"}}, {"model": "admin.logentry", "pk": 82, "fields": {"object_id": "8", "action_time": "2017-01-31T08:11:25.922Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 1, "object_repr": "Country object"}}, {"model": "admin.logentry", "pk": 83, "fields": {"object_id": "9", "action_time": "2017-01-31T08:11:31.055Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 1, "object_repr": "Country object"}}, {"model": "admin.logentry", "pk": 84, "fields": {"object_id": "10", "action_time": "2017-01-31T08:11:35.588Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 1, "object_repr": "Country object"}}, {"model": "admin.logentry", "pk": 85, "fields": {"object_id": "11", "action_time": "2017-01-31T08:11:44.994Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 1, "object_repr": "Country object"}}, {"model": "admin.logentry", "pk": 86, "fields": {"object_id": "12", "action_time": "2017-01-31T08:11:53.815Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 1, "object_repr": "Country object"}}, {"model": "admin.logentry", "pk": 87, "fields": {"object_id": "13", "action_time": "2017-01-31T08:12:01.844Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 1, "object_repr": "Country object"}}, {"model": "admin.logentry", "pk": 88, "fields": {"object_id": "2", "action_time": "2017-01-31T11:55:59.452Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "City object"}}, {"model": "admin.logentry", "pk": 89, "fields": {"object_id": "3", "action_time": "2017-01-31T11:56:05.731Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "City object"}}, {"model": "admin.logentry", "pk": 90, "fields": {"object_id": "4", "action_time": "2017-01-31T11:56:11.314Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "City object"}}, {"model": "admin.logentry", "pk": 91, "fields": {"object_id": "5", "action_time": "2017-01-31T11:56:30.149Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "City object"}}, {"model": "admin.logentry", "pk": 92, "fields": {"object_id": "6", "action_time": "2017-01-31T11:56:48.508Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "City object"}}, {"model": "admin.logentry", "pk": 93, "fields": {"object_id": "7", "action_time": "2017-01-31T11:56:54.763Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "City object"}}, {"model": "admin.logentry", "pk": 94, "fields": {"object_id": "8", "action_time": "2017-01-31T11:56:59.957Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "City object"}}, {"model": "admin.logentry", "pk": 95, "fields": {"object_id": "9", "action_time": "2017-01-31T11:57:18.092Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "City object"}}, {"model": "admin.logentry", "pk": 96, "fields": {"object_id": "10", "action_time": "2017-01-31T11:57:31.359Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "City object"}}, {"model": "admin.logentry", "pk": 97, "fields": {"object_id": "11", "action_time": "2017-01-31T11:57:35.429Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "City object"}}, {"model": "admin.logentry", "pk": 98, "fields": {"object_id": "12", "action_time": "2017-01-31T11:57:42.366Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "City object"}}, {"model": "admin.logentry", "pk": 99, "fields": {"object_id": "13", "action_time": "2017-01-31T11:57:51.640Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "City object"}}, {"model": "admin.logentry", "pk": 100, "fields": {"object_id": "14", "action_time": "2017-01-31T11:59:07.862Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "City object"}}, {"model": "admin.logentry", "pk": 101, "fields": {"object_id": "15", "action_time": "2017-01-31T11:59:13.365Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "City object"}}, {"model": "admin.logentry", "pk": 102, "fields": {"object_id": "16", "action_time": "2017-01-31T11:59:22.762Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "City object"}}, {"model": "admin.logentry", "pk": 103, "fields": {"object_id": "17", "action_time": "2017-01-31T11:59:27.838Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "City object"}}, {"model": "admin.logentry", "pk": 104, "fields": {"object_id": "18", "action_time": "2017-01-31T11:59:34.466Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "City object"}}, {"model": "admin.logentry", "pk": 105, "fields": {"object_id": "19", "action_time": "2017-01-31T12:04:14.589Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "\u0422\u0430\u0439_\u0433\u043e\u0440_1"}}, {"model": "admin.logentry", "pk": 106, "fields": {"object_id": "20", "action_time": "2017-01-31T12:04:20.305Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "\u0422\u0430\u0439_\u0433\u043e\u0440_2"}}, {"model": "admin.logentry", "pk": 107, "fields": {"object_id": "21", "action_time": "2017-01-31T12:04:26.906Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "\u0422\u0430\u0439_\u0433\u043e\u0440_3"}}, {"model": "admin.logentry", "pk": 108, "fields": {"object_id": "22", "action_time": "2017-01-31T12:05:47.846Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "\u041a\u0438\u043f\u0440\u043e\u0433\u043e\u0440\u043e\u0434"}}, {"model": "admin.logentry", "pk": 109, "fields": {"object_id": "23", "action_time": "2017-01-31T12:06:01.706Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "\u0422\u0443\u043d\u0438\u0441_\u0433\u043e\u0440_1"}}, {"model": "admin.logentry", "pk": 110, "fields": {"object_id": "24", "action_time": "2017-01-31T12:06:06.809Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "\u0422\u0443\u043d\u0438\u0441_\u0433\u043e\u0440_2"}}, {"model": "admin.logentry", "pk": 111, "fields": {"object_id": "25", "action_time": "2017-01-31T12:06:14.631Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "\u0422\u0443\u043d\u0438\u0441_\u0433\u043e\u0440_3"}}, {"model": "admin.logentry", "pk": 112, "fields": {"object_id": "26", "action_time": "2017-01-31T12:06:22.452Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "\u0418\u043d\u0434\u0438\u044f_\u0433\u043e\u0440_1"}}, {"model": "admin.logentry", "pk": 113, "fields": {"object_id": "27", "action_time": "2017-01-31T12:06:36.497Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "\u0418\u043d\u0434\u0438\u044f_\u0433\u043e\u0440_2"}}, {"model": "admin.logentry", "pk": 114, "fields": {"object_id": "28", "action_time": "2017-01-31T12:06:46.448Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "\u0427\u0435\u0445\u0438\u044f_\u0433\u043e\u0440_2"}}, {"model": "admin.logentry", "pk": 115, "fields": {"object_id": "29", "action_time": "2017-01-31T12:06:58.724Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "\u0427\u0435\u0445\u0438\u044f_\u0433\u043e\u0440_3"}}, {"model": "admin.logentry", "pk": 116, "fields": {"object_id": "30", "action_time": "2017-01-31T12:07:04.281Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "\u0427\u0435\u0445\u0438\u044f_\u0433\u043e\u0440_4"}}, {"model": "admin.logentry", "pk": 117, "fields": {"object_id": "31", "action_time": "2017-01-31T12:07:10.985Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "\u0411\u043e\u0441\u0442\u043e\u043d"}}, {"model": "admin.logentry", "pk": 118, "fields": {"object_id": "32", "action_time": "2017-01-31T12:07:23.518Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "NY"}}, {"model": "admin.logentry", "pk": 119, "fields": {"object_id": "33", "action_time": "2017-01-31T12:07:29.998Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "LA"}}, {"model": "admin.logentry", "pk": 120, "fields": {"object_id": "34", "action_time": "2017-01-31T12:07:42.304Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "\u041a\u0430\u043d\u0430\u0434\u0430_\u0433\u043e\u0440_1"}}, {"model": "admin.logentry", "pk": 121, "fields": {"object_id": "3", "action_time": "2017-01-31T12:45:09.526Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u041f\u0435\u0440\u0432\u0435\u043d\u0446\u043e\u0432\u043e"}}, {"model": "admin.logentry", "pk": 122, "fields": {"object_id": "4", "action_time": "2017-01-31T12:46:38.546Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u0412\u0442\u043e\u0440\u0446\u043e\u0432\u043e"}}, {"model": "admin.logentry", "pk": 123, "fields": {"object_id": "1", "action_time": "2017-01-31T12:46:41.142Z", "change_message": "", "user": 1, "content_type": 15, "action_flag": 1, "object_repr": "\u041f\u0435\u0440\u0432\u0435\u043d\u0446\u043e\u0432\u043e - \u0412\u0442\u043e\u0440\u0446\u043e\u0432\u043e"}}, {"model": "admin.logentry", "pk": 124, "fields": {"object_id": "5", "action_time": "2017-01-31T15:24:37.740Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u0422\u0440\u0435\u0442\u0435\u043d\u0446\u043e\u0432\u043e"}}, {"model": "admin.logentry", "pk": 125, "fields": {"object_id": "6", "action_time": "2017-01-31T15:25:15.759Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u0427\u0435\u0442\u0432\u0435\u0442\u0435\u043d\u0446\u043e\u0432\u043e"}}, {"model": "admin.logentry", "pk": 126, "fields": {"object_id": "3", "action_time": "2017-01-31T15:26:08.987Z", "change_message": "", "user": 1, "content_type": 13, "action_flag": 1, "object_repr": "\u041a\u0443\u043a\u0443\u0440\u0443\u0437\u043d\u0438\u043a"}}, {"model": "admin.logentry", "pk": 127, "fields": {"object_id": "2", "action_time": "2017-01-31T15:26:24.966Z", "change_message": "", "user": 1, "content_type": 14, "action_flag": 1, "object_repr": "\u041a\u0443\u043a\u0443\u0440\u0443\u0437\u043d\u0438\u043a | 655465"}}, {"model": "admin.logentry", "pk": 128, "fields": {"object_id": "2", "action_time": "2017-01-31T15:26:37.854Z", "change_message": "", "user": 1, "content_type": 15, "action_flag": 1, "object_repr": "\u0422\u0440\u0435-\u0427\u0435"}}, {"model": "admin.logentry", "pk": 129, "fields": {"object_id": "3", "action_time": "2017-01-31T15:27:29.992Z", "change_message": "", "user": 1, "content_type": 14, "action_flag": 1, "object_repr": "Airbus A300 | 457208"}}, {"model": "admin.logentry", "pk": 130, "fields": {"object_id": "7", "action_time": "2017-01-31T15:28:03.974Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u041f\u044f\u0442\u0435\u043d\u0446\u043e\u0432\u043e"}}, {"model": "admin.logentry", "pk": 131, "fields": {"object_id": "8", "action_time": "2017-01-31T15:28:28.460Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u0428\u0435\u0441\u0442\u0435\u043d\u0446\u043e\u0432\u043e"}}, {"model": "admin.logentry", "pk": 132, "fields": {"object_id": "3", "action_time": "2017-01-31T15:28:31.055Z", "change_message": "", "user": 1, "content_type": 15, "action_flag": 1, "object_repr": "\u041f\u044f-\u0428\u0435"}}, {"model": "admin.logentry", "pk": 133, "fields": {"object_id": "9", "action_time": "2017-01-31T15:29:32.774Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u0412\u043e\u0441\u044c\u043c\u0435\u043d\u0446\u043e\u0432\u043e"}}, {"model": "admin.logentry", "pk": 134, "fields": {"object_id": "10", "action_time": "2017-01-31T15:29:54.484Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u0414\u0435\u0432\u044f\u0442\u0435\u043d\u0446\u043e\u0432\u043e"}}, {"model": "admin.logentry", "pk": 135, "fields": {"object_id": "4", "action_time": "2017-01-31T15:29:58.048Z", "change_message": "", "user": 1, "content_type": 15, "action_flag": 1, "object_repr": "8/9"}}, {"model": "admin.logentry", "pk": 136, "fields": {"object_id": "5", "action_time": "2017-01-31T15:30:34.736Z", "change_message": "", "user": 1, "content_type": 15, "action_flag": 1, "object_repr": "\u043f\u0435\u0440-\u0434\u0435\u0432"}}, {"model": "admin.logentry", "pk": 137, "fields": {"object_id": "11", "action_time": "2017-01-31T15:31:35.725Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u0421\u0435\u043c\u044c\u0446\u043e\u0432\u043e"}}, {"model": "admin.logentry", "pk": 138, "fields": {"object_id": "6", "action_time": "2017-01-31T15:31:38.146Z", "change_message": "", "user": 1, "content_type": 15, "action_flag": 1, "object_repr": "\u0434\u0432\u0430-\u0441\u0435\u043c\u044c"}}, {"model": "admin.logentry", "pk": 139, "fields": {"object_id": "4", "action_time": "2017-02-01T06:02:27.549Z", "change_message": "", "user": 1, "content_type": 13, "action_flag": 1, "object_repr": "myFlyer"}}, {"model": "admin.logentry", "pk": 140, "fields": {"object_id": "1", "action_time": "2017-02-01T06:02:34.007Z", "change_message": "Changed plane_type.", "user": 1, "content_type": 14, "action_flag": 2, "object_repr": "myFlyer | 225sdf"}}, {"model": "admin.logentry", "pk": 141, "fields": {"object_id": "4", "action_time": "2017-02-01T06:03:01.892Z", "change_message": "", "user": 1, "content_type": 14, "action_flag": 1, "object_repr": "\u041a\u0443\u043a\u0443\u0440\u0443\u0437\u043d\u0438\u043a | 452127"}}, {"model": "admin.logentry", "pk": 142, "fields": {"object_id": "5", "action_time": "2017-02-01T06:03:29.224Z", "change_message": "", "user": 1, "content_type": 14, "action_flag": 1, "object_repr": "Boeing 777 | 464120"}}, {"model": "admin.logentry", "pk": 143, "fields": {"object_id": "6", "action_time": "2017-02-01T06:03:51.448Z", "change_message": "", "user": 1, "content_type": 14, "action_flag": 1, "object_repr": "Airbus A300 | 763142"}}, {"model": "admin.logentry", "pk": 144, "fields": {"object_id": "5", "action_time": "2017-02-01T06:04:24.542Z", "change_message": "", "user": 1, "content_type": 13, "action_flag": 1, "object_repr": "BigFly 500"}}, {"model": "admin.logentry", "pk": 145, "fields": {"object_id": "7", "action_time": "2017-02-01T06:04:41.390Z", "change_message": "", "user": 1, "content_type": 14, "action_flag": 1, "object_repr": "BigFly 500 | 127567"}}, {"model": "admin.logentry", "pk": 146, "fields": {"object_id": "8", "action_time": "2017-02-01T06:10:03.956Z", "change_message": "", "user": 1, "content_type": 14, "action_flag": 1, "object_repr": "\u041a\u0443\u043a\u0443\u0440\u0443\u0437\u043d\u0438\u043a | 378527"}}, {"model": "admin.logentry", "pk": 147, "fields": {"object_id": "9", "action_time": "2017-02-01T06:11:14.690Z", "change_message": "", "user": 1, "content_type": 14, "action_flag": 1, "object_repr": "myFlyer | 1997"}}, {"model": "admin.logentry", "pk": 148, "fields": {"object_id": "10", "action_time": "2017-02-01T06:12:11.229Z", "change_message": "", "user": 1, "content_type": 14, "action_flag": 1, "object_repr": "BigFly 500 | 101245"}}, {"model": "admin.logentry", "pk": 149, "fields": {"object_id": "7", "action_time": "2017-02-01T06:14:48.293Z", "change_message": "", "user": 1, "content_type": 15, "action_flag": 1, "object_repr": "\u044f\u0447\u0441\u0430\u0444\u044b\u0432\u0430"}}, {"model": "admin.logentry", "pk": 150, "fields": {"object_id": "8", "action_time": "2017-02-01T06:15:06.804Z", "change_message": "", "user": 1, "content_type": 15, "action_flag": 1, "object_repr": "\u0435\u043a\u043f\u0440\u043f3"}}, {"model": "admin.logentry", "pk": 151, "fields": {"object_id": "9", "action_time": "2017-02-01T06:15:18.776Z", "change_message": "", "user": 1, "content_type": 15, "action_flag": 1, "object_repr": "\u044b\u0439\u043f\u043d5\u0435"}}, {"model": "admin.logentry", "pk": 152, "fields": {"object_id": "10", "action_time": "2017-02-01T06:15:35.586Z", "change_message": "", "user": 1, "content_type": 15, "action_flag": 1, "object_repr": "3245"}}, {"model": "admin.logentry", "pk": 153, "fields": {"object_id": "10", "action_time": "2017-02-02T11:53:09.215Z", "change_message": "", "user": 1, "content_type": 15, "action_flag": 3, "object_repr": "3245"}}, {"model": "admin.logentry", "pk": 154, "fields": {"object_id": "9", "action_time": "2017-02-02T11:53:09.234Z", "change_message": "", "user": 1, "content_type": 15, "action_flag": 3, "object_repr": "\u044b\u0439\u043f\u043d5\u0435"}}, {"model": "admin.logentry", "pk": 155, "fields": {"object_id": "8", "action_time": "2017-02-02T11:53:09.236Z", "change_message": "", "user": 1, "content_type": 15, "action_flag": 3, "object_repr": "\u0435\u043a\u043f\u0440\u043f3"}}, {"model": "admin.logentry", "pk": 156, "fields": {"object_id": "7", "action_time": "2017-02-02T11:53:09.238Z", "change_message": "", "user": 1, "content_type": 15, "action_flag": 3, "object_repr": "\u044f\u0447\u0441\u0430\u0444\u044b\u0432\u0430"}}, {"model": "admin.logentry", "pk": 157, "fields": {"object_id": "6", "action_time": "2017-02-02T11:53:09.240Z", "change_message": "", "user": 1, "content_type": 15, "action_flag": 3, "object_repr": "\u0434\u0432\u0430-\u0441\u0435\u043c\u044c"}}, {"model": "admin.logentry", "pk": 158, "fields": {"object_id": "5", "action_time": "2017-02-02T11:53:09.242Z", "change_message": "", "user": 1, "content_type": 15, "action_flag": 3, "object_repr": "\u043f\u0435\u0440-\u0434\u0435\u0432"}}, {"model": "admin.logentry", "pk": 159, "fields": {"object_id": "4", "action_time": "2017-02-02T11:53:09.256Z", "change_message": "", "user": 1, "content_type": 15, "action_flag": 3, "object_repr": "8/9"}}, {"model": "admin.logentry", "pk": 160, "fields": {"object_id": "3", "action_time": "2017-02-02T11:53:09.260Z", "change_message": "", "user": 1, "content_type": 15, "action_flag": 3, "object_repr": "\u041f\u044f-\u0428\u0435"}}, {"model": "admin.logentry", "pk": 161, "fields": {"object_id": "2", "action_time": "2017-02-02T11:53:09.261Z", "change_message": "", "user": 1, "content_type": 15, "action_flag": 3, "object_repr": "\u0422\u0440\u0435-\u0427\u0435"}}, {"model": "admin.logentry", "pk": 162, "fields": {"object_id": "1", "action_time": "2017-02-02T11:53:09.264Z", "change_message": "", "user": 1, "content_type": 15, "action_flag": 3, "object_repr": "\u041f\u0435\u0440\u0432\u0435\u043d\u0446\u043e\u0432\u043e - \u0412\u0442\u043e\u0440\u0446\u043e\u0432\u043e"}}, {"model": "admin.logentry", "pk": 163, "fields": {"object_id": "11", "action_time": "2017-02-22T14:18:27.610Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 3, "object_repr": "\u0421\u0435\u043c\u044c\u0446\u043e\u0432\u043e"}}, {"model": "admin.logentry", "pk": 164, "fields": {"object_id": "10", "action_time": "2017-02-22T14:18:27.620Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 3, "object_repr": "\u0414\u0435\u0432\u044f\u0442\u0435\u043d\u0446\u043e\u0432\u043e"}}, {"model": "admin.logentry", "pk": 165, "fields": {"object_id": "9", "action_time": "2017-02-22T14:18:27.621Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 3, "object_repr": "\u0412\u043e\u0441\u044c\u043c\u0435\u043d\u0446\u043e\u0432\u043e"}}, {"model": "admin.logentry", "pk": 166, "fields": {"object_id": "8", "action_time": "2017-02-22T14:18:27.623Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 3, "object_repr": "\u0428\u0435\u0441\u0442\u0435\u043d\u0446\u043e\u0432\u043e"}}, {"model": "admin.logentry", "pk": 167, "fields": {"object_id": "7", "action_time": "2017-02-22T14:18:27.625Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 3, "object_repr": "\u041f\u044f\u0442\u0435\u043d\u0446\u043e\u0432\u043e"}}, {"model": "admin.logentry", "pk": 168, "fields": {"object_id": "6", "action_time": "2017-02-22T14:18:27.627Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 3, "object_repr": "\u0427\u0435\u0442\u0432\u0435\u0442\u0435\u043d\u0446\u043e\u0432\u043e"}}, {"model": "admin.logentry", "pk": 169, "fields": {"object_id": "5", "action_time": "2017-02-22T14:18:27.628Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 3, "object_repr": "\u0422\u0440\u0435\u0442\u0435\u043d\u0446\u043e\u0432\u043e"}}, {"model": "admin.logentry", "pk": 170, "fields": {"object_id": "4", "action_time": "2017-02-22T14:18:27.631Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 3, "object_repr": "\u0412\u0442\u043e\u0440\u0446\u043e\u0432\u043e"}}, {"model": "admin.logentry", "pk": 171, "fields": {"object_id": "3", "action_time": "2017-02-22T14:18:27.632Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 3, "object_repr": "\u041f\u0435\u0440\u0432\u0435\u043d\u0446\u043e\u0432\u043e"}}, {"model": "admin.logentry", "pk": 172, "fields": {"object_id": "34", "action_time": "2017-02-22T14:18:38.704Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u041a\u0430\u043d\u0430\u0434\u0430_\u0433\u043e\u0440_1"}}, {"model": "admin.logentry", "pk": 173, "fields": {"object_id": "33", "action_time": "2017-02-22T14:18:38.710Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "LA"}}, {"model": "admin.logentry", "pk": 174, "fields": {"object_id": "32", "action_time": "2017-02-22T14:18:38.721Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "NY"}}, {"model": "admin.logentry", "pk": 175, "fields": {"object_id": "31", "action_time": "2017-02-22T14:18:38.723Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u0411\u043e\u0441\u0442\u043e\u043d"}}, {"model": "admin.logentry", "pk": 176, "fields": {"object_id": "30", "action_time": "2017-02-22T14:18:38.725Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u0427\u0435\u0445\u0438\u044f_\u0433\u043e\u0440_4"}}, {"model": "admin.logentry", "pk": 177, "fields": {"object_id": "29", "action_time": "2017-02-22T14:18:38.727Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u0427\u0435\u0445\u0438\u044f_\u0433\u043e\u0440_3"}}, {"model": "admin.logentry", "pk": 178, "fields": {"object_id": "28", "action_time": "2017-02-22T14:18:38.728Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u0427\u0435\u0445\u0438\u044f_\u0433\u043e\u0440_2"}}, {"model": "admin.logentry", "pk": 179, "fields": {"object_id": "27", "action_time": "2017-02-22T14:18:38.731Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u0418\u043d\u0434\u0438\u044f_\u0433\u043e\u0440_2"}}, {"model": "admin.logentry", "pk": 180, "fields": {"object_id": "26", "action_time": "2017-02-22T14:18:38.732Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u0418\u043d\u0434\u0438\u044f_\u0433\u043e\u0440_1"}}, {"model": "admin.logentry", "pk": 181, "fields": {"object_id": "25", "action_time": "2017-02-22T14:18:38.734Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u0422\u0443\u043d\u0438\u0441_\u0433\u043e\u0440_3"}}, {"model": "admin.logentry", "pk": 182, "fields": {"object_id": "24", "action_time": "2017-02-22T14:18:38.735Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u0422\u0443\u043d\u0438\u0441_\u0433\u043e\u0440_2"}}, {"model": "admin.logentry", "pk": 183, "fields": {"object_id": "23", "action_time": "2017-02-22T14:18:38.737Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u0422\u0443\u043d\u0438\u0441_\u0433\u043e\u0440_1"}}, {"model": "admin.logentry", "pk": 184, "fields": {"object_id": "22", "action_time": "2017-02-22T14:18:38.741Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u041a\u0438\u043f\u0440\u043e\u0433\u043e\u0440\u043e\u0434"}}, {"model": "admin.logentry", "pk": 185, "fields": {"object_id": "21", "action_time": "2017-02-22T14:18:38.743Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u0422\u0430\u0439_\u0433\u043e\u0440_3"}}, {"model": "admin.logentry", "pk": 186, "fields": {"object_id": "20", "action_time": "2017-02-22T14:18:38.745Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u0422\u0430\u0439_\u0433\u043e\u0440_2"}}, {"model": "admin.logentry", "pk": 187, "fields": {"object_id": "19", "action_time": "2017-02-22T14:18:38.747Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u0422\u0430\u0439_\u0433\u043e\u0440_1"}}, {"model": "admin.logentry", "pk": 188, "fields": {"object_id": "18", "action_time": "2017-02-22T14:18:38.750Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u041c\u0430\u043b\u0430\u0437\u0438\u044f_\u0433\u043e\u0440_3"}}, {"model": "admin.logentry", "pk": 189, "fields": {"object_id": "17", "action_time": "2017-02-22T14:18:38.752Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u041c\u0430\u043b\u0430\u0437\u0438\u044f_\u0433\u043e\u0440_2"}}, {"model": "admin.logentry", "pk": 190, "fields": {"object_id": "16", "action_time": "2017-02-22T14:18:38.757Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u041c\u0430\u043b\u0430\u0437\u0438\u044f_\u0433\u043e\u0440_1"}}, {"model": "admin.logentry", "pk": 191, "fields": {"object_id": "15", "action_time": "2017-02-22T14:18:38.759Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u0412\u044c\u0435\u0442\u043d\u0430\u043c_\u0433\u043e\u0440_2"}}, {"model": "admin.logentry", "pk": 192, "fields": {"object_id": "14", "action_time": "2017-02-22T14:18:38.761Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u0412\u044c\u0435\u0442\u043d\u0430\u043c_\u0433\u043e\u0440_1"}}, {"model": "admin.logentry", "pk": 193, "fields": {"object_id": "13", "action_time": "2017-02-22T14:18:38.764Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u041d\u044f\u0447\u0430\u043d\u0433"}}, {"model": "admin.logentry", "pk": 194, "fields": {"object_id": "12", "action_time": "2017-02-22T14:18:38.765Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u0425\u0430\u0448\u0438\u043c\u0438\u043d"}}, {"model": "admin.logentry", "pk": 195, "fields": {"object_id": "11", "action_time": "2017-02-22T14:18:38.768Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u0428\u0432\u0435\u0446_\u0433\u043e\u0440_2"}}, {"model": "admin.logentry", "pk": 196, "fields": {"object_id": "10", "action_time": "2017-02-22T14:18:38.770Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u0428\u0432\u0435\u0446_\u0433\u043e\u0440_2"}}, {"model": "admin.logentry", "pk": 197, "fields": {"object_id": "9", "action_time": "2017-02-22T14:18:38.772Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u0428\u0432\u0435\u0446_\u0433\u043e\u0440_1"}}, {"model": "admin.logentry", "pk": 198, "fields": {"object_id": "8", "action_time": "2017-02-22T14:18:38.775Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u041a\u0438\u0442_\u0433\u043e\u0440_3"}}, {"model": "admin.logentry", "pk": 199, "fields": {"object_id": "7", "action_time": "2017-02-22T14:18:38.777Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u041a\u0438\u0442_\u0433\u043e\u0440_2"}}, {"model": "admin.logentry", "pk": 200, "fields": {"object_id": "6", "action_time": "2017-02-22T14:18:38.780Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u041a\u0438\u0442_\u0433\u043e\u0440_1"}}, {"model": "admin.logentry", "pk": 201, "fields": {"object_id": "5", "action_time": "2017-02-22T14:18:38.781Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u0428\u0430\u043e\u043b\u0438\u043d\u044c"}}, {"model": "admin.logentry", "pk": 202, "fields": {"object_id": "4", "action_time": "2017-02-22T14:18:38.784Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u041f\u0438\u0442\u0435\u0440"}}, {"model": "admin.logentry", "pk": 203, "fields": {"object_id": "3", "action_time": "2017-02-22T14:18:38.786Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u0415\u041a\u0411"}}, {"model": "admin.logentry", "pk": 204, "fields": {"object_id": "2", "action_time": "2017-02-22T14:18:38.788Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 3, "object_repr": "\u041c\u0410\u0441\u043a\u0432\u0430"}}, {"model": "admin.logentry", "pk": 205, "fields": {"object_id": "13", "action_time": "2017-02-22T14:19:00.084Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 3, "object_repr": "\u041a\u0430\u043d\u0430\u0434\u0430"}}, {"model": "admin.logentry", "pk": 206, "fields": {"object_id": "12", "action_time": "2017-02-22T14:19:00.086Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 3, "object_repr": "\u0421\u0428\u0410"}}, {"model": "admin.logentry", "pk": 207, "fields": {"object_id": "11", "action_time": "2017-02-22T14:19:00.088Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 3, "object_repr": "\u0427\u0435\u0445\u0438\u044f"}}, {"model": "admin.logentry", "pk": 208, "fields": {"object_id": "10", "action_time": "2017-02-22T14:19:00.089Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 3, "object_repr": "\u0418\u043d\u0434\u0438\u044f"}}, {"model": "admin.logentry", "pk": 209, "fields": {"object_id": "9", "action_time": "2017-02-22T14:19:00.091Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 3, "object_repr": "\u0422\u0443\u043d\u0438\u0441"}}, {"model": "admin.logentry", "pk": 210, "fields": {"object_id": "8", "action_time": "2017-02-22T14:19:00.092Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 3, "object_repr": "\u041a\u0438\u043f\u0440"}}, {"model": "admin.logentry", "pk": 211, "fields": {"object_id": "7", "action_time": "2017-02-22T14:19:00.095Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 3, "object_repr": "\u0422\u0430\u0439\u043b\u0430\u043d\u0434"}}, {"model": "admin.logentry", "pk": 212, "fields": {"object_id": "6", "action_time": "2017-02-22T14:19:00.096Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 3, "object_repr": "\u041c\u0430\u043b\u0430\u0437\u0438\u044f"}}, {"model": "admin.logentry", "pk": 213, "fields": {"object_id": "5", "action_time": "2017-02-22T14:19:00.098Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 3, "object_repr": "\u0412\u044c\u0435\u0442\u043d\u0430\u043c"}}, {"model": "admin.logentry", "pk": 214, "fields": {"object_id": "4", "action_time": "2017-02-22T14:19:00.100Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 3, "object_repr": "\u0428\u0432\u0435\u0446\u0438\u044f"}}, {"model": "admin.logentry", "pk": 215, "fields": {"object_id": "3", "action_time": "2017-02-22T14:19:00.101Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 3, "object_repr": "\u041a\u0438\u0442\u0430\u0439"}}, {"model": "admin.logentry", "pk": 216, "fields": {"object_id": "2", "action_time": "2017-02-22T14:19:00.104Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 3, "object_repr": "\u0420\u043e\u0441\u0441\u0438\u044f"}}, {"model": "admin.logentry", "pk": 217, "fields": {"object_id": "14", "action_time": "2017-02-22T14:22:15.724Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 1, "object_repr": "\u0420\u043e\u0441\u0441\u0438\u044f"}}, {"model": "admin.logentry", "pk": 218, "fields": {"object_id": "35", "action_time": "2017-02-22T14:22:22.670Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "\u041c\u043e\u0441\u043a\u0432\u0430"}}, {"model": "admin.logentry", "pk": 219, "fields": {"object_id": "12", "action_time": "2017-02-22T14:33:26.311Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u0428\u0435\u0440\u0435\u043c\u0435\u0442\u044c\u0435\u0432\u043e"}}, {"model": "admin.logentry", "pk": 220, "fields": {"object_id": "12", "action_time": "2017-02-22T14:33:34.327Z", "change_message": "No fields changed.", "user": 1, "content_type": 16, "action_flag": 2, "object_repr": "\u0428\u0435\u0440\u0435\u043c\u0435\u0442\u044c\u0435\u0432\u043e"}}, {"model": "admin.logentry", "pk": 221, "fields": {"object_id": "13", "action_time": "2017-02-22T14:34:22.813Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u0414\u043e\u043c\u043e\u0434\u0435\u0434\u043e\u0432\u043e"}}, {"model": "admin.logentry", "pk": 222, "fields": {"object_id": "14", "action_time": "2017-02-22T14:34:33.335Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u0412\u043d\u0443\u043a\u043e\u0432\u043e"}}, {"model": "admin.logentry", "pk": 223, "fields": {"object_id": "36", "action_time": "2017-02-22T14:35:18.685Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433"}}, {"model": "admin.logentry", "pk": 224, "fields": {"object_id": "15", "action_time": "2017-02-22T14:35:30.661Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u041f\u0443\u043b\u043a\u043e\u0432\u043e"}}, {"model": "admin.logentry", "pk": 225, "fields": {"object_id": "37", "action_time": "2017-02-22T14:36:32.631Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "\u0410\u0440\u0445\u0430\u043d\u0433\u0435\u043b\u044c\u0441\u043a"}}, {"model": "admin.logentry", "pk": 226, "fields": {"object_id": "16", "action_time": "2017-02-22T14:36:38.589Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u0412\u0430\u0441\u044c\u043a\u043e\u0432\u043e"}}, {"model": "admin.logentry", "pk": 227, "fields": {"object_id": "17", "action_time": "2017-02-22T14:36:46.430Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u0422\u0430\u043b\u0430\u0433\u0438"}}, {"model": "admin.logentry", "pk": 228, "fields": {"object_id": "38", "action_time": "2017-02-22T14:37:15.322Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433"}}, {"model": "admin.logentry", "pk": 229, "fields": {"object_id": "18", "action_time": "2017-02-22T14:37:20.679Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u041a\u043e\u043b\u044c\u0446\u043e\u0432\u043e"}}, {"model": "admin.logentry", "pk": 230, "fields": {"object_id": "19", "action_time": "2017-02-22T14:37:27.709Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u0423\u043a\u0442\u0443\u0441"}}, {"model": "admin.logentry", "pk": 231, "fields": {"object_id": "19", "action_time": "2017-02-22T14:37:32.668Z", "change_message": "Changed international.", "user": 1, "content_type": 16, "action_flag": 2, "object_repr": "\u0423\u043a\u0442\u0443\u0441"}}, {"model": "admin.logentry", "pk": 232, "fields": {"object_id": "15", "action_time": "2017-02-22T14:38:06.506Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 1, "object_repr": "\u041e\u0410\u042d"}}, {"model": "admin.logentry", "pk": 233, "fields": {"object_id": "39", "action_time": "2017-02-22T14:38:12.306Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "\u0410\u0431\u0443-\u0414\u0430\u0431\u0438"}}, {"model": "admin.logentry", "pk": 234, "fields": {"object_id": "20", "action_time": "2017-02-22T14:38:27.463Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u0410\u0431\u0443-\u0414\u0430\u0431\u0438"}}, {"model": "admin.logentry", "pk": 235, "fields": {"object_id": "21", "action_time": "2017-02-22T14:38:39.143Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u0410\u043b\u044c-\u0411\u0430\u0442\u0438\u043d"}}, {"model": "admin.logentry", "pk": 236, "fields": {"object_id": "22", "action_time": "2017-02-22T14:38:49.844Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u042f\u0441-\u0410\u043b\u0435\u043d\u0434"}}, {"model": "admin.logentry", "pk": 237, "fields": {"object_id": "23", "action_time": "2017-02-22T14:38:57.811Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u0410\u043b\u044c-\u0414\u0445\u0430\u0444\u0440"}}, {"model": "admin.logentry", "pk": 238, "fields": {"object_id": "40", "action_time": "2017-02-22T14:39:14.755Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "\u0414\u0443\u0431\u0430\u0439"}}, {"model": "admin.logentry", "pk": 239, "fields": {"object_id": "24", "action_time": "2017-02-22T14:39:24.166Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u0414\u0443\u0431\u0430\u0439"}}, {"model": "admin.logentry", "pk": 240, "fields": {"object_id": "25", "action_time": "2017-02-22T14:39:35.281Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u0414\u0443\u0431\u0430\u0439-\u041a\u0440\u0438\u043a"}}, {"model": "admin.logentry", "pk": 241, "fields": {"object_id": "26", "action_time": "2017-02-22T14:39:49.227Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u0410\u043b\u044c-\u041c\u0430\u043a\u0442\u0443\u043c"}}, {"model": "admin.logentry", "pk": 242, "fields": {"object_id": "27", "action_time": "2017-02-22T14:39:56.566Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u0414\u0436\u0435\u0431\u0435\u043b\u044c-\u0410\u043b\u0438"}}, {"model": "admin.logentry", "pk": 243, "fields": {"object_id": "16", "action_time": "2017-02-22T14:41:15.129Z", "change_message": "", "user": 1, "content_type": 18, "action_flag": 1, "object_repr": "\u0421\u0428\u0410"}}, {"model": "admin.logentry", "pk": 244, "fields": {"object_id": "41", "action_time": "2017-02-22T14:41:23.907Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "\u0410\u0442\u043b\u0430\u043d\u0442\u0430"}}, {"model": "admin.logentry", "pk": 245, "fields": {"object_id": "28", "action_time": "2017-02-22T14:41:31.980Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u0425\u0430\u0440\u0442\u0441\u0444\u0438\u043b\u0434-\u0414\u0436\u0435\u043a\u0441\u043e\u043d"}}, {"model": "admin.logentry", "pk": 246, "fields": {"object_id": "29", "action_time": "2017-02-22T14:41:43.872Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u0414\u0435\u041a\u0430\u043b\u0431-\u041f\u0438\u0447\u0442\u0440\u0438"}}, {"model": "admin.logentry", "pk": 247, "fields": {"object_id": "30", "action_time": "2017-02-22T14:41:52.768Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u0424\u0443\u043b\u0442\u043e\u043d \u041a\u0430\u0443\u043d\u0442\u0438"}}, {"model": "admin.logentry", "pk": 248, "fields": {"object_id": "42", "action_time": "2017-02-22T14:42:40.804Z", "change_message": "", "user": 1, "content_type": 17, "action_flag": 1, "object_repr": "\u0411\u043e\u0441\u0442\u043e\u043d"}}, {"model": "admin.logentry", "pk": 249, "fields": {"object_id": "31", "action_time": "2017-02-22T14:42:51.611Z", "change_message": "", "user": 1, "content_type": 16, "action_flag": 1, "object_repr": "\u041b\u043e\u0433\u0430\u043d"}}, {"model": "admin.logentry", "pk": 250, "fields": {"object_id": "11", "action_time": "2017-02-22T15:12:35.509Z", "change_message": "", "user": 1, "content_type": 15, "action_flag": 1, "object_repr": "1"}}, {"model": "admin.logentry", "pk": 251, "fields": {"object_id": "12", "action_time": "2017-02-22T15:12:48.466Z", "change_message": "", "user": 1, "content_type": 15, "action_flag": 1, "object_repr": "2"}}, {"model": "admin.logentry", "pk": 252, "fields": {"object_id": "13", "action_time": "2017-02-22T15:13:02.541Z", "change_message": "", "user": 1, "content_type": 15, "action_flag": 1, "object_repr": "3"}}]
+[
+{
+    "pk": 1,
+    "fields": {
+        "style": 2,
+        "name": "Boeing 777",
+        "manufacture": "2016-08-01",
+        "seat": 300
+    },
+    "model": "myfly.planetype"
+},
+{
+    "pk": 2,
+    "fields": {
+        "style": 1,
+        "name": "Airbus A300",
+        "manufacture": "2016-11-01",
+        "seat": 250
+    },
+    "model": "myfly.planetype"
+},
+{
+    "pk": 3,
+    "fields": {
+        "style": 2,
+        "name": "\u041a\u0443\u043a\u0443\u0440\u0443\u0437\u043d\u0438\u043a",
+        "manufacture": "2016-04-03",
+        "seat": 5
+    },
+    "model": "myfly.planetype"
+},
+{
+    "pk": 4,
+    "fields": {
+        "style": 3,
+        "name": "myFlyer",
+        "manufacture": "2017-01-01",
+        "seat": 500
+    },
+    "model": "myfly.planetype"
+},
+{
+    "pk": 5,
+    "fields": {
+        "style": 1,
+        "name": "BigFly 500",
+        "manufacture": "2016-11-14",
+        "seat": 500
+    },
+    "model": "myfly.planetype"
+},
+{
+    "pk": 6,
+    "fields": {
+        "style": 4,
+        "name": "\u0411\u043e\u043c\u0431\u0430\u0440\u0434\u0438\u0440\u043e\u0432\u0449\u0438\u043a X2000",
+        "manufacture": "2016-11-14",
+        "seat": 500
+    },
+    "model": "myfly.planetype"
+},
+{
+    "pk": 1,
+    "fields": {
+        "plane_type": 4,
+        "last_refit": "2017-01-01",
+        "fly_col": 250,
+        "purchase": "2016-11-02",
+        "reg_numb": "225sdf"
+    },
+    "model": "myfly.plane"
+},
+{
+    "pk": 2,
+    "fields": {
+        "plane_type": 3,
+        "last_refit": "2017-01-31",
+        "fly_col": 658,
+        "purchase": "2016-11-15",
+        "reg_numb": "655465"
+    },
+    "model": "myfly.plane"
+},
+{
+    "pk": 3,
+    "fields": {
+        "plane_type": 2,
+        "last_refit": "2017-01-31",
+        "fly_col": 2,
+        "purchase": "2017-01-31",
+        "reg_numb": "457208"
+    },
+    "model": "myfly.plane"
+},
+{
+    "pk": 4,
+    "fields": {
+        "plane_type": 3,
+        "last_refit": "2017-01-16",
+        "fly_col": 577,
+        "purchase": "2016-12-05",
+        "reg_numb": "452127"
+    },
+    "model": "myfly.plane"
+},
+{
+    "pk": 5,
+    "fields": {
+        "plane_type": 1,
+        "last_refit": "2017-01-16",
+        "fly_col": 520,
+        "purchase": "2016-11-08",
+        "reg_numb": "464120"
+    },
+    "model": "myfly.plane"
+},
+{
+    "pk": 6,
+    "fields": {
+        "plane_type": 2,
+        "last_refit": "2016-12-04",
+        "fly_col": 453,
+        "purchase": "2016-12-11",
+        "reg_numb": "763142"
+    },
+    "model": "myfly.plane"
+},
+{
+    "pk": 7,
+    "fields": {
+        "plane_type": 5,
+        "last_refit": null,
+        "fly_col": null,
+        "purchase": "2016-01-16",
+        "reg_numb": "127567"
+    },
+    "model": "myfly.plane"
+},
+{
+    "pk": 8,
+    "fields": {
+        "plane_type": 3,
+        "last_refit": "2016-12-11",
+        "fly_col": 25,
+        "purchase": "2016-12-19",
+        "reg_numb": "378527"
+    },
+    "model": "myfly.plane"
+},
+{
+    "pk": 9,
+    "fields": {
+        "plane_type": 4,
+        "last_refit": null,
+        "fly_col": null,
+        "purchase": "1992-10-25",
+        "reg_numb": "1997"
+    },
+    "model": "myfly.plane"
+},
+{
+    "pk": 10,
+    "fields": {
+        "plane_type": 5,
+        "last_refit": null,
+        "fly_col": 2557,
+        "purchase": "1993-10-10",
+        "reg_numb": "101245"
+    },
+    "model": "myfly.plane"
+},
+{
+    "pk": 11,
+    "fields": {
+        "time": "2017-02-25T15:12:17Z",
+        "airport_in": 22,
+        "airport_out": 12,
+        "plane": 1,
+        "number": "1",
+        "name": "1"
+    },
+    "model": "myfly.route"
+},
+{
+    "pk": 12,
+    "fields": {
+        "time": "2017-02-28T15:12:31Z",
+        "airport_in": 25,
+        "airport_out": 13,
+        "plane": 2,
+        "number": "2",
+        "name": "2"
+    },
+    "model": "myfly.route"
+},
+{
+    "pk": 13,
+    "fields": {
+        "time": "2017-02-23T15:12:45Z",
+        "airport_in": 12,
+        "airport_out": 24,
+        "plane": 3,
+        "number": "3",
+        "name": "3"
+    },
+    "model": "myfly.route"
+},
+{
+    "pk": 12,
+    "fields": {
+        "name": "\u0428\u0435\u0440\u0435\u043c\u0435\u0442\u044c\u0435\u0432\u043e",
+        "code": "",
+        "international": true,
+        "city": 35
+    },
+    "model": "myfly.airport"
+},
+{
+    "pk": 13,
+    "fields": {
+        "name": "\u0414\u043e\u043c\u043e\u0434\u0435\u0434\u043e\u0432\u043e",
+        "code": "",
+        "international": true,
+        "city": 35
+    },
+    "model": "myfly.airport"
+},
+{
+    "pk": 14,
+    "fields": {
+        "name": "\u0412\u043d\u0443\u043a\u043e\u0432\u043e",
+        "code": "",
+        "international": true,
+        "city": 35
+    },
+    "model": "myfly.airport"
+},
+{
+    "pk": 15,
+    "fields": {
+        "name": "\u041f\u0443\u043b\u043a\u043e\u0432\u043e",
+        "code": "",
+        "international": true,
+        "city": 36
+    },
+    "model": "myfly.airport"
+},
+{
+    "pk": 16,
+    "fields": {
+        "name": "\u0412\u0430\u0441\u044c\u043a\u043e\u0432\u043e",
+        "code": "",
+        "international": true,
+        "city": 37
+    },
+    "model": "myfly.airport"
+},
+{
+    "pk": 17,
+    "fields": {
+        "name": "\u0422\u0430\u043b\u0430\u0433\u0438",
+        "code": "",
+        "international": true,
+        "city": 37
+    },
+    "model": "myfly.airport"
+},
+{
+    "pk": 18,
+    "fields": {
+        "name": "\u041a\u043e\u043b\u044c\u0446\u043e\u0432\u043e",
+        "code": "",
+        "international": true,
+        "city": 38
+    },
+    "model": "myfly.airport"
+},
+{
+    "pk": 19,
+    "fields": {
+        "name": "\u0423\u043a\u0442\u0443\u0441",
+        "code": "",
+        "international": false,
+        "city": 38
+    },
+    "model": "myfly.airport"
+},
+{
+    "pk": 20,
+    "fields": {
+        "name": "\u0410\u0431\u0443-\u0414\u0430\u0431\u0438",
+        "code": "",
+        "international": true,
+        "city": 39
+    },
+    "model": "myfly.airport"
+},
+{
+    "pk": 21,
+    "fields": {
+        "name": "\u0410\u043b\u044c-\u0411\u0430\u0442\u0438\u043d",
+        "code": "",
+        "international": true,
+        "city": 39
+    },
+    "model": "myfly.airport"
+},
+{
+    "pk": 22,
+    "fields": {
+        "name": "\u042f\u0441-\u0410\u043b\u0435\u043d\u0434",
+        "code": "",
+        "international": true,
+        "city": 39
+    },
+    "model": "myfly.airport"
+},
+{
+    "pk": 23,
+    "fields": {
+        "name": "\u0410\u043b\u044c-\u0414\u0445\u0430\u0444\u0440",
+        "code": "",
+        "international": true,
+        "city": 39
+    },
+    "model": "myfly.airport"
+},
+{
+    "pk": 24,
+    "fields": {
+        "name": "\u0414\u0443\u0431\u0430\u0439",
+        "code": "",
+        "international": true,
+        "city": 40
+    },
+    "model": "myfly.airport"
+},
+{
+    "pk": 25,
+    "fields": {
+        "name": "\u0414\u0443\u0431\u0430\u0439-\u041a\u0440\u0438\u043a",
+        "code": "",
+        "international": true,
+        "city": 40
+    },
+    "model": "myfly.airport"
+},
+{
+    "pk": 26,
+    "fields": {
+        "name": "\u0410\u043b\u044c-\u041c\u0430\u043a\u0442\u0443\u043c",
+        "code": "",
+        "international": true,
+        "city": 40
+    },
+    "model": "myfly.airport"
+},
+{
+    "pk": 27,
+    "fields": {
+        "name": "\u0414\u0436\u0435\u0431\u0435\u043b\u044c-\u0410\u043b\u0438",
+        "code": "",
+        "international": true,
+        "city": 40
+    },
+    "model": "myfly.airport"
+},
+{
+    "pk": 28,
+    "fields": {
+        "name": "\u0425\u0430\u0440\u0442\u0441\u0444\u0438\u043b\u0434-\u0414\u0436\u0435\u043a\u0441\u043e\u043d",
+        "code": "",
+        "international": true,
+        "city": 41
+    },
+    "model": "myfly.airport"
+},
+{
+    "pk": 29,
+    "fields": {
+        "name": "\u0414\u0435\u041a\u0430\u043b\u0431-\u041f\u0438\u0447\u0442\u0440\u0438",
+        "code": "",
+        "international": true,
+        "city": 41
+    },
+    "model": "myfly.airport"
+},
+{
+    "pk": 30,
+    "fields": {
+        "name": "\u0424\u0443\u043b\u0442\u043e\u043d \u041a\u0430\u0443\u043d\u0442\u0438",
+        "code": "",
+        "international": true,
+        "city": 41
+    },
+    "model": "myfly.airport"
+},
+{
+    "pk": 31,
+    "fields": {
+        "name": "\u041b\u043e\u0433\u0430\u043d",
+        "code": "",
+        "international": false,
+        "city": 42
+    },
+    "model": "myfly.airport"
+},
+{
+    "pk": 35,
+    "fields": {
+        "name": "\u041c\u043e\u0441\u043a\u0432\u0430",
+        "country": 14
+    },
+    "model": "myfly.city"
+},
+{
+    "pk": 36,
+    "fields": {
+        "name": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433",
+        "country": 14
+    },
+    "model": "myfly.city"
+},
+{
+    "pk": 37,
+    "fields": {
+        "name": "\u0410\u0440\u0445\u0430\u043d\u0433\u0435\u043b\u044c\u0441\u043a",
+        "country": 14
+    },
+    "model": "myfly.city"
+},
+{
+    "pk": 38,
+    "fields": {
+        "name": "\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433",
+        "country": 14
+    },
+    "model": "myfly.city"
+},
+{
+    "pk": 39,
+    "fields": {
+        "name": "\u0410\u0431\u0443-\u0414\u0430\u0431\u0438",
+        "country": 15
+    },
+    "model": "myfly.city"
+},
+{
+    "pk": 40,
+    "fields": {
+        "name": "\u0414\u0443\u0431\u0430\u0439",
+        "country": 15
+    },
+    "model": "myfly.city"
+},
+{
+    "pk": 41,
+    "fields": {
+        "name": "\u0410\u0442\u043b\u0430\u043d\u0442\u0430",
+        "country": 16
+    },
+    "model": "myfly.city"
+},
+{
+    "pk": 42,
+    "fields": {
+        "name": "\u0411\u043e\u0441\u0442\u043e\u043d",
+        "country": 16
+    },
+    "model": "myfly.city"
+},
+{
+    "pk": 14,
+    "fields": {
+        "name": "\u0420\u043e\u0441\u0441\u0438\u044f"
+    },
+    "model": "myfly.country"
+},
+{
+    "pk": 15,
+    "fields": {
+        "name": "\u041e\u0410\u042d"
+    },
+    "model": "myfly.country"
+},
+{
+    "pk": 16,
+    "fields": {
+        "name": "\u0421\u0428\u0410"
+    },
+    "model": "myfly.country"
+}
+]
