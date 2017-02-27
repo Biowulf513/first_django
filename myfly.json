@@ -1,3552 +1,4177 @@
 [
 {
+    "fields": {
+        "groups": [],
+        "is_staff": true,
+        "email": "xb@rabota66.ru",
+        "first_name": "",
+        "username": "xb",
+        "user_permissions": [],
+        "last_login": "2017-02-22T14:18:07.031Z",
+        "is_superuser": true,
+        "last_name": "",
+        "date_joined": "2017-01-12T11:15:30.816Z",
+        "password": "pbkdf2_sha256$20000$Rt9pCNNAEat4$StneFmZixr5JSzL0djcub4Mqp9fzjhLEitdo52HkfAQ=",
+        "is_active": true
+    },
     "pk": 1,
-    "fields": {
-        "model": "logentry",
-        "app_label": "admin"
-    },
-    "model": "contenttypes.contenttype"
+    "model": "auth.user"
 },
 {
-    "pk": 2,
     "fields": {
-        "model": "permission",
-        "app_label": "auth"
+        "expire_date": "2017-02-13T15:55:51.335Z",
+        "session_data": "NGE5NjM3NmUwNGQyZGJhM2RlNDgxMWYyNzYxOTExMTZhNTY3NjQzYTp7Il9hdXRoX3VzZXJfaGFzaCI6IjFiN2EzNTRmZWExMmMxNTZhNjExYTM5ZGFmYzM2Y2QxZDk2NzdiODAiLCJfYXV0aF91c2VyX2lkIjoiMSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIn0="
     },
-    "model": "contenttypes.contenttype"
-},
-{
-    "pk": 3,
-    "fields": {
-        "model": "group",
-        "app_label": "auth"
-    },
-    "model": "contenttypes.contenttype"
-},
-{
-    "pk": 4,
-    "fields": {
-        "model": "user",
-        "app_label": "auth"
-    },
-    "model": "contenttypes.contenttype"
-},
-{
-    "pk": 5,
-    "fields": {
-        "model": "contenttype",
-        "app_label": "contenttypes"
-    },
-    "model": "contenttypes.contenttype"
-},
-{
-    "pk": 6,
-    "fields": {
-        "model": "session",
-        "app_label": "sessions"
-    },
-    "model": "contenttypes.contenttype"
-},
-{
-    "pk": 7,
-    "fields": {
-        "model": "post",
-        "app_label": "blog"
-    },
-    "model": "contenttypes.contenttype"
-},
-{
-    "pk": 13,
-    "fields": {
-        "model": "planetype",
-        "app_label": "myfly"
-    },
-    "model": "contenttypes.contenttype"
-},
-{
-    "pk": 14,
-    "fields": {
-        "model": "plane",
-        "app_label": "myfly"
-    },
-    "model": "contenttypes.contenttype"
-},
-{
-    "pk": 15,
-    "fields": {
-        "model": "route",
-        "app_label": "myfly"
-    },
-    "model": "contenttypes.contenttype"
-},
-{
-    "pk": 16,
-    "fields": {
-        "model": "airport",
-        "app_label": "myfly"
-    },
-    "model": "contenttypes.contenttype"
-},
-{
-    "pk": 17,
-    "fields": {
-        "model": "city",
-        "app_label": "myfly"
-    },
-    "model": "contenttypes.contenttype"
-},
-{
-    "pk": 18,
-    "fields": {
-        "model": "country",
-        "app_label": "myfly"
-    },
-    "model": "contenttypes.contenttype"
-},
-{
     "pk": "2fm8ib50maq5f83oedug4138gljc99g0",
-    "fields": {
-        "session_data": "NGE5NjM3NmUwNGQyZGJhM2RlNDgxMWYyNzYxOTExMTZhNTY3NjQzYTp7Il9hdXRoX3VzZXJfaGFzaCI6IjFiN2EzNTRmZWExMmMxNTZhNjExYTM5ZGFmYzM2Y2QxZDk2NzdiODAiLCJfYXV0aF91c2VyX2lkIjoiMSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIn0=",
-        "expire_date": "2017-02-13T15:55:51.335Z"
-    },
     "model": "sessions.session"
 },
 {
+    "fields": {
+        "expire_date": "2017-02-01T12:30:51.958Z",
+        "session_data": "NWRlMGY4NGJkMzRhOGZiYjc4NDdhNWQ2ZWNkNmEwMTQ5N2E4MGQyZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxYjdhMzU0ZmVhMTJjMTU2YTYxMWEzOWRhZmMzNmNkMWQ5Njc3YjgwIn0="
+    },
     "pk": "c1e3deptyw3kst8qp1kilnliqr7yqgtw",
-    "fields": {
-        "session_data": "NWRlMGY4NGJkMzRhOGZiYjc4NDdhNWQ2ZWNkNmEwMTQ5N2E4MGQyZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxYjdhMzU0ZmVhMTJjMTU2YTYxMWEzOWRhZmMzNmNkMWQ5Njc3YjgwIn0=",
-        "expire_date": "2017-02-01T12:30:51.958Z"
-    },
     "model": "sessions.session"
 },
 {
+    "fields": {
+        "expire_date": "2017-01-26T11:15:59.681Z",
+        "session_data": "NGE5NjM3NmUwNGQyZGJhM2RlNDgxMWYyNzYxOTExMTZhNTY3NjQzYTp7Il9hdXRoX3VzZXJfaGFzaCI6IjFiN2EzNTRmZWExMmMxNTZhNjExYTM5ZGFmYzM2Y2QxZDk2NzdiODAiLCJfYXV0aF91c2VyX2lkIjoiMSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIn0="
+    },
     "pk": "ht2uzjwmq52xbdz7i0yv9iuufq4r0q4j",
-    "fields": {
-        "session_data": "NGE5NjM3NmUwNGQyZGJhM2RlNDgxMWYyNzYxOTExMTZhNTY3NjQzYTp7Il9hdXRoX3VzZXJfaGFzaCI6IjFiN2EzNTRmZWExMmMxNTZhNjExYTM5ZGFmYzM2Y2QxZDk2NzdiODAiLCJfYXV0aF91c2VyX2lkIjoiMSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIn0=",
-        "expire_date": "2017-01-26T11:15:59.681Z"
-    },
     "model": "sessions.session"
 },
 {
+    "fields": {
+        "expire_date": "2017-03-08T14:18:07.045Z",
+        "session_data": "Mzk2MWMxOTkyYWE2NzZmMDgyMGQxMWVlYTQ4ZDY0N2Q1ZTBmNTg4YTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjEiLCJfYXV0aF91c2VyX2hhc2giOiIxYjdhMzU0ZmVhMTJjMTU2YTYxMWEzOWRhZmMzNmNkMWQ5Njc3YjgwIn0="
+    },
     "pk": "nhw7usfjh70w4o6fsrswf4x2ywy4fhed",
-    "fields": {
-        "session_data": "Mzk2MWMxOTkyYWE2NzZmMDgyMGQxMWVlYTQ4ZDY0N2Q1ZTBmNTg4YTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjEiLCJfYXV0aF91c2VyX2hhc2giOiIxYjdhMzU0ZmVhMTJjMTU2YTYxMWEzOWRhZmMzNmNkMWQ5Njc3YjgwIn0=",
-        "expire_date": "2017-03-08T14:18:07.045Z"
-    },
     "model": "sessions.session"
 },
 {
+    "fields": {
+        "expire_date": "2017-02-27T11:59:43.743Z",
+        "session_data": "Mzk2MWMxOTkyYWE2NzZmMDgyMGQxMWVlYTQ4ZDY0N2Q1ZTBmNTg4YTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjEiLCJfYXV0aF91c2VyX2hhc2giOiIxYjdhMzU0ZmVhMTJjMTU2YTYxMWEzOWRhZmMzNmNkMWQ5Njc3YjgwIn0="
+    },
     "pk": "quiu4zoi9j8iqz92p6g311pfxr09w4g2",
-    "fields": {
-        "session_data": "Mzk2MWMxOTkyYWE2NzZmMDgyMGQxMWVlYTQ4ZDY0N2Q1ZTBmNTg4YTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjEiLCJfYXV0aF91c2VyX2hhc2giOiIxYjdhMzU0ZmVhMTJjMTU2YTYxMWEzOWRhZmMzNmNkMWQ5Njc3YjgwIn0=",
-        "expire_date": "2017-02-27T11:59:43.743Z"
-    },
     "model": "sessions.session"
 },
 {
+    "fields": {
+        "expire_date": "2017-02-16T10:53:08.615Z",
+        "session_data": "NWRlMGY4NGJkMzRhOGZiYjc4NDdhNWQ2ZWNkNmEwMTQ5N2E4MGQyZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxYjdhMzU0ZmVhMTJjMTU2YTYxMWEzOWRhZmMzNmNkMWQ5Njc3YjgwIn0="
+    },
     "pk": "ux481hm3do5hu579hc59aawpipy9yip8",
-    "fields": {
-        "session_data": "NWRlMGY4NGJkMzRhOGZiYjc4NDdhNWQ2ZWNkNmEwMTQ5N2E4MGQyZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIxYjdhMzU0ZmVhMTJjMTU2YTYxMWEzOWRhZmMzNmNkMWQ5Njc3YjgwIn0=",
-        "expire_date": "2017-02-16T10:53:08.615Z"
-    },
     "model": "sessions.session"
 },
 {
-    "pk": 1,
     "fields": {
         "name": "Boeing 777",
         "seat": 300,
         "manufacture": "2016-08-01",
         "style": 2
     },
+    "pk": 1,
     "model": "myfly.planetype"
 },
 {
-    "pk": 2,
     "fields": {
         "name": "Airbus A300",
         "seat": 250,
         "manufacture": "2016-11-01",
         "style": 1
     },
+    "pk": 2,
     "model": "myfly.planetype"
 },
 {
-    "pk": 3,
     "fields": {
         "name": "\u041a\u0443\u043a\u0443\u0440\u0443\u0437\u043d\u0438\u043a",
         "seat": 5,
         "manufacture": "2016-04-03",
         "style": 2
     },
+    "pk": 3,
     "model": "myfly.planetype"
 },
 {
-    "pk": 4,
     "fields": {
         "name": "myFlyer",
         "seat": 500,
         "manufacture": "2017-01-01",
         "style": 3
     },
+    "pk": 4,
     "model": "myfly.planetype"
 },
 {
-    "pk": 5,
     "fields": {
         "name": "BigFly 500",
         "seat": 500,
         "manufacture": "2016-11-14",
         "style": 1
     },
+    "pk": 5,
     "model": "myfly.planetype"
 },
 {
-    "pk": 6,
     "fields": {
         "name": "\u0411\u043e\u043c\u0431\u0430\u0440\u0434\u0438\u0440\u043e\u0432\u0449\u0438\u043a X2000",
         "seat": 500,
         "manufacture": "2016-11-14",
         "style": 4
     },
+    "pk": 6,
     "model": "myfly.planetype"
 },
 {
-    "pk": 1,
     "fields": {
         "last_refit": "2017-01-01",
-        "plane_type": 4,
         "fly_col": 250,
-        "reg_numb": "225sdf",
-        "purchase": "2016-11-02"
+        "plane_type": 4,
+        "purchase": "2016-11-02",
+        "reg_numb": "225sdf"
     },
+    "pk": 1,
     "model": "myfly.plane"
 },
 {
-    "pk": 2,
     "fields": {
         "last_refit": "2017-01-31",
-        "plane_type": 3,
         "fly_col": 658,
-        "reg_numb": "655465",
-        "purchase": "2016-11-15"
+        "plane_type": 3,
+        "purchase": "2016-11-15",
+        "reg_numb": "655465"
     },
+    "pk": 2,
     "model": "myfly.plane"
 },
 {
-    "pk": 3,
     "fields": {
         "last_refit": "2017-01-31",
-        "plane_type": 2,
         "fly_col": 2,
-        "reg_numb": "457208",
-        "purchase": "2017-01-31"
+        "plane_type": 2,
+        "purchase": "2017-01-31",
+        "reg_numb": "457208"
     },
+    "pk": 3,
     "model": "myfly.plane"
 },
 {
-    "pk": 4,
     "fields": {
         "last_refit": "2017-01-16",
-        "plane_type": 3,
         "fly_col": 577,
-        "reg_numb": "452127",
-        "purchase": "2016-12-05"
+        "plane_type": 3,
+        "purchase": "2016-12-05",
+        "reg_numb": "452127"
     },
+    "pk": 4,
     "model": "myfly.plane"
 },
 {
-    "pk": 5,
     "fields": {
         "last_refit": "2017-01-16",
-        "plane_type": 1,
         "fly_col": 520,
-        "reg_numb": "464120",
-        "purchase": "2016-11-08"
+        "plane_type": 1,
+        "purchase": "2016-11-08",
+        "reg_numb": "464120"
     },
+    "pk": 5,
     "model": "myfly.plane"
 },
 {
-    "pk": 6,
     "fields": {
         "last_refit": "2016-12-04",
-        "plane_type": 2,
         "fly_col": 453,
-        "reg_numb": "763142",
-        "purchase": "2016-12-11"
+        "plane_type": 2,
+        "purchase": "2016-12-11",
+        "reg_numb": "763142"
     },
+    "pk": 6,
     "model": "myfly.plane"
 },
 {
-    "pk": 7,
     "fields": {
         "last_refit": null,
-        "plane_type": 5,
         "fly_col": null,
-        "reg_numb": "127567",
-        "purchase": "2016-01-16"
+        "plane_type": 5,
+        "purchase": "2016-01-16",
+        "reg_numb": "127567"
     },
+    "pk": 7,
     "model": "myfly.plane"
 },
 {
-    "pk": 8,
     "fields": {
         "last_refit": "2016-12-11",
-        "plane_type": 3,
         "fly_col": 25,
-        "reg_numb": "378527",
-        "purchase": "2016-12-19"
+        "plane_type": 3,
+        "purchase": "2016-12-19",
+        "reg_numb": "378527"
     },
+    "pk": 8,
     "model": "myfly.plane"
 },
 {
-    "pk": 9,
     "fields": {
         "last_refit": null,
-        "plane_type": 4,
         "fly_col": null,
-        "reg_numb": "1997",
-        "purchase": "1992-10-25"
+        "plane_type": 4,
+        "purchase": "1992-10-25",
+        "reg_numb": "1997"
     },
+    "pk": 9,
     "model": "myfly.plane"
 },
 {
-    "pk": 10,
     "fields": {
         "last_refit": null,
-        "plane_type": 5,
         "fly_col": 2557,
-        "reg_numb": "101245",
-        "purchase": "1993-10-10"
+        "plane_type": 5,
+        "purchase": "1993-10-10",
+        "reg_numb": "101245"
     },
+    "pk": 10,
     "model": "myfly.plane"
 },
 {
+    "fields": {
+        "plane": 1,
+        "time": "2017-02-25T15:12:17Z",
+        "airport_in": 22,
+        "name": "1",
+        "number": "1",
+        "airport_out": 12
+    },
+    "pk": 11,
+    "model": "myfly.route"
+},
+{
+    "fields": {
+        "plane": 2,
+        "time": "2017-02-28T15:12:31Z",
+        "airport_in": 25,
+        "name": "2",
+        "number": "2",
+        "airport_out": 13
+    },
     "pk": 12,
-    "fields": {
-        "code": "",
-        "name": "\u0428\u0435\u0440\u0435\u043c\u0435\u0442\u044c\u0435\u0432\u043e",
-        "city": 35,
-        "international": true
-    },
-    "model": "myfly.airport"
+    "model": "myfly.route"
 },
 {
+    "fields": {
+        "plane": 3,
+        "time": "2017-02-23T15:12:45Z",
+        "airport_in": 12,
+        "name": "3",
+        "number": "3",
+        "airport_out": 24
+    },
     "pk": 13,
+    "model": "myfly.route"
+},
+{
     "fields": {
+        "city": 35,
+        "name": "\u0428\u0435\u0440\u0435\u043c\u0435\u0442\u044c\u0435\u0432\u043e",
         "code": "",
+        "international": true
+    },
+    "pk": 12,
+    "model": "myfly.airport"
+},
+{
+    "fields": {
+        "city": 35,
         "name": "\u0414\u043e\u043c\u043e\u0434\u0435\u0434\u043e\u0432\u043e",
-        "city": 35,
+        "code": "",
         "international": true
     },
+    "pk": 13,
     "model": "myfly.airport"
 },
 {
-    "pk": 14,
     "fields": {
-        "code": "",
+        "city": 35,
         "name": "\u0412\u043d\u0443\u043a\u043e\u0432\u043e",
-        "city": 35,
+        "code": "",
         "international": true
     },
+    "pk": 14,
     "model": "myfly.airport"
 },
 {
-    "pk": 15,
     "fields": {
-        "code": "",
-        "name": "\u041f\u0443\u043b\u043a\u043e\u0432\u043e",
         "city": 36,
+        "name": "\u041f\u0443\u043b\u043a\u043e\u0432\u043e",
+        "code": "",
         "international": true
     },
+    "pk": 15,
     "model": "myfly.airport"
 },
 {
-    "pk": 16,
     "fields": {
-        "code": "",
+        "city": 37,
         "name": "\u0412\u0430\u0441\u044c\u043a\u043e\u0432\u043e",
-        "city": 37,
+        "code": "",
         "international": true
     },
+    "pk": 16,
     "model": "myfly.airport"
 },
 {
-    "pk": 17,
     "fields": {
-        "code": "",
+        "city": 37,
         "name": "\u0422\u0430\u043b\u0430\u0433\u0438",
-        "city": 37,
+        "code": "",
         "international": true
     },
+    "pk": 17,
     "model": "myfly.airport"
 },
 {
-    "pk": 18,
     "fields": {
-        "code": "",
+        "city": 38,
         "name": "\u041a\u043e\u043b\u044c\u0446\u043e\u0432\u043e",
-        "city": 38,
+        "code": "",
         "international": true
     },
+    "pk": 18,
     "model": "myfly.airport"
 },
 {
-    "pk": 19,
     "fields": {
-        "code": "",
+        "city": 38,
         "name": "\u0423\u043a\u0442\u0443\u0441",
-        "city": 38,
+        "code": "",
         "international": false
     },
+    "pk": 19,
     "model": "myfly.airport"
 },
 {
-    "pk": 20,
     "fields": {
-        "code": "",
+        "city": 39,
         "name": "\u0410\u0431\u0443-\u0414\u0430\u0431\u0438",
-        "city": 39,
+        "code": "",
         "international": true
     },
+    "pk": 20,
     "model": "myfly.airport"
 },
 {
-    "pk": 21,
     "fields": {
-        "code": "",
+        "city": 39,
         "name": "\u0410\u043b\u044c-\u0411\u0430\u0442\u0438\u043d",
-        "city": 39,
+        "code": "",
         "international": true
     },
+    "pk": 21,
     "model": "myfly.airport"
 },
 {
-    "pk": 22,
     "fields": {
-        "code": "",
+        "city": 39,
         "name": "\u042f\u0441-\u0410\u043b\u0435\u043d\u0434",
-        "city": 39,
+        "code": "",
         "international": true
     },
+    "pk": 22,
     "model": "myfly.airport"
 },
 {
-    "pk": 23,
     "fields": {
-        "code": "",
+        "city": 39,
         "name": "\u0410\u043b\u044c-\u0414\u0445\u0430\u0444\u0440",
-        "city": 39,
+        "code": "",
         "international": true
     },
+    "pk": 23,
     "model": "myfly.airport"
 },
 {
-    "pk": 24,
     "fields": {
-        "code": "",
+        "city": 40,
         "name": "\u0414\u0443\u0431\u0430\u0439",
-        "city": 40,
+        "code": "",
         "international": true
     },
+    "pk": 24,
     "model": "myfly.airport"
 },
 {
-    "pk": 25,
     "fields": {
-        "code": "",
+        "city": 40,
         "name": "\u0414\u0443\u0431\u0430\u0439-\u041a\u0440\u0438\u043a",
-        "city": 40,
+        "code": "",
         "international": true
     },
+    "pk": 25,
     "model": "myfly.airport"
 },
 {
-    "pk": 26,
     "fields": {
-        "code": "",
+        "city": 40,
         "name": "\u0410\u043b\u044c-\u041c\u0430\u043a\u0442\u0443\u043c",
-        "city": 40,
+        "code": "",
         "international": true
     },
+    "pk": 26,
     "model": "myfly.airport"
 },
 {
-    "pk": 27,
     "fields": {
-        "code": "",
+        "city": 40,
         "name": "\u0414\u0436\u0435\u0431\u0435\u043b\u044c-\u0410\u043b\u0438",
-        "city": 40,
+        "code": "",
         "international": true
     },
+    "pk": 27,
     "model": "myfly.airport"
 },
 {
-    "pk": 28,
     "fields": {
-        "code": "",
+        "city": 41,
         "name": "\u0425\u0430\u0440\u0442\u0441\u0444\u0438\u043b\u0434-\u0414\u0436\u0435\u043a\u0441\u043e\u043d",
-        "city": 41,
+        "code": "",
         "international": true
     },
+    "pk": 28,
     "model": "myfly.airport"
 },
 {
-    "pk": 29,
     "fields": {
-        "code": "",
+        "city": 41,
         "name": "\u0414\u0435\u041a\u0430\u043b\u0431-\u041f\u0438\u0447\u0442\u0440\u0438",
-        "city": 41,
+        "code": "",
         "international": true
     },
+    "pk": 29,
     "model": "myfly.airport"
 },
 {
-    "pk": 30,
     "fields": {
-        "code": "",
+        "city": 41,
         "name": "\u0424\u0443\u043b\u0442\u043e\u043d \u041a\u0430\u0443\u043d\u0442\u0438",
-        "city": 41,
+        "code": "",
         "international": true
     },
+    "pk": 30,
     "model": "myfly.airport"
 },
 {
-    "pk": 31,
     "fields": {
-        "code": "",
-        "name": "\u041b\u043e\u0433\u0430\u043d",
         "city": 42,
+        "name": "\u041b\u043e\u0433\u0430\u043d",
+        "code": "",
         "international": false
     },
+    "pk": 31,
     "model": "myfly.airport"
 },
 {
-    "pk": 35,
     "fields": {
         "name": "\u041c\u043e\u0441\u043a\u0432\u0430",
         "country": 14
     },
+    "pk": 35,
     "model": "myfly.city"
 },
 {
-    "pk": 36,
     "fields": {
         "name": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433",
         "country": 14
     },
+    "pk": 36,
     "model": "myfly.city"
 },
 {
-    "pk": 37,
     "fields": {
         "name": "\u0410\u0440\u0445\u0430\u043d\u0433\u0435\u043b\u044c\u0441\u043a",
         "country": 14
     },
+    "pk": 37,
     "model": "myfly.city"
 },
 {
-    "pk": 38,
     "fields": {
         "name": "\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433",
         "country": 14
     },
+    "pk": 38,
     "model": "myfly.city"
 },
 {
-    "pk": 39,
     "fields": {
         "name": "\u0410\u0431\u0443-\u0414\u0430\u0431\u0438",
         "country": 15
     },
+    "pk": 39,
     "model": "myfly.city"
 },
 {
-    "pk": 40,
     "fields": {
         "name": "\u0414\u0443\u0431\u0430\u0439",
         "country": 15
     },
+    "pk": 40,
     "model": "myfly.city"
 },
 {
-    "pk": 41,
     "fields": {
         "name": "\u0410\u0442\u043b\u0430\u043d\u0442\u0430",
         "country": 16
     },
+    "pk": 41,
     "model": "myfly.city"
 },
 {
-    "pk": 42,
     "fields": {
         "name": "\u0411\u043e\u0441\u0442\u043e\u043d",
         "country": 16
     },
+    "pk": 42,
     "model": "myfly.city"
 },
 {
-    "pk": 14,
     "fields": {
         "name": "\u0420\u043e\u0441\u0441\u0438\u044f"
     },
+    "pk": 14,
     "model": "myfly.country"
 },
 {
-    "pk": 15,
     "fields": {
         "name": "\u041e\u0410\u042d"
     },
+    "pk": 15,
     "model": "myfly.country"
 },
 {
-    "pk": 16,
     "fields": {
         "name": "\u0421\u0428\u0410"
     },
+    "pk": 16,
     "model": "myfly.country"
 },
 {
-    "pk": 1,
     "fields": {
-        "name": "Can add log entry",
-        "content_type": 1,
-        "codename": "add_logentry"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 2,
-    "fields": {
-        "name": "Can change log entry",
-        "content_type": 1,
-        "codename": "change_logentry"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 3,
-    "fields": {
-        "name": "Can delete log entry",
-        "content_type": 1,
-        "codename": "delete_logentry"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 4,
-    "fields": {
-        "name": "Can add permission",
-        "content_type": 2,
-        "codename": "add_permission"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 5,
-    "fields": {
-        "name": "Can change permission",
-        "content_type": 2,
-        "codename": "change_permission"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 6,
-    "fields": {
-        "name": "Can delete permission",
-        "content_type": 2,
-        "codename": "delete_permission"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 7,
-    "fields": {
-        "name": "Can add group",
-        "content_type": 3,
-        "codename": "add_group"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 8,
-    "fields": {
-        "name": "Can change group",
-        "content_type": 3,
-        "codename": "change_group"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 9,
-    "fields": {
-        "name": "Can delete group",
-        "content_type": 3,
-        "codename": "delete_group"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 10,
-    "fields": {
-        "name": "Can add user",
-        "content_type": 4,
-        "codename": "add_user"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 11,
-    "fields": {
-        "name": "Can change user",
-        "content_type": 4,
-        "codename": "change_user"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 12,
-    "fields": {
-        "name": "Can delete user",
-        "content_type": 4,
-        "codename": "delete_user"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 13,
-    "fields": {
-        "name": "Can add content type",
-        "content_type": 5,
-        "codename": "add_contenttype"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 14,
-    "fields": {
-        "name": "Can change content type",
-        "content_type": 5,
-        "codename": "change_contenttype"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 15,
-    "fields": {
-        "name": "Can delete content type",
-        "content_type": 5,
-        "codename": "delete_contenttype"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 16,
-    "fields": {
-        "name": "Can add session",
-        "content_type": 6,
-        "codename": "add_session"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 17,
-    "fields": {
-        "name": "Can change session",
-        "content_type": 6,
-        "codename": "change_session"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 18,
-    "fields": {
-        "name": "Can delete session",
-        "content_type": 6,
-        "codename": "delete_session"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 19,
-    "fields": {
-        "name": "Can add post",
-        "content_type": 7,
-        "codename": "add_post"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 20,
-    "fields": {
-        "name": "Can change post",
-        "content_type": 7,
-        "codename": "change_post"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 21,
-    "fields": {
-        "name": "Can delete post",
-        "content_type": 7,
-        "codename": "delete_post"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 37,
-    "fields": {
-        "name": "Can add \u041c\u043e\u0434\u0435\u043b\u044c \u0441\u0430\u043c\u043e\u043b\u0451\u0442\u0430",
-        "content_type": 13,
-        "codename": "add_planetype"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 38,
-    "fields": {
-        "name": "Can change \u041c\u043e\u0434\u0435\u043b\u044c \u0441\u0430\u043c\u043e\u043b\u0451\u0442\u0430",
-        "content_type": 13,
-        "codename": "change_planetype"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 39,
-    "fields": {
-        "name": "Can delete \u041c\u043e\u0434\u0435\u043b\u044c \u0441\u0430\u043c\u043e\u043b\u0451\u0442\u0430",
-        "content_type": 13,
-        "codename": "delete_planetype"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 40,
-    "fields": {
-        "name": "Can add \u0421\u0430\u043c\u043e\u043b\u0451\u0442 \u0432 \u0430\u043d\u0433\u0430\u0440\u0435",
-        "content_type": 14,
-        "codename": "add_plane"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 41,
-    "fields": {
-        "name": "Can change \u0421\u0430\u043c\u043e\u043b\u0451\u0442 \u0432 \u0430\u043d\u0433\u0430\u0440\u0435",
-        "content_type": 14,
-        "codename": "change_plane"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 42,
-    "fields": {
-        "name": "Can delete \u0421\u0430\u043c\u043e\u043b\u0451\u0442 \u0432 \u0430\u043d\u0433\u0430\u0440\u0435",
-        "content_type": 14,
-        "codename": "delete_plane"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 43,
-    "fields": {
-        "name": "Can add \u041c\u0430\u0440\u0448\u0440\u0443\u0442",
-        "content_type": 15,
-        "codename": "add_route"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 44,
-    "fields": {
-        "name": "Can change \u041c\u0430\u0440\u0448\u0440\u0443\u0442",
-        "content_type": 15,
-        "codename": "change_route"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 45,
-    "fields": {
-        "name": "Can delete \u041c\u0430\u0440\u0448\u0440\u0443\u0442",
-        "content_type": 15,
-        "codename": "delete_route"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 46,
-    "fields": {
-        "name": "Can add airport",
-        "content_type": 16,
-        "codename": "add_airport"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 47,
-    "fields": {
-        "name": "Can change airport",
-        "content_type": 16,
-        "codename": "change_airport"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 48,
-    "fields": {
-        "name": "Can delete airport",
-        "content_type": 16,
-        "codename": "delete_airport"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 49,
-    "fields": {
-        "name": "Can add \u0433\u043e\u0440\u043e\u0434",
-        "content_type": 17,
-        "codename": "add_city"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 50,
-    "fields": {
-        "name": "Can change \u0433\u043e\u0440\u043e\u0434",
-        "content_type": 17,
-        "codename": "change_city"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 51,
-    "fields": {
-        "name": "Can delete \u0433\u043e\u0440\u043e\u0434",
-        "content_type": 17,
-        "codename": "delete_city"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 52,
-    "fields": {
-        "name": "Can add \u0441\u0442\u0440\u0444\u043d\u0430",
-        "content_type": 18,
-        "codename": "add_country"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 53,
-    "fields": {
-        "name": "Can change \u0441\u0442\u0440\u0444\u043d\u0430",
-        "content_type": 18,
-        "codename": "change_country"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 54,
-    "fields": {
-        "name": "Can delete \u0441\u0442\u0440\u0444\u043d\u0430",
-        "content_type": 18,
-        "codename": "delete_country"
-    },
-    "model": "auth.permission"
-},
-{
-    "pk": 1,
-    "fields": {
-        "date_joined": "2017-01-12T11:15:30.816Z",
-        "is_active": true,
-        "first_name": "",
-        "groups": [],
-        "username": "xb",
-        "is_staff": true,
-        "last_login": "2017-02-22T14:18:07.031Z",
-        "password": "pbkdf2_sha256$20000$Rt9pCNNAEat4$StneFmZixr5JSzL0djcub4Mqp9fzjhLEitdo52HkfAQ=",
-        "user_permissions": [],
-        "last_name": "",
-        "is_superuser": true,
-        "email": "xb@rabota66.ru"
-    },
-    "model": "auth.user"
-},
-{
-    "pk": 1,
-    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-12T11:16:39.062Z",
         "object_id": "1",
-        "action_flag": 1,
         "object_repr": "1",
-        "content_type": 7,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-12T11:16:39.062Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ]
     },
+    "pk": 1,
     "model": "admin.logentry"
 },
 {
-    "pk": 2,
     "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-12T11:16:52.795Z",
         "object_id": "2",
-        "action_flag": 1,
         "object_repr": "2",
-        "content_type": 7,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-12T11:16:52.795Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ]
     },
+    "pk": 2,
     "model": "admin.logentry"
 },
 {
-    "pk": 3,
     "fields": {
-        "object_id": "3",
         "action_flag": 1,
-        "object_repr": "3",
-        "content_type": 7,
         "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-12T11:17:18.667Z"
+        "action_time": "2017-01-12T11:17:18.667Z",
+        "object_id": "3",
+        "object_repr": "3",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ]
     },
+    "pk": 3,
     "model": "admin.logentry"
 },
 {
-    "pk": 4,
     "fields": {
-        "object_id": "4",
         "action_flag": 2,
+        "change_message": "Changed published_date.",
+        "action_time": "2017-01-16T14:04:40.840Z",
+        "object_id": "4",
         "object_repr": "Shell test",
-        "content_type": 7,
-        "change_message": "Changed published_date.",
-        "user": 1,
-        "action_time": "2017-01-16T14:04:40.840Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ]
     },
+    "pk": 4,
     "model": "admin.logentry"
 },
 {
-    "pk": 5,
     "fields": {
-        "object_id": "2",
         "action_flag": 2,
+        "change_message": "No fields changed.",
+        "action_time": "2017-01-16T14:04:46.078Z",
+        "object_id": "2",
         "object_repr": "2",
-        "content_type": 7,
-        "change_message": "No fields changed.",
-        "user": 1,
-        "action_time": "2017-01-16T14:04:46.078Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ]
     },
+    "pk": 5,
     "model": "admin.logentry"
 },
 {
-    "pk": 6,
     "fields": {
-        "object_id": "3",
         "action_flag": 2,
+        "change_message": "Changed published_date.",
+        "action_time": "2017-01-16T14:04:49.261Z",
+        "object_id": "3",
         "object_repr": "3",
-        "content_type": 7,
-        "change_message": "Changed published_date.",
-        "user": 1,
-        "action_time": "2017-01-16T14:04:49.261Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ]
     },
+    "pk": 6,
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 2,
+        "change_message": "No fields changed.",
+        "action_time": "2017-01-16T14:04:52.179Z",
+        "object_id": "1",
+        "object_repr": "1",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ]
+    },
     "pk": 7,
-    "fields": {
-        "object_id": "1",
-        "action_flag": 2,
-        "object_repr": "1",
-        "content_type": 7,
-        "change_message": "No fields changed.",
-        "user": 1,
-        "action_time": "2017-01-16T14:04:52.179Z"
-    },
     "model": "admin.logentry"
 },
 {
-    "pk": 8,
     "fields": {
-        "object_id": "5",
         "action_flag": 2,
-        "object_repr": "Shell test 2",
-        "content_type": 7,
         "change_message": "Changed published_date.",
-        "user": 1,
-        "action_time": "2017-01-16T14:05:04.710Z"
-    },
-    "model": "admin.logentry"
-},
-{
-    "pk": 9,
-    "fields": {
-        "object_id": "1",
-        "action_flag": 2,
-        "object_repr": "1",
-        "content_type": 7,
-        "change_message": "Changed text.",
-        "user": 1,
-        "action_time": "2017-01-16T14:06:50.180Z"
-    },
-    "model": "admin.logentry"
-},
-{
-    "pk": 10,
-    "fields": {
+        "action_time": "2017-01-16T14:05:04.710Z",
         "object_id": "5",
-        "action_flag": 2,
         "object_repr": "Shell test 2",
-        "content_type": 7,
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ]
+    },
+    "pk": 8,
+    "model": "admin.logentry"
+},
+{
+    "fields": {
+        "action_flag": 2,
         "change_message": "Changed text.",
-        "user": 1,
-        "action_time": "2017-01-16T14:08:11.105Z"
+        "action_time": "2017-01-16T14:06:50.180Z",
+        "object_id": "1",
+        "object_repr": "1",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ]
     },
+    "pk": 9,
     "model": "admin.logentry"
 },
 {
-    "pk": 11,
     "fields": {
-        "object_id": "6",
+        "action_flag": 2,
+        "change_message": "Changed text.",
+        "action_time": "2017-01-16T14:08:11.105Z",
+        "object_id": "5",
+        "object_repr": "Shell test 2",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ]
+    },
+    "pk": 10,
+    "model": "admin.logentry"
+},
+{
+    "fields": {
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-01-18T07:35:21.488Z",
+        "object_id": "6",
         "object_repr": "new",
-        "content_type": 7,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-18T07:35:21.488Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ]
     },
+    "pk": 11,
     "model": "admin.logentry"
 },
 {
-    "pk": 63,
     "fields": {
-        "object_id": "1",
         "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-26T09:38:23.071Z",
+        "object_id": "1",
         "object_repr": "Boeing 777",
-        "content_type": 13,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-26T09:38:23.071Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "planetype"
+        ]
     },
+    "pk": 63,
     "model": "admin.logentry"
 },
 {
-    "pk": 64,
     "fields": {
-        "object_id": "2",
         "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-26T09:38:38.831Z",
+        "object_id": "2",
         "object_repr": "Airbus A300",
-        "content_type": 13,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-26T09:38:38.831Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "planetype"
+        ]
     },
+    "pk": 64,
     "model": "admin.logentry"
 },
 {
-    "pk": 65,
     "fields": {
-        "object_id": "1",
         "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-26T09:39:35.440Z",
+        "object_id": "1",
         "object_repr": "Boeing 777 | 225sdf",
-        "content_type": 14,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-26T09:39:35.440Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "plane"
+        ]
     },
+    "pk": 65,
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-30T15:57:06.007Z",
+        "object_id": "1",
+        "object_repr": "Airport object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
+    },
     "pk": 66,
-    "fields": {
-        "object_id": "1",
-        "action_flag": 1,
-        "object_repr": "Airport object",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-30T15:57:06.007Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-30T16:00:06.934Z",
+        "object_id": "1",
+        "object_repr": "\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 67,
-    "fields": {
-        "object_id": "1",
-        "action_flag": 1,
-        "object_repr": "\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-30T16:00:06.934Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-01-30T16:01:20.900Z",
+        "object_id": "1",
+        "object_repr": "\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
+    },
     "pk": 68,
-    "fields": {
-        "object_id": "1",
-        "action_flag": 3,
-        "object_repr": "\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-30T16:01:20.900Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-30T16:01:34.987Z",
+        "object_id": "2",
+        "object_repr": "\u041a\u043e\u043b\u044c\u0446\u043e\u0432\u043e",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
+    },
     "pk": 69,
-    "fields": {
-        "object_id": "2",
-        "action_flag": 1,
-        "object_repr": "\u041a\u043e\u043b\u044c\u0446\u043e\u0432\u043e",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-30T16:01:34.987Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-30T16:03:27.663Z",
+        "object_id": "1",
+        "object_repr": "\u0420\u043e\u0441\u0441\u0438\u044f",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
+    },
     "pk": 70,
-    "fields": {
-        "object_id": "1",
-        "action_flag": 1,
-        "object_repr": "\u0420\u043e\u0441\u0441\u0438\u044f",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-30T16:03:27.663Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T05:26:34.326Z",
+        "object_id": "1",
+        "object_repr": "1",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "route"
+        ]
+    },
     "pk": 71,
-    "fields": {
-        "object_id": "1",
-        "action_flag": 1,
-        "object_repr": "1",
-        "content_type": 15,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T05:26:34.326Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-01-31T05:26:48.311Z",
+        "object_id": "1",
+        "object_repr": "1",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "route"
+        ]
+    },
     "pk": 72,
-    "fields": {
-        "object_id": "1",
-        "action_flag": 3,
-        "object_repr": "1",
-        "content_type": 15,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T05:26:48.311Z"
-    },
     "model": "admin.logentry"
 },
 {
-    "pk": 73,
     "fields": {
-        "object_id": "2",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-01-31T06:10:13.040Z",
+        "object_id": "2",
         "object_repr": "Airport object",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T06:10:13.040Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 73,
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-01-31T06:10:20.566Z",
+        "object_id": "1",
+        "object_repr": "City object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 74,
-    "fields": {
-        "object_id": "1",
-        "action_flag": 3,
-        "object_repr": "City object",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T06:10:20.566Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-01-31T06:10:40.936Z",
+        "object_id": "1",
+        "object_repr": "Country object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
+    },
     "pk": 75,
-    "fields": {
-        "object_id": "1",
-        "action_flag": 3,
-        "object_repr": "Country object",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T06:10:40.936Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T08:10:44.496Z",
+        "object_id": "2",
+        "object_repr": "Country object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
+    },
     "pk": 76,
-    "fields": {
-        "object_id": "2",
-        "action_flag": 1,
-        "object_repr": "Country object",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T08:10:44.496Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T08:10:55.177Z",
+        "object_id": "3",
+        "object_repr": "Country object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
+    },
     "pk": 77,
-    "fields": {
-        "object_id": "3",
-        "action_flag": 1,
-        "object_repr": "Country object",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T08:10:55.177Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T08:11:04.016Z",
+        "object_id": "4",
+        "object_repr": "Country object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
+    },
     "pk": 78,
-    "fields": {
-        "object_id": "4",
-        "action_flag": 1,
-        "object_repr": "Country object",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T08:11:04.016Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T08:11:10.869Z",
+        "object_id": "5",
+        "object_repr": "Country object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
+    },
     "pk": 79,
-    "fields": {
-        "object_id": "5",
-        "action_flag": 1,
-        "object_repr": "Country object",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T08:11:10.869Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T08:11:15.833Z",
+        "object_id": "6",
+        "object_repr": "Country object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
+    },
     "pk": 80,
-    "fields": {
-        "object_id": "6",
-        "action_flag": 1,
-        "object_repr": "Country object",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T08:11:15.833Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T08:11:21.364Z",
+        "object_id": "7",
+        "object_repr": "Country object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
+    },
     "pk": 81,
-    "fields": {
-        "object_id": "7",
-        "action_flag": 1,
-        "object_repr": "Country object",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T08:11:21.364Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T08:11:25.922Z",
+        "object_id": "8",
+        "object_repr": "Country object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
+    },
     "pk": 82,
-    "fields": {
-        "object_id": "8",
-        "action_flag": 1,
-        "object_repr": "Country object",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T08:11:25.922Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T08:11:31.055Z",
+        "object_id": "9",
+        "object_repr": "Country object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
+    },
     "pk": 83,
-    "fields": {
-        "object_id": "9",
-        "action_flag": 1,
-        "object_repr": "Country object",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T08:11:31.055Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T08:11:35.588Z",
+        "object_id": "10",
+        "object_repr": "Country object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
+    },
     "pk": 84,
-    "fields": {
-        "object_id": "10",
-        "action_flag": 1,
-        "object_repr": "Country object",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T08:11:35.588Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T08:11:44.994Z",
+        "object_id": "11",
+        "object_repr": "Country object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
+    },
     "pk": 85,
-    "fields": {
-        "object_id": "11",
-        "action_flag": 1,
-        "object_repr": "Country object",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T08:11:44.994Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T08:11:53.815Z",
+        "object_id": "12",
+        "object_repr": "Country object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
+    },
     "pk": 86,
-    "fields": {
-        "object_id": "12",
-        "action_flag": 1,
-        "object_repr": "Country object",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T08:11:53.815Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T08:12:01.844Z",
+        "object_id": "13",
+        "object_repr": "Country object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
+    },
     "pk": 87,
-    "fields": {
-        "object_id": "13",
-        "action_flag": 1,
-        "object_repr": "Country object",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T08:12:01.844Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T11:55:59.452Z",
+        "object_id": "2",
+        "object_repr": "City object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 88,
-    "fields": {
-        "object_id": "2",
-        "action_flag": 1,
-        "object_repr": "City object",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T11:55:59.452Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T11:56:05.731Z",
+        "object_id": "3",
+        "object_repr": "City object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 89,
-    "fields": {
-        "object_id": "3",
-        "action_flag": 1,
-        "object_repr": "City object",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T11:56:05.731Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T11:56:11.314Z",
+        "object_id": "4",
+        "object_repr": "City object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 90,
-    "fields": {
-        "object_id": "4",
-        "action_flag": 1,
-        "object_repr": "City object",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T11:56:11.314Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T11:56:30.149Z",
+        "object_id": "5",
+        "object_repr": "City object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 91,
-    "fields": {
-        "object_id": "5",
-        "action_flag": 1,
-        "object_repr": "City object",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T11:56:30.149Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T11:56:48.508Z",
+        "object_id": "6",
+        "object_repr": "City object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 92,
-    "fields": {
-        "object_id": "6",
-        "action_flag": 1,
-        "object_repr": "City object",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T11:56:48.508Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T11:56:54.763Z",
+        "object_id": "7",
+        "object_repr": "City object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 93,
-    "fields": {
-        "object_id": "7",
-        "action_flag": 1,
-        "object_repr": "City object",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T11:56:54.763Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T11:56:59.957Z",
+        "object_id": "8",
+        "object_repr": "City object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 94,
-    "fields": {
-        "object_id": "8",
-        "action_flag": 1,
-        "object_repr": "City object",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T11:56:59.957Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T11:57:18.092Z",
+        "object_id": "9",
+        "object_repr": "City object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 95,
-    "fields": {
-        "object_id": "9",
-        "action_flag": 1,
-        "object_repr": "City object",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T11:57:18.092Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T11:57:31.359Z",
+        "object_id": "10",
+        "object_repr": "City object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 96,
-    "fields": {
-        "object_id": "10",
-        "action_flag": 1,
-        "object_repr": "City object",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T11:57:31.359Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T11:57:35.429Z",
+        "object_id": "11",
+        "object_repr": "City object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 97,
-    "fields": {
-        "object_id": "11",
-        "action_flag": 1,
-        "object_repr": "City object",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T11:57:35.429Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T11:57:42.366Z",
+        "object_id": "12",
+        "object_repr": "City object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 98,
-    "fields": {
-        "object_id": "12",
-        "action_flag": 1,
-        "object_repr": "City object",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T11:57:42.366Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T11:57:51.640Z",
+        "object_id": "13",
+        "object_repr": "City object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 99,
-    "fields": {
-        "object_id": "13",
-        "action_flag": 1,
-        "object_repr": "City object",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T11:57:51.640Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T11:59:07.862Z",
+        "object_id": "14",
+        "object_repr": "City object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 100,
-    "fields": {
-        "object_id": "14",
-        "action_flag": 1,
-        "object_repr": "City object",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T11:59:07.862Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T11:59:13.365Z",
+        "object_id": "15",
+        "object_repr": "City object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 101,
-    "fields": {
-        "object_id": "15",
-        "action_flag": 1,
-        "object_repr": "City object",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T11:59:13.365Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T11:59:22.762Z",
+        "object_id": "16",
+        "object_repr": "City object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 102,
-    "fields": {
-        "object_id": "16",
-        "action_flag": 1,
-        "object_repr": "City object",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T11:59:22.762Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T11:59:27.838Z",
+        "object_id": "17",
+        "object_repr": "City object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 103,
-    "fields": {
-        "object_id": "17",
-        "action_flag": 1,
-        "object_repr": "City object",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T11:59:27.838Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T11:59:34.466Z",
+        "object_id": "18",
+        "object_repr": "City object",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 104,
-    "fields": {
-        "object_id": "18",
-        "action_flag": 1,
-        "object_repr": "City object",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T11:59:34.466Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T12:04:14.589Z",
+        "object_id": "19",
+        "object_repr": "\u0422\u0430\u0439_\u0433\u043e\u0440_1",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 105,
-    "fields": {
-        "object_id": "19",
-        "action_flag": 1,
-        "object_repr": "\u0422\u0430\u0439_\u0433\u043e\u0440_1",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T12:04:14.589Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T12:04:20.305Z",
+        "object_id": "20",
+        "object_repr": "\u0422\u0430\u0439_\u0433\u043e\u0440_2",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 106,
-    "fields": {
-        "object_id": "20",
-        "action_flag": 1,
-        "object_repr": "\u0422\u0430\u0439_\u0433\u043e\u0440_2",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T12:04:20.305Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T12:04:26.906Z",
+        "object_id": "21",
+        "object_repr": "\u0422\u0430\u0439_\u0433\u043e\u0440_3",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 107,
-    "fields": {
-        "object_id": "21",
-        "action_flag": 1,
-        "object_repr": "\u0422\u0430\u0439_\u0433\u043e\u0440_3",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T12:04:26.906Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T12:05:47.846Z",
+        "object_id": "22",
+        "object_repr": "\u041a\u0438\u043f\u0440\u043e\u0433\u043e\u0440\u043e\u0434",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 108,
-    "fields": {
-        "object_id": "22",
-        "action_flag": 1,
-        "object_repr": "\u041a\u0438\u043f\u0440\u043e\u0433\u043e\u0440\u043e\u0434",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T12:05:47.846Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T12:06:01.706Z",
+        "object_id": "23",
+        "object_repr": "\u0422\u0443\u043d\u0438\u0441_\u0433\u043e\u0440_1",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 109,
-    "fields": {
-        "object_id": "23",
-        "action_flag": 1,
-        "object_repr": "\u0422\u0443\u043d\u0438\u0441_\u0433\u043e\u0440_1",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T12:06:01.706Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T12:06:06.809Z",
+        "object_id": "24",
+        "object_repr": "\u0422\u0443\u043d\u0438\u0441_\u0433\u043e\u0440_2",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 110,
-    "fields": {
-        "object_id": "24",
-        "action_flag": 1,
-        "object_repr": "\u0422\u0443\u043d\u0438\u0441_\u0433\u043e\u0440_2",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T12:06:06.809Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T12:06:14.631Z",
+        "object_id": "25",
+        "object_repr": "\u0422\u0443\u043d\u0438\u0441_\u0433\u043e\u0440_3",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 111,
-    "fields": {
-        "object_id": "25",
-        "action_flag": 1,
-        "object_repr": "\u0422\u0443\u043d\u0438\u0441_\u0433\u043e\u0440_3",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T12:06:14.631Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T12:06:22.452Z",
+        "object_id": "26",
+        "object_repr": "\u0418\u043d\u0434\u0438\u044f_\u0433\u043e\u0440_1",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 112,
-    "fields": {
-        "object_id": "26",
-        "action_flag": 1,
-        "object_repr": "\u0418\u043d\u0434\u0438\u044f_\u0433\u043e\u0440_1",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T12:06:22.452Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T12:06:36.497Z",
+        "object_id": "27",
+        "object_repr": "\u0418\u043d\u0434\u0438\u044f_\u0433\u043e\u0440_2",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 113,
-    "fields": {
-        "object_id": "27",
-        "action_flag": 1,
-        "object_repr": "\u0418\u043d\u0434\u0438\u044f_\u0433\u043e\u0440_2",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T12:06:36.497Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T12:06:46.448Z",
+        "object_id": "28",
+        "object_repr": "\u0427\u0435\u0445\u0438\u044f_\u0433\u043e\u0440_2",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 114,
-    "fields": {
-        "object_id": "28",
-        "action_flag": 1,
-        "object_repr": "\u0427\u0435\u0445\u0438\u044f_\u0433\u043e\u0440_2",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T12:06:46.448Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T12:06:58.724Z",
+        "object_id": "29",
+        "object_repr": "\u0427\u0435\u0445\u0438\u044f_\u0433\u043e\u0440_3",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 115,
-    "fields": {
-        "object_id": "29",
-        "action_flag": 1,
-        "object_repr": "\u0427\u0435\u0445\u0438\u044f_\u0433\u043e\u0440_3",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T12:06:58.724Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T12:07:04.281Z",
+        "object_id": "30",
+        "object_repr": "\u0427\u0435\u0445\u0438\u044f_\u0433\u043e\u0440_4",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 116,
-    "fields": {
-        "object_id": "30",
-        "action_flag": 1,
-        "object_repr": "\u0427\u0435\u0445\u0438\u044f_\u0433\u043e\u0440_4",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T12:07:04.281Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T12:07:10.985Z",
+        "object_id": "31",
+        "object_repr": "\u0411\u043e\u0441\u0442\u043e\u043d",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 117,
-    "fields": {
-        "object_id": "31",
-        "action_flag": 1,
-        "object_repr": "\u0411\u043e\u0441\u0442\u043e\u043d",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T12:07:10.985Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T12:07:23.518Z",
+        "object_id": "32",
+        "object_repr": "NY",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 118,
-    "fields": {
-        "object_id": "32",
-        "action_flag": 1,
-        "object_repr": "NY",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T12:07:23.518Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T12:07:29.998Z",
+        "object_id": "33",
+        "object_repr": "LA",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 119,
-    "fields": {
-        "object_id": "33",
-        "action_flag": 1,
-        "object_repr": "LA",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T12:07:29.998Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T12:07:42.304Z",
+        "object_id": "34",
+        "object_repr": "\u041a\u0430\u043d\u0430\u0434\u0430_\u0433\u043e\u0440_1",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 120,
-    "fields": {
-        "object_id": "34",
-        "action_flag": 1,
-        "object_repr": "\u041a\u0430\u043d\u0430\u0434\u0430_\u0433\u043e\u0440_1",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T12:07:42.304Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T12:45:09.526Z",
+        "object_id": "3",
+        "object_repr": "\u041f\u0435\u0440\u0432\u0435\u043d\u0446\u043e\u0432\u043e",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
+    },
     "pk": 121,
-    "fields": {
-        "object_id": "3",
-        "action_flag": 1,
-        "object_repr": "\u041f\u0435\u0440\u0432\u0435\u043d\u0446\u043e\u0432\u043e",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T12:45:09.526Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T12:46:38.546Z",
+        "object_id": "4",
+        "object_repr": "\u0412\u0442\u043e\u0440\u0446\u043e\u0432\u043e",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
+    },
     "pk": 122,
-    "fields": {
-        "object_id": "4",
-        "action_flag": 1,
-        "object_repr": "\u0412\u0442\u043e\u0440\u0446\u043e\u0432\u043e",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T12:46:38.546Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T12:46:41.142Z",
+        "object_id": "1",
+        "object_repr": "\u041f\u0435\u0440\u0432\u0435\u043d\u0446\u043e\u0432\u043e - \u0412\u0442\u043e\u0440\u0446\u043e\u0432\u043e",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "route"
+        ]
+    },
     "pk": 123,
-    "fields": {
-        "object_id": "1",
-        "action_flag": 1,
-        "object_repr": "\u041f\u0435\u0440\u0432\u0435\u043d\u0446\u043e\u0432\u043e - \u0412\u0442\u043e\u0440\u0446\u043e\u0432\u043e",
-        "content_type": 15,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T12:46:41.142Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T15:24:37.740Z",
+        "object_id": "5",
+        "object_repr": "\u0422\u0440\u0435\u0442\u0435\u043d\u0446\u043e\u0432\u043e",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
+    },
     "pk": 124,
-    "fields": {
-        "object_id": "5",
-        "action_flag": 1,
-        "object_repr": "\u0422\u0440\u0435\u0442\u0435\u043d\u0446\u043e\u0432\u043e",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T15:24:37.740Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T15:25:15.759Z",
+        "object_id": "6",
+        "object_repr": "\u0427\u0435\u0442\u0432\u0435\u0442\u0435\u043d\u0446\u043e\u0432\u043e",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
+    },
     "pk": 125,
-    "fields": {
-        "object_id": "6",
-        "action_flag": 1,
-        "object_repr": "\u0427\u0435\u0442\u0432\u0435\u0442\u0435\u043d\u0446\u043e\u0432\u043e",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T15:25:15.759Z"
-    },
     "model": "admin.logentry"
 },
 {
-    "pk": 126,
     "fields": {
-        "object_id": "3",
         "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T15:26:08.987Z",
+        "object_id": "3",
         "object_repr": "\u041a\u0443\u043a\u0443\u0440\u0443\u0437\u043d\u0438\u043a",
-        "content_type": 13,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T15:26:08.987Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "planetype"
+        ]
     },
+    "pk": 126,
     "model": "admin.logentry"
 },
 {
-    "pk": 127,
     "fields": {
-        "object_id": "2",
         "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T15:26:24.966Z",
+        "object_id": "2",
         "object_repr": "\u041a\u0443\u043a\u0443\u0440\u0443\u0437\u043d\u0438\u043a | 655465",
-        "content_type": 14,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T15:26:24.966Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "plane"
+        ]
     },
+    "pk": 127,
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T15:26:37.854Z",
+        "object_id": "2",
+        "object_repr": "\u0422\u0440\u0435-\u0427\u0435",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "route"
+        ]
+    },
     "pk": 128,
-    "fields": {
-        "object_id": "2",
-        "action_flag": 1,
-        "object_repr": "\u0422\u0440\u0435-\u0427\u0435",
-        "content_type": 15,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T15:26:37.854Z"
-    },
     "model": "admin.logentry"
 },
 {
-    "pk": 129,
     "fields": {
-        "object_id": "3",
         "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T15:27:29.992Z",
+        "object_id": "3",
         "object_repr": "Airbus A300 | 457208",
-        "content_type": 14,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T15:27:29.992Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "plane"
+        ]
     },
+    "pk": 129,
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T15:28:03.974Z",
+        "object_id": "7",
+        "object_repr": "\u041f\u044f\u0442\u0435\u043d\u0446\u043e\u0432\u043e",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
+    },
     "pk": 130,
-    "fields": {
-        "object_id": "7",
-        "action_flag": 1,
-        "object_repr": "\u041f\u044f\u0442\u0435\u043d\u0446\u043e\u0432\u043e",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T15:28:03.974Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T15:28:28.460Z",
+        "object_id": "8",
+        "object_repr": "\u0428\u0435\u0441\u0442\u0435\u043d\u0446\u043e\u0432\u043e",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
+    },
     "pk": 131,
-    "fields": {
-        "object_id": "8",
-        "action_flag": 1,
-        "object_repr": "\u0428\u0435\u0441\u0442\u0435\u043d\u0446\u043e\u0432\u043e",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T15:28:28.460Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T15:28:31.055Z",
+        "object_id": "3",
+        "object_repr": "\u041f\u044f-\u0428\u0435",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "route"
+        ]
+    },
     "pk": 132,
-    "fields": {
-        "object_id": "3",
-        "action_flag": 1,
-        "object_repr": "\u041f\u044f-\u0428\u0435",
-        "content_type": 15,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T15:28:31.055Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T15:29:32.774Z",
+        "object_id": "9",
+        "object_repr": "\u0412\u043e\u0441\u044c\u043c\u0435\u043d\u0446\u043e\u0432\u043e",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
+    },
     "pk": 133,
-    "fields": {
-        "object_id": "9",
-        "action_flag": 1,
-        "object_repr": "\u0412\u043e\u0441\u044c\u043c\u0435\u043d\u0446\u043e\u0432\u043e",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T15:29:32.774Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T15:29:54.484Z",
+        "object_id": "10",
+        "object_repr": "\u0414\u0435\u0432\u044f\u0442\u0435\u043d\u0446\u043e\u0432\u043e",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
+    },
     "pk": 134,
-    "fields": {
-        "object_id": "10",
-        "action_flag": 1,
-        "object_repr": "\u0414\u0435\u0432\u044f\u0442\u0435\u043d\u0446\u043e\u0432\u043e",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T15:29:54.484Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T15:29:58.048Z",
+        "object_id": "4",
+        "object_repr": "8/9",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "route"
+        ]
+    },
     "pk": 135,
-    "fields": {
-        "object_id": "4",
-        "action_flag": 1,
-        "object_repr": "8/9",
-        "content_type": 15,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T15:29:58.048Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T15:30:34.736Z",
+        "object_id": "5",
+        "object_repr": "\u043f\u0435\u0440-\u0434\u0435\u0432",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "route"
+        ]
+    },
     "pk": 136,
-    "fields": {
-        "object_id": "5",
-        "action_flag": 1,
-        "object_repr": "\u043f\u0435\u0440-\u0434\u0435\u0432",
-        "content_type": 15,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T15:30:34.736Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T15:31:35.725Z",
+        "object_id": "11",
+        "object_repr": "\u0421\u0435\u043c\u044c\u0446\u043e\u0432\u043e",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
+    },
     "pk": 137,
-    "fields": {
-        "object_id": "11",
-        "action_flag": 1,
-        "object_repr": "\u0421\u0435\u043c\u044c\u0446\u043e\u0432\u043e",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T15:31:35.725Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-01-31T15:31:38.146Z",
+        "object_id": "6",
+        "object_repr": "\u0434\u0432\u0430-\u0441\u0435\u043c\u044c",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "route"
+        ]
+    },
     "pk": 138,
-    "fields": {
-        "object_id": "6",
-        "action_flag": 1,
-        "object_repr": "\u0434\u0432\u0430-\u0441\u0435\u043c\u044c",
-        "content_type": 15,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-01-31T15:31:38.146Z"
-    },
     "model": "admin.logentry"
 },
 {
-    "pk": 139,
     "fields": {
-        "object_id": "4",
         "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-01T06:02:27.549Z",
+        "object_id": "4",
         "object_repr": "myFlyer",
-        "content_type": 13,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-01T06:02:27.549Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "planetype"
+        ]
     },
+    "pk": 139,
     "model": "admin.logentry"
 },
 {
-    "pk": 140,
     "fields": {
-        "object_id": "1",
         "action_flag": 2,
-        "object_repr": "myFlyer | 225sdf",
-        "content_type": 14,
         "change_message": "Changed plane_type.",
-        "user": 1,
-        "action_time": "2017-02-01T06:02:34.007Z"
-    },
-    "model": "admin.logentry"
-},
-{
-    "pk": 141,
-    "fields": {
-        "object_id": "4",
-        "action_flag": 1,
-        "object_repr": "\u041a\u0443\u043a\u0443\u0440\u0443\u0437\u043d\u0438\u043a | 452127",
-        "content_type": 14,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-01T06:03:01.892Z"
-    },
-    "model": "admin.logentry"
-},
-{
-    "pk": 142,
-    "fields": {
-        "object_id": "5",
-        "action_flag": 1,
-        "object_repr": "Boeing 777 | 464120",
-        "content_type": 14,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-01T06:03:29.224Z"
-    },
-    "model": "admin.logentry"
-},
-{
-    "pk": 143,
-    "fields": {
-        "object_id": "6",
-        "action_flag": 1,
-        "object_repr": "Airbus A300 | 763142",
-        "content_type": 14,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-01T06:03:51.448Z"
-    },
-    "model": "admin.logentry"
-},
-{
-    "pk": 144,
-    "fields": {
-        "object_id": "5",
-        "action_flag": 1,
-        "object_repr": "BigFly 500",
-        "content_type": 13,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-01T06:04:24.542Z"
-    },
-    "model": "admin.logentry"
-},
-{
-    "pk": 145,
-    "fields": {
-        "object_id": "7",
-        "action_flag": 1,
-        "object_repr": "BigFly 500 | 127567",
-        "content_type": 14,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-01T06:04:41.390Z"
-    },
-    "model": "admin.logentry"
-},
-{
-    "pk": 146,
-    "fields": {
-        "object_id": "8",
-        "action_flag": 1,
-        "object_repr": "\u041a\u0443\u043a\u0443\u0440\u0443\u0437\u043d\u0438\u043a | 378527",
-        "content_type": 14,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-01T06:10:03.956Z"
-    },
-    "model": "admin.logentry"
-},
-{
-    "pk": 147,
-    "fields": {
-        "object_id": "9",
-        "action_flag": 1,
-        "object_repr": "myFlyer | 1997",
-        "content_type": 14,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-01T06:11:14.690Z"
-    },
-    "model": "admin.logentry"
-},
-{
-    "pk": 148,
-    "fields": {
-        "object_id": "10",
-        "action_flag": 1,
-        "object_repr": "BigFly 500 | 101245",
-        "content_type": 14,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-01T06:12:11.229Z"
-    },
-    "model": "admin.logentry"
-},
-{
-    "pk": 149,
-    "fields": {
-        "object_id": "7",
-        "action_flag": 1,
-        "object_repr": "\u044f\u0447\u0441\u0430\u0444\u044b\u0432\u0430",
-        "content_type": 15,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-01T06:14:48.293Z"
-    },
-    "model": "admin.logentry"
-},
-{
-    "pk": 150,
-    "fields": {
-        "object_id": "8",
-        "action_flag": 1,
-        "object_repr": "\u0435\u043a\u043f\u0440\u043f3",
-        "content_type": 15,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-01T06:15:06.804Z"
-    },
-    "model": "admin.logentry"
-},
-{
-    "pk": 151,
-    "fields": {
-        "object_id": "9",
-        "action_flag": 1,
-        "object_repr": "\u044b\u0439\u043f\u043d5\u0435",
-        "content_type": 15,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-01T06:15:18.776Z"
-    },
-    "model": "admin.logentry"
-},
-{
-    "pk": 152,
-    "fields": {
-        "object_id": "10",
-        "action_flag": 1,
-        "object_repr": "3245",
-        "content_type": 15,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-01T06:15:35.586Z"
-    },
-    "model": "admin.logentry"
-},
-{
-    "pk": 153,
-    "fields": {
-        "object_id": "10",
-        "action_flag": 3,
-        "object_repr": "3245",
-        "content_type": 15,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-02T11:53:09.215Z"
-    },
-    "model": "admin.logentry"
-},
-{
-    "pk": 154,
-    "fields": {
-        "object_id": "9",
-        "action_flag": 3,
-        "object_repr": "\u044b\u0439\u043f\u043d5\u0435",
-        "content_type": 15,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-02T11:53:09.234Z"
-    },
-    "model": "admin.logentry"
-},
-{
-    "pk": 155,
-    "fields": {
-        "object_id": "8",
-        "action_flag": 3,
-        "object_repr": "\u0435\u043a\u043f\u0440\u043f3",
-        "content_type": 15,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-02T11:53:09.236Z"
-    },
-    "model": "admin.logentry"
-},
-{
-    "pk": 156,
-    "fields": {
-        "object_id": "7",
-        "action_flag": 3,
-        "object_repr": "\u044f\u0447\u0441\u0430\u0444\u044b\u0432\u0430",
-        "content_type": 15,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-02T11:53:09.238Z"
-    },
-    "model": "admin.logentry"
-},
-{
-    "pk": 157,
-    "fields": {
-        "object_id": "6",
-        "action_flag": 3,
-        "object_repr": "\u0434\u0432\u0430-\u0441\u0435\u043c\u044c",
-        "content_type": 15,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-02T11:53:09.240Z"
-    },
-    "model": "admin.logentry"
-},
-{
-    "pk": 158,
-    "fields": {
-        "object_id": "5",
-        "action_flag": 3,
-        "object_repr": "\u043f\u0435\u0440-\u0434\u0435\u0432",
-        "content_type": 15,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-02T11:53:09.242Z"
-    },
-    "model": "admin.logentry"
-},
-{
-    "pk": 159,
-    "fields": {
-        "object_id": "4",
-        "action_flag": 3,
-        "object_repr": "8/9",
-        "content_type": 15,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-02T11:53:09.256Z"
-    },
-    "model": "admin.logentry"
-},
-{
-    "pk": 160,
-    "fields": {
-        "object_id": "3",
-        "action_flag": 3,
-        "object_repr": "\u041f\u044f-\u0428\u0435",
-        "content_type": 15,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-02T11:53:09.260Z"
-    },
-    "model": "admin.logentry"
-},
-{
-    "pk": 161,
-    "fields": {
-        "object_id": "2",
-        "action_flag": 3,
-        "object_repr": "\u0422\u0440\u0435-\u0427\u0435",
-        "content_type": 15,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-02T11:53:09.261Z"
-    },
-    "model": "admin.logentry"
-},
-{
-    "pk": 162,
-    "fields": {
+        "action_time": "2017-02-01T06:02:34.007Z",
         "object_id": "1",
+        "object_repr": "myFlyer | 225sdf",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "plane"
+        ]
+    },
+    "pk": 140,
+    "model": "admin.logentry"
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-01T06:03:01.892Z",
+        "object_id": "4",
+        "object_repr": "\u041a\u0443\u043a\u0443\u0440\u0443\u0437\u043d\u0438\u043a | 452127",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "plane"
+        ]
+    },
+    "pk": 141,
+    "model": "admin.logentry"
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-01T06:03:29.224Z",
+        "object_id": "5",
+        "object_repr": "Boeing 777 | 464120",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "plane"
+        ]
+    },
+    "pk": 142,
+    "model": "admin.logentry"
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-01T06:03:51.448Z",
+        "object_id": "6",
+        "object_repr": "Airbus A300 | 763142",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "plane"
+        ]
+    },
+    "pk": 143,
+    "model": "admin.logentry"
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-01T06:04:24.542Z",
+        "object_id": "5",
+        "object_repr": "BigFly 500",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "planetype"
+        ]
+    },
+    "pk": 144,
+    "model": "admin.logentry"
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-01T06:04:41.390Z",
+        "object_id": "7",
+        "object_repr": "BigFly 500 | 127567",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "plane"
+        ]
+    },
+    "pk": 145,
+    "model": "admin.logentry"
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-01T06:10:03.956Z",
+        "object_id": "8",
+        "object_repr": "\u041a\u0443\u043a\u0443\u0440\u0443\u0437\u043d\u0438\u043a | 378527",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "plane"
+        ]
+    },
+    "pk": 146,
+    "model": "admin.logentry"
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-01T06:11:14.690Z",
+        "object_id": "9",
+        "object_repr": "myFlyer | 1997",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "plane"
+        ]
+    },
+    "pk": 147,
+    "model": "admin.logentry"
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-01T06:12:11.229Z",
+        "object_id": "10",
+        "object_repr": "BigFly 500 | 101245",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "plane"
+        ]
+    },
+    "pk": 148,
+    "model": "admin.logentry"
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-01T06:14:48.293Z",
+        "object_id": "7",
+        "object_repr": "\u044f\u0447\u0441\u0430\u0444\u044b\u0432\u0430",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "route"
+        ]
+    },
+    "pk": 149,
+    "model": "admin.logentry"
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-01T06:15:06.804Z",
+        "object_id": "8",
+        "object_repr": "\u0435\u043a\u043f\u0440\u043f3",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "route"
+        ]
+    },
+    "pk": 150,
+    "model": "admin.logentry"
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-01T06:15:18.776Z",
+        "object_id": "9",
+        "object_repr": "\u044b\u0439\u043f\u043d5\u0435",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "route"
+        ]
+    },
+    "pk": 151,
+    "model": "admin.logentry"
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-01T06:15:35.586Z",
+        "object_id": "10",
+        "object_repr": "3245",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "route"
+        ]
+    },
+    "pk": 152,
+    "model": "admin.logentry"
+},
+{
+    "fields": {
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-02T11:53:09.215Z",
+        "object_id": "10",
+        "object_repr": "3245",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "route"
+        ]
+    },
+    "pk": 153,
+    "model": "admin.logentry"
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-02T11:53:09.234Z",
+        "object_id": "9",
+        "object_repr": "\u044b\u0439\u043f\u043d5\u0435",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "route"
+        ]
+    },
+    "pk": 154,
+    "model": "admin.logentry"
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-02T11:53:09.236Z",
+        "object_id": "8",
+        "object_repr": "\u0435\u043a\u043f\u0440\u043f3",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "route"
+        ]
+    },
+    "pk": 155,
+    "model": "admin.logentry"
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-02T11:53:09.238Z",
+        "object_id": "7",
+        "object_repr": "\u044f\u0447\u0441\u0430\u0444\u044b\u0432\u0430",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "route"
+        ]
+    },
+    "pk": 156,
+    "model": "admin.logentry"
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-02T11:53:09.240Z",
+        "object_id": "6",
+        "object_repr": "\u0434\u0432\u0430-\u0441\u0435\u043c\u044c",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "route"
+        ]
+    },
+    "pk": 157,
+    "model": "admin.logentry"
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-02T11:53:09.242Z",
+        "object_id": "5",
+        "object_repr": "\u043f\u0435\u0440-\u0434\u0435\u0432",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "route"
+        ]
+    },
+    "pk": 158,
+    "model": "admin.logentry"
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-02T11:53:09.256Z",
+        "object_id": "4",
+        "object_repr": "8/9",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "route"
+        ]
+    },
+    "pk": 159,
+    "model": "admin.logentry"
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-02T11:53:09.260Z",
+        "object_id": "3",
+        "object_repr": "\u041f\u044f-\u0428\u0435",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "route"
+        ]
+    },
+    "pk": 160,
+    "model": "admin.logentry"
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-02T11:53:09.261Z",
+        "object_id": "2",
+        "object_repr": "\u0422\u0440\u0435-\u0427\u0435",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "route"
+        ]
+    },
+    "pk": 161,
+    "model": "admin.logentry"
+},
+{
+    "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-02T11:53:09.264Z",
+        "object_id": "1",
         "object_repr": "\u041f\u0435\u0440\u0432\u0435\u043d\u0446\u043e\u0432\u043e - \u0412\u0442\u043e\u0440\u0446\u043e\u0432\u043e",
-        "content_type": 15,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-02T11:53:09.264Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "route"
+        ]
     },
+    "pk": 162,
     "model": "admin.logentry"
 },
 {
-    "pk": 163,
     "fields": {
-        "object_id": "11",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:27.610Z",
+        "object_id": "11",
         "object_repr": "\u0421\u0435\u043c\u044c\u0446\u043e\u0432\u043e",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:27.610Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 163,
     "model": "admin.logentry"
 },
 {
-    "pk": 164,
     "fields": {
-        "object_id": "10",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:27.620Z",
+        "object_id": "10",
         "object_repr": "\u0414\u0435\u0432\u044f\u0442\u0435\u043d\u0446\u043e\u0432\u043e",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:27.620Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 164,
     "model": "admin.logentry"
 },
 {
-    "pk": 165,
     "fields": {
-        "object_id": "9",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:27.621Z",
+        "object_id": "9",
         "object_repr": "\u0412\u043e\u0441\u044c\u043c\u0435\u043d\u0446\u043e\u0432\u043e",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:27.621Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 165,
     "model": "admin.logentry"
 },
 {
-    "pk": 166,
     "fields": {
-        "object_id": "8",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:27.623Z",
+        "object_id": "8",
         "object_repr": "\u0428\u0435\u0441\u0442\u0435\u043d\u0446\u043e\u0432\u043e",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:27.623Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 166,
     "model": "admin.logentry"
 },
 {
-    "pk": 167,
     "fields": {
-        "object_id": "7",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:27.625Z",
+        "object_id": "7",
         "object_repr": "\u041f\u044f\u0442\u0435\u043d\u0446\u043e\u0432\u043e",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:27.625Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 167,
     "model": "admin.logentry"
 },
 {
-    "pk": 168,
     "fields": {
-        "object_id": "6",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:27.627Z",
+        "object_id": "6",
         "object_repr": "\u0427\u0435\u0442\u0432\u0435\u0442\u0435\u043d\u0446\u043e\u0432\u043e",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:27.627Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 168,
     "model": "admin.logentry"
 },
 {
-    "pk": 169,
     "fields": {
-        "object_id": "5",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:27.628Z",
+        "object_id": "5",
         "object_repr": "\u0422\u0440\u0435\u0442\u0435\u043d\u0446\u043e\u0432\u043e",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:27.628Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 169,
     "model": "admin.logentry"
 },
 {
-    "pk": 170,
     "fields": {
-        "object_id": "4",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:27.631Z",
+        "object_id": "4",
         "object_repr": "\u0412\u0442\u043e\u0440\u0446\u043e\u0432\u043e",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:27.631Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 170,
     "model": "admin.logentry"
 },
 {
-    "pk": 171,
     "fields": {
-        "object_id": "3",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:27.632Z",
+        "object_id": "3",
         "object_repr": "\u041f\u0435\u0440\u0432\u0435\u043d\u0446\u043e\u0432\u043e",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:27.632Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 171,
     "model": "admin.logentry"
 },
 {
-    "pk": 172,
     "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.704Z",
         "object_id": "34",
-        "action_flag": 3,
         "object_repr": "\u041a\u0430\u043d\u0430\u0434\u0430_\u0433\u043e\u0440_1",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.704Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 172,
     "model": "admin.logentry"
 },
 {
-    "pk": 173,
     "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.710Z",
         "object_id": "33",
-        "action_flag": 3,
         "object_repr": "LA",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.710Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 173,
     "model": "admin.logentry"
 },
 {
-    "pk": 174,
     "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.721Z",
         "object_id": "32",
-        "action_flag": 3,
         "object_repr": "NY",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.721Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 174,
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.723Z",
+        "object_id": "31",
+        "object_repr": "\u0411\u043e\u0441\u0442\u043e\u043d",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 175,
-    "fields": {
-        "object_id": "31",
-        "action_flag": 3,
-        "object_repr": "\u0411\u043e\u0441\u0442\u043e\u043d",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.723Z"
-    },
     "model": "admin.logentry"
 },
 {
-    "pk": 176,
     "fields": {
-        "object_id": "30",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.725Z",
+        "object_id": "30",
         "object_repr": "\u0427\u0435\u0445\u0438\u044f_\u0433\u043e\u0440_4",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.725Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 176,
     "model": "admin.logentry"
 },
 {
-    "pk": 177,
     "fields": {
-        "object_id": "29",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.727Z",
+        "object_id": "29",
         "object_repr": "\u0427\u0435\u0445\u0438\u044f_\u0433\u043e\u0440_3",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.727Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 177,
     "model": "admin.logentry"
 },
 {
-    "pk": 178,
     "fields": {
-        "object_id": "28",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.728Z",
+        "object_id": "28",
         "object_repr": "\u0427\u0435\u0445\u0438\u044f_\u0433\u043e\u0440_2",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.728Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 178,
     "model": "admin.logentry"
 },
 {
-    "pk": 179,
     "fields": {
-        "object_id": "27",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.731Z",
+        "object_id": "27",
         "object_repr": "\u0418\u043d\u0434\u0438\u044f_\u0433\u043e\u0440_2",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.731Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 179,
     "model": "admin.logentry"
 },
 {
-    "pk": 180,
     "fields": {
-        "object_id": "26",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.732Z",
+        "object_id": "26",
         "object_repr": "\u0418\u043d\u0434\u0438\u044f_\u0433\u043e\u0440_1",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.732Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 180,
     "model": "admin.logentry"
 },
 {
-    "pk": 181,
     "fields": {
-        "object_id": "25",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.734Z",
+        "object_id": "25",
         "object_repr": "\u0422\u0443\u043d\u0438\u0441_\u0433\u043e\u0440_3",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.734Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 181,
     "model": "admin.logentry"
 },
 {
-    "pk": 182,
     "fields": {
-        "object_id": "24",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.735Z",
+        "object_id": "24",
         "object_repr": "\u0422\u0443\u043d\u0438\u0441_\u0433\u043e\u0440_2",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.735Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 182,
     "model": "admin.logentry"
 },
 {
-    "pk": 183,
     "fields": {
-        "object_id": "23",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.737Z",
+        "object_id": "23",
         "object_repr": "\u0422\u0443\u043d\u0438\u0441_\u0433\u043e\u0440_1",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.737Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 183,
     "model": "admin.logentry"
 },
 {
-    "pk": 184,
     "fields": {
-        "object_id": "22",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.741Z",
+        "object_id": "22",
         "object_repr": "\u041a\u0438\u043f\u0440\u043e\u0433\u043e\u0440\u043e\u0434",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.741Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 184,
     "model": "admin.logentry"
 },
 {
-    "pk": 185,
     "fields": {
-        "object_id": "21",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.743Z",
+        "object_id": "21",
         "object_repr": "\u0422\u0430\u0439_\u0433\u043e\u0440_3",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.743Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 185,
     "model": "admin.logentry"
 },
 {
-    "pk": 186,
     "fields": {
-        "object_id": "20",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.745Z",
+        "object_id": "20",
         "object_repr": "\u0422\u0430\u0439_\u0433\u043e\u0440_2",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.745Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 186,
     "model": "admin.logentry"
 },
 {
-    "pk": 187,
     "fields": {
-        "object_id": "19",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.747Z",
+        "object_id": "19",
         "object_repr": "\u0422\u0430\u0439_\u0433\u043e\u0440_1",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.747Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 187,
     "model": "admin.logentry"
 },
 {
-    "pk": 188,
     "fields": {
-        "object_id": "18",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.750Z",
+        "object_id": "18",
         "object_repr": "\u041c\u0430\u043b\u0430\u0437\u0438\u044f_\u0433\u043e\u0440_3",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.750Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 188,
     "model": "admin.logentry"
 },
 {
-    "pk": 189,
     "fields": {
-        "object_id": "17",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.752Z",
+        "object_id": "17",
         "object_repr": "\u041c\u0430\u043b\u0430\u0437\u0438\u044f_\u0433\u043e\u0440_2",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.752Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 189,
     "model": "admin.logentry"
 },
 {
-    "pk": 190,
     "fields": {
-        "object_id": "16",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.757Z",
+        "object_id": "16",
         "object_repr": "\u041c\u0430\u043b\u0430\u0437\u0438\u044f_\u0433\u043e\u0440_1",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.757Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 190,
     "model": "admin.logentry"
 },
 {
-    "pk": 191,
     "fields": {
-        "object_id": "15",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.759Z",
+        "object_id": "15",
         "object_repr": "\u0412\u044c\u0435\u0442\u043d\u0430\u043c_\u0433\u043e\u0440_2",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.759Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 191,
     "model": "admin.logentry"
 },
 {
-    "pk": 192,
     "fields": {
-        "object_id": "14",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.761Z",
+        "object_id": "14",
         "object_repr": "\u0412\u044c\u0435\u0442\u043d\u0430\u043c_\u0433\u043e\u0440_1",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.761Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 192,
     "model": "admin.logentry"
 },
 {
-    "pk": 193,
     "fields": {
-        "object_id": "13",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.764Z",
+        "object_id": "13",
         "object_repr": "\u041d\u044f\u0447\u0430\u043d\u0433",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.764Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 193,
     "model": "admin.logentry"
 },
 {
-    "pk": 194,
     "fields": {
-        "object_id": "12",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.765Z",
+        "object_id": "12",
         "object_repr": "\u0425\u0430\u0448\u0438\u043c\u0438\u043d",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.765Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 194,
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.768Z",
+        "object_id": "11",
+        "object_repr": "\u0428\u0432\u0435\u0446_\u0433\u043e\u0440_2",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 195,
-    "fields": {
-        "object_id": "11",
-        "action_flag": 3,
-        "object_repr": "\u0428\u0432\u0435\u0446_\u0433\u043e\u0440_2",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.768Z"
-    },
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.770Z",
+        "object_id": "10",
+        "object_repr": "\u0428\u0432\u0435\u0446_\u0433\u043e\u0440_2",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
+    },
     "pk": 196,
-    "fields": {
-        "object_id": "10",
-        "action_flag": 3,
-        "object_repr": "\u0428\u0432\u0435\u0446_\u0433\u043e\u0440_2",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.770Z"
-    },
     "model": "admin.logentry"
 },
 {
-    "pk": 197,
     "fields": {
-        "object_id": "9",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.772Z",
+        "object_id": "9",
         "object_repr": "\u0428\u0432\u0435\u0446_\u0433\u043e\u0440_1",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.772Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 197,
     "model": "admin.logentry"
 },
 {
-    "pk": 198,
     "fields": {
-        "object_id": "8",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.775Z",
+        "object_id": "8",
         "object_repr": "\u041a\u0438\u0442_\u0433\u043e\u0440_3",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.775Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 198,
     "model": "admin.logentry"
 },
 {
-    "pk": 199,
     "fields": {
-        "object_id": "7",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.777Z",
+        "object_id": "7",
         "object_repr": "\u041a\u0438\u0442_\u0433\u043e\u0440_2",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.777Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 199,
     "model": "admin.logentry"
 },
 {
-    "pk": 200,
     "fields": {
-        "object_id": "6",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.780Z",
+        "object_id": "6",
         "object_repr": "\u041a\u0438\u0442_\u0433\u043e\u0440_1",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.780Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 200,
     "model": "admin.logentry"
 },
 {
-    "pk": 201,
     "fields": {
-        "object_id": "5",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.781Z",
+        "object_id": "5",
         "object_repr": "\u0428\u0430\u043e\u043b\u0438\u043d\u044c",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.781Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 201,
     "model": "admin.logentry"
 },
 {
-    "pk": 202,
     "fields": {
-        "object_id": "4",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.784Z",
+        "object_id": "4",
         "object_repr": "\u041f\u0438\u0442\u0435\u0440",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.784Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 202,
     "model": "admin.logentry"
 },
 {
-    "pk": 203,
     "fields": {
-        "object_id": "3",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.786Z",
+        "object_id": "3",
         "object_repr": "\u0415\u041a\u0411",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.786Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 203,
     "model": "admin.logentry"
 },
 {
-    "pk": 204,
     "fields": {
-        "object_id": "2",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:18:38.788Z",
+        "object_id": "2",
         "object_repr": "\u041c\u0410\u0441\u043a\u0432\u0430",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:18:38.788Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 204,
     "model": "admin.logentry"
 },
 {
-    "pk": 205,
     "fields": {
-        "object_id": "13",
         "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:19:00.084Z",
+        "object_id": "13",
         "object_repr": "\u041a\u0430\u043d\u0430\u0434\u0430",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:19:00.084Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
     },
+    "pk": 205,
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:19:00.086Z",
+        "object_id": "12",
+        "object_repr": "\u0421\u0428\u0410",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
+    },
     "pk": 206,
-    "fields": {
-        "object_id": "12",
-        "action_flag": 3,
-        "object_repr": "\u0421\u0428\u0410",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:19:00.086Z"
-    },
     "model": "admin.logentry"
 },
 {
-    "pk": 207,
     "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:19:00.088Z",
         "object_id": "11",
-        "action_flag": 3,
         "object_repr": "\u0427\u0435\u0445\u0438\u044f",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:19:00.088Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
     },
+    "pk": 207,
     "model": "admin.logentry"
 },
 {
-    "pk": 208,
     "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:19:00.089Z",
         "object_id": "10",
-        "action_flag": 3,
         "object_repr": "\u0418\u043d\u0434\u0438\u044f",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:19:00.089Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
     },
+    "pk": 208,
     "model": "admin.logentry"
 },
 {
-    "pk": 209,
     "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:19:00.091Z",
         "object_id": "9",
-        "action_flag": 3,
         "object_repr": "\u0422\u0443\u043d\u0438\u0441",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:19:00.091Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
     },
+    "pk": 209,
     "model": "admin.logentry"
 },
 {
-    "pk": 210,
     "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:19:00.092Z",
         "object_id": "8",
-        "action_flag": 3,
         "object_repr": "\u041a\u0438\u043f\u0440",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:19:00.092Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
     },
+    "pk": 210,
     "model": "admin.logentry"
 },
 {
-    "pk": 211,
     "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:19:00.095Z",
         "object_id": "7",
-        "action_flag": 3,
         "object_repr": "\u0422\u0430\u0439\u043b\u0430\u043d\u0434",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:19:00.095Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
     },
+    "pk": 211,
     "model": "admin.logentry"
 },
 {
-    "pk": 212,
     "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:19:00.096Z",
         "object_id": "6",
-        "action_flag": 3,
         "object_repr": "\u041c\u0430\u043b\u0430\u0437\u0438\u044f",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:19:00.096Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
     },
+    "pk": 212,
     "model": "admin.logentry"
 },
 {
-    "pk": 213,
     "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:19:00.098Z",
         "object_id": "5",
-        "action_flag": 3,
         "object_repr": "\u0412\u044c\u0435\u0442\u043d\u0430\u043c",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:19:00.098Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
     },
+    "pk": 213,
     "model": "admin.logentry"
 },
 {
-    "pk": 214,
     "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:19:00.100Z",
         "object_id": "4",
-        "action_flag": 3,
         "object_repr": "\u0428\u0432\u0435\u0446\u0438\u044f",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:19:00.100Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
     },
+    "pk": 214,
     "model": "admin.logentry"
 },
 {
-    "pk": 215,
     "fields": {
+        "action_flag": 3,
+        "change_message": "",
+        "action_time": "2017-02-22T14:19:00.101Z",
         "object_id": "3",
-        "action_flag": 3,
         "object_repr": "\u041a\u0438\u0442\u0430\u0439",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:19:00.101Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
     },
+    "pk": 215,
     "model": "admin.logentry"
 },
 {
-    "pk": 216,
     "fields": {
-        "object_id": "2",
         "action_flag": 3,
-        "object_repr": "\u0420\u043e\u0441\u0441\u0438\u044f",
-        "content_type": 18,
         "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:19:00.104Z"
+        "action_time": "2017-02-22T14:19:00.104Z",
+        "object_id": "2",
+        "object_repr": "\u0420\u043e\u0441\u0441\u0438\u044f",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
     },
+    "pk": 216,
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:22:15.724Z",
+        "object_id": "14",
+        "object_repr": "\u0420\u043e\u0441\u0441\u0438\u044f",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
+    },
     "pk": 217,
-    "fields": {
-        "object_id": "14",
-        "action_flag": 1,
-        "object_repr": "\u0420\u043e\u0441\u0441\u0438\u044f",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:22:15.724Z"
-    },
     "model": "admin.logentry"
 },
 {
-    "pk": 218,
     "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:22:22.670Z",
         "object_id": "35",
-        "action_flag": 1,
         "object_repr": "\u041c\u043e\u0441\u043a\u0432\u0430",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:22:22.670Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 218,
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:33:26.311Z",
+        "object_id": "12",
+        "object_repr": "\u0428\u0435\u0440\u0435\u043c\u0435\u0442\u044c\u0435\u0432\u043e",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
+    },
     "pk": 219,
-    "fields": {
-        "object_id": "12",
-        "action_flag": 1,
-        "object_repr": "\u0428\u0435\u0440\u0435\u043c\u0435\u0442\u044c\u0435\u0432\u043e",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:33:26.311Z"
-    },
     "model": "admin.logentry"
 },
 {
-    "pk": 220,
     "fields": {
-        "object_id": "12",
         "action_flag": 2,
-        "object_repr": "\u0428\u0435\u0440\u0435\u043c\u0435\u0442\u044c\u0435\u0432\u043e",
-        "content_type": 16,
         "change_message": "No fields changed.",
-        "user": 1,
-        "action_time": "2017-02-22T14:33:34.327Z"
+        "action_time": "2017-02-22T14:33:34.327Z",
+        "object_id": "12",
+        "object_repr": "\u0428\u0435\u0440\u0435\u043c\u0435\u0442\u044c\u0435\u0432\u043e",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 220,
     "model": "admin.logentry"
 },
 {
-    "pk": 221,
     "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:34:22.813Z",
         "object_id": "13",
-        "action_flag": 1,
         "object_repr": "\u0414\u043e\u043c\u043e\u0434\u0435\u0434\u043e\u0432\u043e",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:34:22.813Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 221,
     "model": "admin.logentry"
 },
 {
-    "pk": 222,
     "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:34:33.335Z",
         "object_id": "14",
-        "action_flag": 1,
         "object_repr": "\u0412\u043d\u0443\u043a\u043e\u0432\u043e",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:34:33.335Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 222,
     "model": "admin.logentry"
 },
 {
-    "pk": 223,
     "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:35:18.685Z",
         "object_id": "36",
-        "action_flag": 1,
         "object_repr": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:35:18.685Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 223,
     "model": "admin.logentry"
 },
 {
-    "pk": 224,
     "fields": {
-        "object_id": "15",
         "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:35:30.661Z",
+        "object_id": "15",
         "object_repr": "\u041f\u0443\u043b\u043a\u043e\u0432\u043e",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:35:30.661Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 224,
     "model": "admin.logentry"
 },
 {
-    "pk": 225,
     "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:36:32.631Z",
         "object_id": "37",
-        "action_flag": 1,
         "object_repr": "\u0410\u0440\u0445\u0430\u043d\u0433\u0435\u043b\u044c\u0441\u043a",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:36:32.631Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 225,
     "model": "admin.logentry"
 },
 {
-    "pk": 226,
     "fields": {
-        "object_id": "16",
         "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:36:38.589Z",
+        "object_id": "16",
         "object_repr": "\u0412\u0430\u0441\u044c\u043a\u043e\u0432\u043e",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:36:38.589Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 226,
     "model": "admin.logentry"
 },
 {
-    "pk": 227,
     "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:36:46.430Z",
         "object_id": "17",
-        "action_flag": 1,
         "object_repr": "\u0422\u0430\u043b\u0430\u0433\u0438",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:36:46.430Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 227,
     "model": "admin.logentry"
 },
 {
-    "pk": 228,
     "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:37:15.322Z",
         "object_id": "38",
-        "action_flag": 1,
         "object_repr": "\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:37:15.322Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 228,
     "model": "admin.logentry"
 },
 {
-    "pk": 229,
     "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:37:20.679Z",
         "object_id": "18",
-        "action_flag": 1,
         "object_repr": "\u041a\u043e\u043b\u044c\u0446\u043e\u0432\u043e",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:37:20.679Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 229,
     "model": "admin.logentry"
 },
 {
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:37:27.709Z",
+        "object_id": "19",
+        "object_repr": "\u0423\u043a\u0442\u0443\u0441",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
+    },
     "pk": 230,
-    "fields": {
-        "object_id": "19",
-        "action_flag": 1,
-        "object_repr": "\u0423\u043a\u0442\u0443\u0441",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:37:27.709Z"
-    },
     "model": "admin.logentry"
 },
 {
-    "pk": 231,
     "fields": {
-        "object_id": "19",
         "action_flag": 2,
-        "object_repr": "\u0423\u043a\u0442\u0443\u0441",
-        "content_type": 16,
         "change_message": "Changed international.",
-        "user": 1,
-        "action_time": "2017-02-22T14:37:32.668Z"
+        "action_time": "2017-02-22T14:37:32.668Z",
+        "object_id": "19",
+        "object_repr": "\u0423\u043a\u0442\u0443\u0441",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 231,
     "model": "admin.logentry"
 },
 {
-    "pk": 232,
     "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:38:06.506Z",
         "object_id": "15",
-        "action_flag": 1,
         "object_repr": "\u041e\u0410\u042d",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:38:06.506Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
     },
+    "pk": 232,
     "model": "admin.logentry"
 },
 {
-    "pk": 233,
     "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:38:12.306Z",
         "object_id": "39",
-        "action_flag": 1,
         "object_repr": "\u0410\u0431\u0443-\u0414\u0430\u0431\u0438",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:38:12.306Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 233,
     "model": "admin.logentry"
 },
 {
-    "pk": 234,
     "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:38:27.463Z",
         "object_id": "20",
-        "action_flag": 1,
         "object_repr": "\u0410\u0431\u0443-\u0414\u0430\u0431\u0438",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:38:27.463Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 234,
     "model": "admin.logentry"
 },
 {
-    "pk": 235,
     "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:38:39.143Z",
         "object_id": "21",
-        "action_flag": 1,
         "object_repr": "\u0410\u043b\u044c-\u0411\u0430\u0442\u0438\u043d",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:38:39.143Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 235,
     "model": "admin.logentry"
 },
 {
-    "pk": 236,
     "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:38:49.844Z",
         "object_id": "22",
-        "action_flag": 1,
         "object_repr": "\u042f\u0441-\u0410\u043b\u0435\u043d\u0434",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:38:49.844Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 236,
     "model": "admin.logentry"
 },
 {
-    "pk": 237,
     "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:38:57.811Z",
         "object_id": "23",
-        "action_flag": 1,
         "object_repr": "\u0410\u043b\u044c-\u0414\u0445\u0430\u0444\u0440",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:38:57.811Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 237,
     "model": "admin.logentry"
 },
 {
-    "pk": 238,
     "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:39:14.755Z",
         "object_id": "40",
-        "action_flag": 1,
         "object_repr": "\u0414\u0443\u0431\u0430\u0439",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:39:14.755Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 238,
     "model": "admin.logentry"
 },
 {
-    "pk": 239,
     "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:39:24.166Z",
         "object_id": "24",
-        "action_flag": 1,
         "object_repr": "\u0414\u0443\u0431\u0430\u0439",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:39:24.166Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 239,
     "model": "admin.logentry"
 },
 {
-    "pk": 240,
     "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:39:35.281Z",
         "object_id": "25",
-        "action_flag": 1,
         "object_repr": "\u0414\u0443\u0431\u0430\u0439-\u041a\u0440\u0438\u043a",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:39:35.281Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 240,
     "model": "admin.logentry"
 },
 {
-    "pk": 241,
     "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:39:49.227Z",
         "object_id": "26",
-        "action_flag": 1,
         "object_repr": "\u0410\u043b\u044c-\u041c\u0430\u043a\u0442\u0443\u043c",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:39:49.227Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 241,
     "model": "admin.logentry"
 },
 {
-    "pk": 242,
     "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:39:56.566Z",
         "object_id": "27",
-        "action_flag": 1,
         "object_repr": "\u0414\u0436\u0435\u0431\u0435\u043b\u044c-\u0410\u043b\u0438",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:39:56.566Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 242,
     "model": "admin.logentry"
 },
 {
-    "pk": 243,
     "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:41:15.129Z",
         "object_id": "16",
-        "action_flag": 1,
         "object_repr": "\u0421\u0428\u0410",
-        "content_type": 18,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:41:15.129Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "country"
+        ]
     },
+    "pk": 243,
     "model": "admin.logentry"
 },
 {
-    "pk": 244,
     "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:41:23.907Z",
         "object_id": "41",
-        "action_flag": 1,
         "object_repr": "\u0410\u0442\u043b\u0430\u043d\u0442\u0430",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:41:23.907Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 244,
     "model": "admin.logentry"
 },
 {
-    "pk": 245,
     "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:41:31.980Z",
         "object_id": "28",
-        "action_flag": 1,
         "object_repr": "\u0425\u0430\u0440\u0442\u0441\u0444\u0438\u043b\u0434-\u0414\u0436\u0435\u043a\u0441\u043e\u043d",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:41:31.980Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 245,
     "model": "admin.logentry"
 },
 {
-    "pk": 246,
     "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:41:43.872Z",
         "object_id": "29",
-        "action_flag": 1,
         "object_repr": "\u0414\u0435\u041a\u0430\u043b\u0431-\u041f\u0438\u0447\u0442\u0440\u0438",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:41:43.872Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 246,
     "model": "admin.logentry"
 },
 {
-    "pk": 247,
     "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:41:52.768Z",
         "object_id": "30",
-        "action_flag": 1,
         "object_repr": "\u0424\u0443\u043b\u0442\u043e\u043d \u041a\u0430\u0443\u043d\u0442\u0438",
-        "content_type": 16,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:41:52.768Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 247,
     "model": "admin.logentry"
 },
 {
-    "pk": 248,
     "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T14:42:40.804Z",
         "object_id": "42",
-        "action_flag": 1,
         "object_repr": "\u0411\u043e\u0441\u0442\u043e\u043d",
-        "content_type": 17,
-        "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:42:40.804Z"
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "city"
+        ]
     },
+    "pk": 248,
     "model": "admin.logentry"
 },
 {
-    "pk": 249,
     "fields": {
-        "object_id": "31",
         "action_flag": 1,
-        "object_repr": "\u041b\u043e\u0433\u0430\u043d",
-        "content_type": 16,
         "change_message": "",
-        "user": 1,
-        "action_time": "2017-02-22T14:42:51.611Z"
+        "action_time": "2017-02-22T14:42:51.611Z",
+        "object_id": "31",
+        "object_repr": "\u041b\u043e\u0433\u0430\u043d",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "airport"
+        ]
     },
+    "pk": 249,
+    "model": "admin.logentry"
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T15:12:35.509Z",
+        "object_id": "11",
+        "object_repr": "1",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "route"
+        ]
+    },
+    "pk": 250,
+    "model": "admin.logentry"
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T15:12:48.466Z",
+        "object_id": "12",
+        "object_repr": "2",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "route"
+        ]
+    },
+    "pk": 251,
+    "model": "admin.logentry"
+},
+{
+    "fields": {
+        "action_flag": 1,
+        "change_message": "",
+        "action_time": "2017-02-22T15:13:02.541Z",
+        "object_id": "13",
+        "object_repr": "3",
+        "user": [
+            "xb"
+        ],
+        "content_type": [
+            "myfly",
+            "route"
+        ]
+    },
+    "pk": 252,
     "model": "admin.logentry"
 }
 ]
