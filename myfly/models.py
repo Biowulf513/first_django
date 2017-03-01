@@ -80,7 +80,7 @@ class Airport(models.Model):
     international = models.BooleanField('Интернационален', default=True,)
 
     def __str__(self):
-        return (str(self.name) + ' ✈ '+ str(self.city) + ' | '+ 
+        return (str(self.name) + ' | '+ str(self.city) + ' | '+ 
         		str(self.city.country))
 
 
