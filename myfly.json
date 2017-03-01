@@ -1,166 +1,62 @@
 [
 {
-    "model": "contenttypes.contenttype",
-    "pk": 1,
-    "fields": {
-        "model": "logentry",
-        "app_label": "admin"
-    }
-},
-{
-    "model": "contenttypes.contenttype",
-    "pk": 2,
-    "fields": {
-        "model": "permission",
-        "app_label": "auth"
-    }
-},
-{
-    "model": "contenttypes.contenttype",
-    "pk": 3,
-    "fields": {
-        "model": "group",
-        "app_label": "auth"
-    }
-},
-{
-    "model": "contenttypes.contenttype",
-    "pk": 4,
-    "fields": {
-        "model": "user",
-        "app_label": "auth"
-    }
-},
-{
-    "model": "contenttypes.contenttype",
-    "pk": 5,
-    "fields": {
-        "model": "contenttype",
-        "app_label": "contenttypes"
-    }
-},
-{
-    "model": "contenttypes.contenttype",
-    "pk": 6,
-    "fields": {
-        "model": "session",
-        "app_label": "sessions"
-    }
-},
-{
-    "model": "contenttypes.contenttype",
-    "pk": 7,
-    "fields": {
-        "model": "planetype",
-        "app_label": "myfly"
-    }
-},
-{
-    "model": "contenttypes.contenttype",
-    "pk": 8,
-    "fields": {
-        "model": "plane",
-        "app_label": "myfly"
-    }
-},
-{
-    "model": "contenttypes.contenttype",
-    "pk": 9,
-    "fields": {
-        "model": "route",
-        "app_label": "myfly"
-    }
-},
-{
-    "model": "contenttypes.contenttype",
-    "pk": 10,
-    "fields": {
-        "model": "airport",
-        "app_label": "myfly"
-    }
-},
-{
-    "model": "contenttypes.contenttype",
-    "pk": 11,
-    "fields": {
-        "model": "city",
-        "app_label": "myfly"
-    }
-},
-{
-    "model": "contenttypes.contenttype",
-    "pk": 12,
-    "fields": {
-        "model": "country",
-        "app_label": "myfly"
-    }
-},
-{
-    "model": "sessions.session",
-    "pk": "vd1hp3iawedxor3x1ayecv0gcwy4ywim",
-    "fields": {
-        "session_data": "MmJmZDRiNDAxNjgwMzUyMWJkMjM0NTA5NWRlYWZkZmRiMGVlZDBiNzp7Il9hdXRoX3VzZXJfaGFzaCI6IjQxMDFkYTFkMzZiNjY1NWI2N2U0YTY0YjRiZmMyNmNjYjY2NDA1NDAiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
-        "expire_date": "2017-03-14T09:23:05.132Z"
-    }
-},
-{
     "model": "myfly.planetype",
     "pk": 1,
     "fields": {
-        "name": "Boeing 777",
         "seat": 300,
         "style": 2,
-        "manufacture": "2016-08-01"
+        "manufacture": "2016-08-01",
+        "name": "Boeing 777"
     }
 },
 {
     "model": "myfly.planetype",
     "pk": 2,
     "fields": {
-        "name": "Airbus A300",
         "seat": 250,
         "style": 1,
-        "manufacture": "2016-11-01"
+        "manufacture": "2016-11-01",
+        "name": "Airbus A300"
     }
 },
 {
     "model": "myfly.planetype",
     "pk": 3,
     "fields": {
-        "name": "\u041a\u0443\u043a\u0443\u0440\u0443\u0437\u043d\u0438\u043a",
         "seat": 5,
         "style": 2,
-        "manufacture": "2016-04-03"
+        "manufacture": "2016-04-03",
+        "name": "\u041a\u0443\u043a\u0443\u0440\u0443\u0437\u043d\u0438\u043a"
     }
 },
 {
     "model": "myfly.planetype",
     "pk": 4,
     "fields": {
-        "name": "myFlyer",
         "seat": 500,
         "style": 3,
-        "manufacture": "2017-01-01"
+        "manufacture": "2017-01-01",
+        "name": "myFlyer"
     }
 },
 {
     "model": "myfly.planetype",
     "pk": 5,
     "fields": {
-        "name": "BigFly 500",
         "seat": 500,
         "style": 1,
-        "manufacture": "2016-11-14"
+        "manufacture": "2016-11-14",
+        "name": "BigFly 500"
     }
 },
 {
     "model": "myfly.planetype",
     "pk": 6,
     "fields": {
-        "name": "\u0411\u043e\u043c\u0431\u0430\u0440\u0434\u0438\u0440\u043e\u0432\u0449\u0438\u043a X2000",
         "seat": 500,
         "style": 4,
-        "manufacture": "2016-11-14"
+        "manufacture": "2016-11-14",
+        "name": "\u0411\u043e\u043c\u0431\u0430\u0440\u0434\u0438\u0440\u043e\u0432\u0449\u0438\u043a X2000"
     }
 },
 {
@@ -168,10 +64,10 @@
     "pk": 1,
     "fields": {
         "plane_type": 4,
-        "last_refit": "2017-01-01",
         "reg_numb": "225sdf",
+        "purchase": "2016-11-02",
         "fly_col": 250,
-        "purchase": "2016-11-02"
+        "last_refit": "2017-01-01"
     }
 },
 {
@@ -179,10 +75,10 @@
     "pk": 2,
     "fields": {
         "plane_type": 3,
-        "last_refit": "2017-01-31",
         "reg_numb": "655465",
+        "purchase": "2016-11-15",
         "fly_col": 658,
-        "purchase": "2016-11-15"
+        "last_refit": "2017-01-31"
     }
 },
 {
@@ -190,10 +86,10 @@
     "pk": 3,
     "fields": {
         "plane_type": 2,
-        "last_refit": "2017-01-31",
         "reg_numb": "457208",
+        "purchase": "2017-01-31",
         "fly_col": 2,
-        "purchase": "2017-01-31"
+        "last_refit": "2017-01-31"
     }
 },
 {
@@ -201,10 +97,10 @@
     "pk": 4,
     "fields": {
         "plane_type": 3,
-        "last_refit": "2017-01-16",
         "reg_numb": "452127",
+        "purchase": "2016-12-05",
         "fly_col": 577,
-        "purchase": "2016-12-05"
+        "last_refit": "2017-01-16"
     }
 },
 {
@@ -212,10 +108,10 @@
     "pk": 5,
     "fields": {
         "plane_type": 1,
-        "last_refit": "2017-01-16",
         "reg_numb": "464120",
+        "purchase": "2016-11-08",
         "fly_col": 520,
-        "purchase": "2016-11-08"
+        "last_refit": "2017-01-16"
     }
 },
 {
@@ -223,10 +119,10 @@
     "pk": 6,
     "fields": {
         "plane_type": 2,
-        "last_refit": "2016-12-04",
         "reg_numb": "763142",
+        "purchase": "2016-12-11",
         "fly_col": 453,
-        "purchase": "2016-12-11"
+        "last_refit": "2016-12-04"
     }
 },
 {
@@ -234,10 +130,10 @@
     "pk": 7,
     "fields": {
         "plane_type": 5,
-        "last_refit": null,
         "reg_numb": "127567",
+        "purchase": "2016-01-16",
         "fly_col": null,
-        "purchase": "2016-01-16"
+        "last_refit": null
     }
 },
 {
@@ -245,10 +141,10 @@
     "pk": 8,
     "fields": {
         "plane_type": 3,
-        "last_refit": "2016-12-11",
         "reg_numb": "378527",
+        "purchase": "2016-12-19",
         "fly_col": 25,
-        "purchase": "2016-12-19"
+        "last_refit": "2016-12-11"
     }
 },
 {
@@ -256,10 +152,10 @@
     "pk": 9,
     "fields": {
         "plane_type": 4,
-        "last_refit": null,
         "reg_numb": "1997",
+        "purchase": "1992-10-25",
         "fly_col": null,
-        "purchase": "1992-10-25"
+        "last_refit": null
     }
 },
 {
@@ -267,354 +163,354 @@
     "pk": 10,
     "fields": {
         "plane_type": 5,
-        "last_refit": null,
         "reg_numb": "101245",
+        "purchase": "1993-10-10",
         "fly_col": 2557,
-        "purchase": "1993-10-10"
+        "last_refit": null
     }
 },
 {
     "model": "myfly.route",
     "pk": 11,
     "fields": {
+        "number": "1",
         "airport_in": 22,
-        "airport_out": 12,
+        "name": "1",
         "plane": 1,
         "time": "2017-02-25T15:12:17Z",
-        "name": "1",
-        "number": "1"
+        "airport_out": 12
     }
 },
 {
     "model": "myfly.route",
     "pk": 12,
     "fields": {
+        "number": "2",
         "airport_in": 25,
-        "airport_out": 13,
+        "name": "2",
         "plane": 2,
         "time": "2017-02-28T15:12:31Z",
-        "name": "2",
-        "number": "2"
+        "airport_out": 13
     }
 },
 {
     "model": "myfly.route",
     "pk": 13,
     "fields": {
+        "number": "3",
         "airport_in": 12,
-        "airport_out": 24,
+        "name": "3",
         "plane": 3,
         "time": "2017-02-23T15:12:45Z",
-        "name": "3",
-        "number": "3"
+        "airport_out": 24
     }
 },
 {
     "model": "myfly.route",
     "pk": 14,
     "fields": {
+        "number": "4",
         "airport_in": 31,
-        "airport_out": 12,
+        "name": "4",
         "plane": 6,
         "time": "2017-03-31T09:23:30Z",
-        "name": "4",
-        "number": "4"
+        "airport_out": 12
     }
 },
 {
     "model": "myfly.route",
     "pk": 15,
     "fields": {
+        "number": "5",
         "airport_in": 25,
-        "airport_out": 15,
+        "name": "5",
         "plane": 1,
         "time": "2017-03-10T09:23:49Z",
-        "name": "5",
-        "number": "5"
+        "airport_out": 15
     }
 },
 {
     "model": "myfly.route",
     "pk": 16,
     "fields": {
+        "number": "6",
         "airport_in": 14,
-        "airport_out": 25,
+        "name": "6",
         "plane": 7,
         "time": "2017-04-14T09:24:05Z",
-        "name": "6",
-        "number": "6"
+        "airport_out": 25
     }
 },
 {
     "model": "myfly.route",
     "pk": 17,
     "fields": {
+        "number": "7",
         "airport_in": 29,
-        "airport_out": 18,
+        "name": "7",
         "plane": 5,
         "time": "2017-03-17T09:24:23Z",
-        "name": "7",
-        "number": "7"
+        "airport_out": 18
     }
 },
 {
     "model": "myfly.route",
     "pk": 18,
     "fields": {
+        "number": "8",
         "airport_in": 14,
-        "airport_out": 28,
+        "name": "8",
         "plane": 10,
         "time": "2017-04-19T09:24:44Z",
-        "name": "8",
-        "number": "8"
+        "airport_out": 28
     }
 },
 {
     "model": "myfly.route",
     "pk": 19,
     "fields": {
+        "number": "9",
         "airport_in": 27,
-        "airport_out": 13,
+        "name": "9",
         "plane": 6,
         "time": "2017-05-18T09:25:00Z",
-        "name": "9",
-        "number": "9"
+        "airport_out": 13
     }
 },
 {
     "model": "myfly.route",
     "pk": 20,
     "fields": {
+        "number": "10",
         "airport_in": 14,
-        "airport_out": 21,
+        "name": "10",
         "plane": 4,
         "time": "2017-05-20T09:26:16Z",
-        "name": "10",
-        "number": "10"
+        "airport_out": 21
     }
 },
 {
     "model": "myfly.route",
     "pk": 21,
     "fields": {
+        "number": "11",
         "airport_in": 15,
-        "airport_out": 28,
+        "name": "11",
         "plane": 4,
         "time": "2017-05-26T09:26:32Z",
-        "name": "11",
-        "number": "11"
+        "airport_out": 28
     }
 },
 {
     "model": "myfly.route",
     "pk": 22,
     "fields": {
+        "number": "12",
         "airport_in": 12,
-        "airport_out": 28,
+        "name": "12",
         "plane": 7,
         "time": "2017-06-23T09:26:55Z",
-        "name": "12",
-        "number": "12"
+        "airport_out": 28
     }
 },
 {
     "model": "myfly.airport",
     "pk": 12,
     "fields": {
-        "code": "",
         "city": 35,
-        "name": "\u0428\u0435\u0440\u0435\u043c\u0435\u0442\u044c\u0435\u0432\u043e",
-        "international": true
+        "international": true,
+        "code": "",
+        "name": "\u0428\u0435\u0440\u0435\u043c\u0435\u0442\u044c\u0435\u0432\u043e"
     }
 },
 {
     "model": "myfly.airport",
     "pk": 13,
     "fields": {
-        "code": "",
         "city": 35,
-        "name": "\u0414\u043e\u043c\u043e\u0434\u0435\u0434\u043e\u0432\u043e",
-        "international": true
+        "international": true,
+        "code": "",
+        "name": "\u0414\u043e\u043c\u043e\u0434\u0435\u0434\u043e\u0432\u043e"
     }
 },
 {
     "model": "myfly.airport",
     "pk": 14,
     "fields": {
-        "code": "",
         "city": 35,
-        "name": "\u0412\u043d\u0443\u043a\u043e\u0432\u043e",
-        "international": true
+        "international": true,
+        "code": "",
+        "name": "\u0412\u043d\u0443\u043a\u043e\u0432\u043e"
     }
 },
 {
     "model": "myfly.airport",
     "pk": 15,
     "fields": {
-        "code": "",
         "city": 36,
-        "name": "\u041f\u0443\u043b\u043a\u043e\u0432\u043e",
-        "international": true
+        "international": true,
+        "code": "",
+        "name": "\u041f\u0443\u043b\u043a\u043e\u0432\u043e"
     }
 },
 {
     "model": "myfly.airport",
     "pk": 16,
     "fields": {
-        "code": "",
         "city": 37,
-        "name": "\u0412\u0430\u0441\u044c\u043a\u043e\u0432\u043e",
-        "international": true
+        "international": true,
+        "code": "",
+        "name": "\u0412\u0430\u0441\u044c\u043a\u043e\u0432\u043e"
     }
 },
 {
     "model": "myfly.airport",
     "pk": 17,
     "fields": {
-        "code": "",
         "city": 37,
-        "name": "\u0422\u0430\u043b\u0430\u0433\u0438",
-        "international": true
+        "international": true,
+        "code": "",
+        "name": "\u0422\u0430\u043b\u0430\u0433\u0438"
     }
 },
 {
     "model": "myfly.airport",
     "pk": 18,
     "fields": {
-        "code": "",
         "city": 38,
-        "name": "\u041a\u043e\u043b\u044c\u0446\u043e\u0432\u043e",
-        "international": true
+        "international": true,
+        "code": "",
+        "name": "\u041a\u043e\u043b\u044c\u0446\u043e\u0432\u043e"
     }
 },
 {
     "model": "myfly.airport",
     "pk": 19,
     "fields": {
-        "code": "",
         "city": 38,
-        "name": "\u0423\u043a\u0442\u0443\u0441",
-        "international": false
+        "international": false,
+        "code": "",
+        "name": "\u0423\u043a\u0442\u0443\u0441"
     }
 },
 {
     "model": "myfly.airport",
     "pk": 20,
     "fields": {
-        "code": "",
         "city": 39,
-        "name": "\u0410\u0431\u0443-\u0414\u0430\u0431\u0438",
-        "international": true
+        "international": true,
+        "code": "",
+        "name": "\u0410\u0431\u0443-\u0414\u0430\u0431\u0438"
     }
 },
 {
     "model": "myfly.airport",
     "pk": 21,
     "fields": {
-        "code": "",
         "city": 39,
-        "name": "\u0410\u043b\u044c-\u0411\u0430\u0442\u0438\u043d",
-        "international": true
+        "international": true,
+        "code": "",
+        "name": "\u0410\u043b\u044c-\u0411\u0430\u0442\u0438\u043d"
     }
 },
 {
     "model": "myfly.airport",
     "pk": 22,
     "fields": {
-        "code": "",
         "city": 39,
-        "name": "\u042f\u0441-\u0410\u043b\u0435\u043d\u0434",
-        "international": true
+        "international": true,
+        "code": "",
+        "name": "\u042f\u0441-\u0410\u043b\u0435\u043d\u0434"
     }
 },
 {
     "model": "myfly.airport",
     "pk": 23,
     "fields": {
-        "code": "",
         "city": 39,
-        "name": "\u0410\u043b\u044c-\u0414\u0445\u0430\u0444\u0440",
-        "international": true
+        "international": true,
+        "code": "",
+        "name": "\u0410\u043b\u044c-\u0414\u0445\u0430\u0444\u0440"
     }
 },
 {
     "model": "myfly.airport",
     "pk": 24,
     "fields": {
-        "code": "",
         "city": 40,
-        "name": "\u0414\u0443\u0431\u0430\u0439",
-        "international": true
+        "international": true,
+        "code": "",
+        "name": "\u0414\u0443\u0431\u0430\u0439"
     }
 },
 {
     "model": "myfly.airport",
     "pk": 25,
     "fields": {
-        "code": "",
         "city": 40,
-        "name": "\u0414\u0443\u0431\u0430\u0439-\u041a\u0440\u0438\u043a",
-        "international": true
+        "international": true,
+        "code": "",
+        "name": "\u0414\u0443\u0431\u0430\u0439-\u041a\u0440\u0438\u043a"
     }
 },
 {
     "model": "myfly.airport",
     "pk": 26,
     "fields": {
-        "code": "",
         "city": 40,
-        "name": "\u0410\u043b\u044c-\u041c\u0430\u043a\u0442\u0443\u043c",
-        "international": true
+        "international": true,
+        "code": "",
+        "name": "\u0410\u043b\u044c-\u041c\u0430\u043a\u0442\u0443\u043c"
     }
 },
 {
     "model": "myfly.airport",
     "pk": 27,
     "fields": {
-        "code": "",
         "city": 40,
-        "name": "\u0414\u0436\u0435\u0431\u0435\u043b\u044c-\u0410\u043b\u0438",
-        "international": true
+        "international": true,
+        "code": "",
+        "name": "\u0414\u0436\u0435\u0431\u0435\u043b\u044c-\u0410\u043b\u0438"
     }
 },
 {
     "model": "myfly.airport",
     "pk": 28,
     "fields": {
-        "code": "",
         "city": 41,
-        "name": "\u0425\u0430\u0440\u0442\u0441\u0444\u0438\u043b\u0434-\u0414\u0436\u0435\u043a\u0441\u043e\u043d",
-        "international": true
+        "international": true,
+        "code": "",
+        "name": "\u0425\u0430\u0440\u0442\u0441\u0444\u0438\u043b\u0434-\u0414\u0436\u0435\u043a\u0441\u043e\u043d"
     }
 },
 {
     "model": "myfly.airport",
     "pk": 29,
     "fields": {
-        "code": "",
         "city": 41,
-        "name": "\u0414\u0435\u041a\u0430\u043b\u0431-\u041f\u0438\u0447\u0442\u0440\u0438",
-        "international": true
+        "international": true,
+        "code": "",
+        "name": "\u0414\u0435\u041a\u0430\u043b\u0431-\u041f\u0438\u0447\u0442\u0440\u0438"
     }
 },
 {
     "model": "myfly.airport",
     "pk": 30,
     "fields": {
-        "code": "",
         "city": 41,
-        "name": "\u0424\u0443\u043b\u0442\u043e\u043d \u041a\u0430\u0443\u043d\u0442\u0438",
-        "international": true
+        "international": true,
+        "code": "",
+        "name": "\u0424\u0443\u043b\u0442\u043e\u043d \u041a\u0430\u0443\u043d\u0442\u0438"
     }
 },
 {
     "model": "myfly.airport",
     "pk": 31,
     "fields": {
-        "code": "",
         "city": 42,
-        "name": "\u041b\u043e\u0433\u0430\u043d",
-        "international": false
+        "international": false,
+        "code": "",
+        "name": "\u041b\u043e\u0433\u0430\u043d"
     }
 },
 {
@@ -700,465 +596,6 @@
     "pk": 16,
     "fields": {
         "name": "\u0421\u0428\u0410"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 1,
-    "fields": {
-        "content_type": 1,
-        "name": "Can add log entry",
-        "codename": "add_logentry"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 2,
-    "fields": {
-        "content_type": 1,
-        "name": "Can change log entry",
-        "codename": "change_logentry"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 3,
-    "fields": {
-        "content_type": 1,
-        "name": "Can delete log entry",
-        "codename": "delete_logentry"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 4,
-    "fields": {
-        "content_type": 2,
-        "name": "Can add permission",
-        "codename": "add_permission"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 5,
-    "fields": {
-        "content_type": 2,
-        "name": "Can change permission",
-        "codename": "change_permission"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 6,
-    "fields": {
-        "content_type": 2,
-        "name": "Can delete permission",
-        "codename": "delete_permission"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 7,
-    "fields": {
-        "content_type": 3,
-        "name": "Can add group",
-        "codename": "add_group"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 8,
-    "fields": {
-        "content_type": 3,
-        "name": "Can change group",
-        "codename": "change_group"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 9,
-    "fields": {
-        "content_type": 3,
-        "name": "Can delete group",
-        "codename": "delete_group"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 10,
-    "fields": {
-        "content_type": 4,
-        "name": "Can add user",
-        "codename": "add_user"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 11,
-    "fields": {
-        "content_type": 4,
-        "name": "Can change user",
-        "codename": "change_user"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 12,
-    "fields": {
-        "content_type": 4,
-        "name": "Can delete user",
-        "codename": "delete_user"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 13,
-    "fields": {
-        "content_type": 5,
-        "name": "Can add content type",
-        "codename": "add_contenttype"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 14,
-    "fields": {
-        "content_type": 5,
-        "name": "Can change content type",
-        "codename": "change_contenttype"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 15,
-    "fields": {
-        "content_type": 5,
-        "name": "Can delete content type",
-        "codename": "delete_contenttype"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 16,
-    "fields": {
-        "content_type": 6,
-        "name": "Can add session",
-        "codename": "add_session"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 17,
-    "fields": {
-        "content_type": 6,
-        "name": "Can change session",
-        "codename": "change_session"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 18,
-    "fields": {
-        "content_type": 6,
-        "name": "Can delete session",
-        "codename": "delete_session"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 19,
-    "fields": {
-        "content_type": 7,
-        "name": "Can add \u043c\u043e\u0434\u0435\u043b\u044c \u0441\u0430\u043c\u043e\u043b\u0451\u0442\u0430",
-        "codename": "add_planetype"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 20,
-    "fields": {
-        "content_type": 7,
-        "name": "Can change \u043c\u043e\u0434\u0435\u043b\u044c \u0441\u0430\u043c\u043e\u043b\u0451\u0442\u0430",
-        "codename": "change_planetype"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 21,
-    "fields": {
-        "content_type": 7,
-        "name": "Can delete \u043c\u043e\u0434\u0435\u043b\u044c \u0441\u0430\u043c\u043e\u043b\u0451\u0442\u0430",
-        "codename": "delete_planetype"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 22,
-    "fields": {
-        "content_type": 8,
-        "name": "Can add \u0441\u0430\u043c\u043e\u043b\u0451\u0442 \u0432 \u0430\u043d\u0433\u0430\u0440\u0435",
-        "codename": "add_plane"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 23,
-    "fields": {
-        "content_type": 8,
-        "name": "Can change \u0441\u0430\u043c\u043e\u043b\u0451\u0442 \u0432 \u0430\u043d\u0433\u0430\u0440\u0435",
-        "codename": "change_plane"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 24,
-    "fields": {
-        "content_type": 8,
-        "name": "Can delete \u0441\u0430\u043c\u043e\u043b\u0451\u0442 \u0432 \u0430\u043d\u0433\u0430\u0440\u0435",
-        "codename": "delete_plane"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 25,
-    "fields": {
-        "content_type": 9,
-        "name": "Can add \u043c\u0430\u0440\u0448\u0440\u0443\u0442",
-        "codename": "add_route"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 26,
-    "fields": {
-        "content_type": 9,
-        "name": "Can change \u043c\u0430\u0440\u0448\u0440\u0443\u0442",
-        "codename": "change_route"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 27,
-    "fields": {
-        "content_type": 9,
-        "name": "Can delete \u043c\u0430\u0440\u0448\u0440\u0443\u0442",
-        "codename": "delete_route"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 28,
-    "fields": {
-        "content_type": 10,
-        "name": "Can add \u0430\u044d\u0440\u043e\u043f\u043e\u0440\u0442",
-        "codename": "add_airport"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 29,
-    "fields": {
-        "content_type": 10,
-        "name": "Can change \u0430\u044d\u0440\u043e\u043f\u043e\u0440\u0442",
-        "codename": "change_airport"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 30,
-    "fields": {
-        "content_type": 10,
-        "name": "Can delete \u0430\u044d\u0440\u043e\u043f\u043e\u0440\u0442",
-        "codename": "delete_airport"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 31,
-    "fields": {
-        "content_type": 11,
-        "name": "Can add \u0433\u043e\u0440\u043e\u0434",
-        "codename": "add_city"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 32,
-    "fields": {
-        "content_type": 11,
-        "name": "Can change \u0433\u043e\u0440\u043e\u0434",
-        "codename": "change_city"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 33,
-    "fields": {
-        "content_type": 11,
-        "name": "Can delete \u0433\u043e\u0440\u043e\u0434",
-        "codename": "delete_city"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 34,
-    "fields": {
-        "content_type": 12,
-        "name": "Can add \u0441\u0442\u0440\u0430\u043d\u0430",
-        "codename": "add_country"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 35,
-    "fields": {
-        "content_type": 12,
-        "name": "Can change \u0441\u0442\u0440\u0430\u043d\u0430",
-        "codename": "change_country"
-    }
-},
-{
-    "model": "auth.permission",
-    "pk": 36,
-    "fields": {
-        "content_type": 12,
-        "name": "Can delete \u0441\u0442\u0440\u0430\u043d\u0430",
-        "codename": "delete_country"
-    }
-},
-{
-    "model": "auth.user",
-    "pk": 1,
-    "fields": {
-        "date_joined": "2017-02-28T09:22:53.956Z",
-        "username": "xb",
-        "is_superuser": true,
-        "last_name": "",
-        "last_login": "2017-02-28T09:23:05.130Z",
-        "groups": [],
-        "is_staff": true,
-        "is_active": true,
-        "email": "cherepanov92@gmail.com",
-        "user_permissions": [],
-        "first_name": "",
-        "password": "pbkdf2_sha256$20000$yqTaHX2RNx0Q$uqs+F+ShYY/xS3dAniPvw+B/lQuiOfB3eHFBGOxTY4M="
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 1,
-    "fields": {
-        "content_type": 9,
-        "change_message": "",
-        "user": 1,
-        "object_repr": "4",
-        "action_flag": 1,
-        "action_time": "2017-02-28T09:23:37.053Z",
-        "object_id": "14"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 2,
-    "fields": {
-        "content_type": 9,
-        "change_message": "",
-        "user": 1,
-        "object_repr": "5",
-        "action_flag": 1,
-        "action_time": "2017-02-28T09:23:54.412Z",
-        "object_id": "15"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 3,
-    "fields": {
-        "content_type": 9,
-        "change_message": "",
-        "user": 1,
-        "object_repr": "6",
-        "action_flag": 1,
-        "action_time": "2017-02-28T09:24:15.296Z",
-        "object_id": "16"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 4,
-    "fields": {
-        "content_type": 9,
-        "change_message": "",
-        "user": 1,
-        "object_repr": "7",
-        "action_flag": 1,
-        "action_time": "2017-02-28T09:24:32.963Z",
-        "object_id": "17"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 5,
-    "fields": {
-        "content_type": 9,
-        "change_message": "",
-        "user": 1,
-        "object_repr": "8",
-        "action_flag": 1,
-        "action_time": "2017-02-28T09:24:49.096Z",
-        "object_id": "18"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 6,
-    "fields": {
-        "content_type": 9,
-        "change_message": "",
-        "user": 1,
-        "object_repr": "9",
-        "action_flag": 1,
-        "action_time": "2017-02-28T09:25:04.826Z",
-        "object_id": "19"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 7,
-    "fields": {
-        "content_type": 9,
-        "change_message": "",
-        "user": 1,
-        "object_repr": "10",
-        "action_flag": 1,
-        "action_time": "2017-02-28T09:26:21.267Z",
-        "object_id": "20"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 8,
-    "fields": {
-        "content_type": 9,
-        "change_message": "",
-        "user": 1,
-        "object_repr": "11",
-        "action_flag": 1,
-        "action_time": "2017-02-28T09:26:38.498Z",
-        "object_id": "21"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 9,
-    "fields": {
-        "content_type": 9,
-        "change_message": "",
-        "user": 1,
-        "object_repr": "12",
-        "action_flag": 1,
-        "action_time": "2017-02-28T09:27:01.646Z",
-        "object_id": "22"
     }
 }
 ]
