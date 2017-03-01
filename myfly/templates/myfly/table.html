@@ -21,6 +21,23 @@
 		    </tr>
 		{% endfor %}
 		</table>
+
+		<div class="pagination">
+		    <span class="step-links">
+		        {% if routes.has_previous %}
+		            <a href="?page={{ routes.previous_page_number }}">previous</a>
+		        {% endif %}
+
+		        <span class="current">
+		            Page {{ routes.number }} of {{ routes.paginator.num_pages }}.
+		        </span>
+
+		        {% if routes.has_next %}
+		            <a href="?page={{ routes.next_page_number }}">next</a>
+		        {% endif %}
+		    </span>
+		</div>
+
 	{% else %}
 	    <p>No polls are available.</p>
 	{% endif %}

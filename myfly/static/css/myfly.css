@@ -43,6 +43,15 @@ th {
 	background: #339933;
 }
 
+.pagination {
+	
+	text-align: center;
+}
+
+.step-links{
+	background: yellow;
+}
+
 aside {
 	background: orange;
 	padding: 2%;
