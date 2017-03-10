@@ -10,8 +10,8 @@ plane_display_name.short_description = 'Наиминование'
 
 
 def plan_bought(obj):
-    return ("перобретён %s" % (obj.purchase,))
-plan_bought.short_description = 'Дата преобретения'
+    return ("приобретён %s" % (obj.purchase,))
+plan_bought.short_description = 'Дата приобретения'
 
 
 class PlaneAdmin(admin.ModelAdmin):

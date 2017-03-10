@@ -32,9 +32,10 @@ class Plane(models.Model):
         verbose_name_plural = ('самолёты в ангаре')
 
     plane_type = models.ForeignKey(
-        PlaneType, verbose_name='Модель самолёта', on_delete=models.CASCADE)
+        PlaneType, verbose_name='Модель самолёта', blank=True, null=True,
+        on_delete=models.SET_NULL)
     purchase = models.DateField('Дата покупки')
-    reg_numb = models.CharField('Рег. номер', max_length=6)
+    reg_numb = models.CharField('Рег. номер', max_length=6, unique=True)
     last_refit = models.DateField('Последний осмотр', null=True,
                                   blank=True)
     fly_col = models.PositiveSmallIntegerField('Кол-во полётов', null=True,
@@ -51,8 +52,9 @@ class Route(models.Model):
         verbose_name_plural = ('маршруты')
 
     name = models.CharField('Название', max_length=30,)
-    number = models.CharField('Номер', max_length=6,)
-    plane = models.ForeignKey('Plane', on_delete=models.CASCADE,
+    number = models.CharField('Номер', max_length=6, unique=True)
+    plane = models.ForeignKey('Plane', blank=True, null=True,
+                              on_delete=models.SET_NULL,
                               verbose_name='Самолёт', )
     time = models.DateTimeField('Время вылета', )
     airport_out = models.ForeignKey('Airport', on_delete=models.CASCADE,
@@ -80,8 +82,14 @@ class Airport(models.Model):
     international = models.BooleanField('Интернационален', default=True,)
 
     def __str__(self):
-        return (str(self.name) + ' | '+ str(self.city) + ' | '+ 
-        		str(self.city.country))
+        text = (str(self.name) + ' ✈ ' + str(self.city) + ' | ' +
+                str(self.city.country))
+        if self.international:
+            text += ' | ⇔'
+        else:
+            text += ' | ⇎'
+
+        return text
 
 
 class City(models.Model):
@@ -104,7 +112,7 @@ class Country(models.Model):
         verbose_name = ('страна')
         verbose_name_plural = ('страны')
 
-    name = models.CharField('Название', max_length=20)
+    name = models.CharField('Название', max_length=20, unique=True)
 
     def __str__(self):
         return self.name

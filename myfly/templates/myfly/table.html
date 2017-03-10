@@ -12,7 +12,7 @@
 			    </tr>
 		{% for route in routes %}
 			<tr class= 'tr-hover {% cycle 'cycle-tr1' 'cycle-tr2' %}' >
-				<td><a href="#">{{ route.name }}</a></td>
+				<td><a href="/flight/?num={{ route.id }}">{{ route.name }}</a></td>
 		    	<td>{{ route.number }}</td>
 		    	<td>{{ route.plane }}</td>
 		    	<td>{{ route.time|date:'d M - G:i' }}</td>

@@ -1,0 +1,33 @@
+{% extends 'myfly/index.html' %}
+{% block content %}
+    {% if flight_info %}
+<!--         <table cellspasing="2">
+            <tr>
+                <th>Название</th>
+                <th>Номер</th>
+                <th>Самолёт</th>
+                <th>Время вылета</th>
+            </tr>
+            <tr class= 'tr-hover {% cycle 'cycle-tr1' 'cycle-tr2' %}' >
+                <td><a href="#">{{ flight_info.name }}</a></td>
+                <td>{{ flight_info.number }}</td>
+                <td>{{ flight_info.plane }}</td>
+                <td>{{ flight_info.time|date:'d M - G:i' }}</td>
+
+            </tr>
+            <tr>
+                <th>Вылет из</th>
+                <th>Прилёт в</th>
+            </tr>
+            <tr>
+                <td>{{ flight_info.airport_out }}</td>
+                <td>{{ flight_info.airport_in }}</td>
+            </tr>
+        </table> -->
+
+        {% echo flight_info %}
+
+    {% else %}
+        <p>No polls are available.</p>
+    {% endif %}
+{% endblock %}
