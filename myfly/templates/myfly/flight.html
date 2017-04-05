@@ -1,33 +1,42 @@
 {% extends 'myfly/index.html' %}
 {% block content %}
-    {% if flight_info %}
-<!--         <table cellspasing="2">
+    {% if route %}
+        <table cellspasing="2">
             <tr>
                 <th>Название</th>
                 <th>Номер</th>
                 <th>Самолёт</th>
                 <th>Время вылета</th>
             </tr>
-            <tr class= 'tr-hover {% cycle 'cycle-tr1' 'cycle-tr2' %}' >
-                <td><a href="#">{{ flight_info.name }}</a></td>
-                <td>{{ flight_info.number }}</td>
-                <td>{{ flight_info.plane }}</td>
-                <td>{{ flight_info.time|date:'d M - G:i' }}</td>
+            <tr class='cycle-tr1'>
+                <td>{{ route.name }}</td>
+                <td>{{ route.number }}</td>
+                <td>{{ route.plane }}</td>
+                <td>{{ route.time|date:'d M - G:i' }}</td>
 
             </tr>
+        </table>
+        <table cellspasing="2">
             <tr>
                 <th>Вылет из</th>
                 <th>Прилёт в</th>
             </tr>
-            <tr>
-                <td>{{ flight_info.airport_out }}</td>
-                <td>{{ flight_info.airport_in }}</td>
+            <tr class='cycle-tr1'>
+                <td>{{ route.airport_out }}</td>
+                <td>{{ route.airport_in }}</td>
             </tr>
-        </table> -->
+        </table>
+        <table cellspasing="2">
+            <tr  class='cycle-tr2'>
+                <td><a href="{% url 'table'%}">Назад</a></td>
+            </tr>
 
-        {% echo flight_info %}
+        </table>
+
 
     {% else %}
         <p>No polls are available.</p>
     {% endif %}
 {% endblock %}
+
+
