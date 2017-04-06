@@ -1,6 +1,6 @@
 {% extends 'myfly/index.html' %}
 {% block content %}
-	{% if routes %}
+	{% if routes_list %}
 		<table cellspasing="2">
 			    <tr>
 			    	<th>Название</th>
@@ -10,7 +10,7 @@
 			    	<th>Вылет из</th>
 			    	<th>Прилёт в</th>
 			    </tr>
-		{% for route in routes %}
+		{% for route in routes_list %}
 			<tr class= 'tr-hover {% cycle 'cycle-tr1' 'cycle-tr2' %}' >
 				<td><a href="{% url 'myfly:flight' route.id %}">{{ route.name }}</a></td>
 		    	<td>{{ route.number }}</td>
