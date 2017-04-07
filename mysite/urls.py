@@ -4,5 +4,6 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     # url(r'^myfly/', include('myfly.urls')),
-    url(r'', include('myfly.urls')),
+    url(r'^myfly/', include('myfly.urls')),
+    url(r'^polls/', include('polls.urls')),
 ]

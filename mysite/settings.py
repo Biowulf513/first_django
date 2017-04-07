@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myfly',
+    'polls',
 )
 
 MIDDLEWARE_CLASSES = (
