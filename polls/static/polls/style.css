@@ -1,0 +1,52 @@
+
+header {
+	background: url(images/banner_grad.png) repeat-x;
+}
+
+.header-bg {
+	background: url(images/banner3.png) repeat-x center bottom;
+	height: 200px;
+	text-align: center;
+}
+
+.content-bg {
+	width: 80%;
+	margin: auto;
+}
+
+.content-whire {
+	background: grey;
+	margin: 0 11px;
+	padding: 2px 4px;
+	text-align: justify;
+}
+
+table {
+    background: none; /* ÷вет фона таблицы */
+    color: none; /* ÷вет текста */
+    width: 100%;
+   }
+th {
+	text-align: center;
+}
+.td-1 {
+    background: #eae2e2; /* ÷вет фона €чеек */
+    padding: 5px; /* ѕол€ вокруг текста */
+   }
+
+.td-2 {
+    background: #6d6b6b; /* ÷вет фона €чеек */
+    padding: 5px; /* ѕол€ вокруг текста */
+   }
+
+
+aside {
+	background: orange;
+	padding: 2%;
+	width: 20%;
+	float: right;
+}
+
+li a {
+    color: green;
+}

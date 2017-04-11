@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse, HttpResponseRedirect
 from django.core.urlresolvers import reverse
 from django.views import generic
+from django.utils import timezone
 
 
 from .models import Choice, Question
@@ -12,8 +13,8 @@ class IndexView(generic.ListView):
     context_object_name = 'latest_question_list'
 
     def get_queryset(self):
-        return Question.objects.order_by('-pub_date')[:5]
-
+        return Question.objects.filter(
+            pub_date__lte=timezone.now())
 
 class DetailView(generic.DetailView):
     model = Question
@@ -32,7 +33,7 @@ def vote(request, question_id):
     except (KeyError, Choice.DoesNotExist):
         return render(request, 'polls/detail.html',
                       {'question': question,
-                       'error_message': "error"
+                       'error_message': "No polls are available."
                        })
         pass
     else:
